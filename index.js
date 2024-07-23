@@ -1,16 +1,14 @@
 const { Client, GatewayIntentBits } = require('discord.js');
-const { Configuration, OpenAIApi } = require('openai');
+const OpenAI = require('openai');
 require('dotenv').config();
 
 const client = new Client({ 
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] 
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] 
 });
 
-const openaiConfig = new Configuration({
+const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-
-const openai = new OpenAIApi(openaiConfig);
 
 client.once('ready', () => {
   console.log('Ready!');
@@ -25,13 +23,13 @@ client.on('messageCreate', async (message) => {
     const prompt = `You are an expert in cybersecurity and the SAINTCON conference. Answer the following query: ${userMessage}`;
     
     try {
-      const response = await openai.createCompletion({
-        model: "gpt-4o-mini",
+      const response = await openai.completions.create({
+        model: "gpt-3.5-turbo-instruct",
         prompt: prompt,
         max_tokens: 150,
       });
 
-      const botResponse = response.data.choices[0].text.trim();
+      const botResponse = response.choices[0].text.trim();
       message.channel.send(botResponse);
     } catch (error) {
       console.error('Error interacting with OpenAI:', error);
