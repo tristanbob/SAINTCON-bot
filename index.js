@@ -35,20 +35,21 @@ client.on(Events.MessageCreate, async (message) => {
   console.log(`Received message: "${message.content}" from ${message.author.tag}`);
 
   const botUsername = client.user.username.toLowerCase();
-  const startsWithBotUsername = message.content.toLowerCase().startsWith(botUsername);
+  const botMention = `<@${client.user.id}>`;
+  const startsWithBotMention = message.content.startsWith(botMention);
   const isReplyToBot = message.reference && message.reference.messageId && 
                        (await message.channel.messages.fetch(message.reference.messageId))
                        .author.id === client.user.id;
 
-  console.log(`Starts with bot username: ${startsWithBotUsername}, Is reply to bot: ${isReplyToBot}`);
+  console.log(`Starts with bot mention: ${startsWithBotMention}, Is reply to bot: ${isReplyToBot}`);
 
-  if (startsWithBotUsername || isReplyToBot) {
+  if (startsWithBotMention || isReplyToBot) {
     console.log('Bot was addressed or this is a reply to the bot');
     let userMessage = message.content;
 
-    // Remove the bot's username from the start of the message if present
-    if (startsWithBotUsername) {
-      userMessage = userMessage.slice(botUsername.length).trim();
+    // Remove the bot's mention from the start of the message if present
+    if (startsWithBotMention) {
+      userMessage = userMessage.slice(botMention.length).trim();
     }
 
     console.log(`Processed user message: "${userMessage}"`);
