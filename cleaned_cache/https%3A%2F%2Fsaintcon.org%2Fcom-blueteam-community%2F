@@ -1,22 +1,12 @@
-**Title:** COM - Blueteam Community - SAINTCON
+**Title:** COM – Blueteam Community – SAINTCON
 
-**Overview:**
-- **Entity:** Blueteam Community of Eiffel65
-- **Focus:** Defensive security community covering topics like Threat Intelligence, Threat Hunting, Incident Response, and Forensics.
-- **Objective:** Provide hands-on experience in defensive security practices, including incident response, threat hunting, and forensic analysis.
+**URL:** [SAINTCON Blueteam Community](https://saintcon.org/com-blueteam-community/)
 
-**Content Highlights:**
-- **Description:** 
-  - The community primarily focuses on learning defensive techniques rather than offensive exploits. Members are encouraged to explore layers of defensive security through various activities, including using tools for threat intelligence and conducting exercises on responding to incidents.
+**Description:** 
+- Blueteam Community, presented by b^n, focuses on defensive security, covering topics such as Threat Intelligence, Threat Hunting, Incident Response, and Forensics. The community aims to educate individuals on defending networks with practical tools and techniques in various security aspects.
 
-- **Hours of Operation:**
-  - **Monday:** Closed
-  - **Tuesday:** 10:30 AM - 5:00 PM
-  - **Wednesday:** 10:30 AM - 5:00 PM
-  - **Thursday:** 9:00 AM - 5:00 PM
-  - **Friday:** 9:00 AM - 11:00 AM
-
-- **Learning Opportunities Include:**
+**Key Features:**
+- **Topics:** 
   - Intrusion Analysis
   - Creating Detection Rules
   - PCAP Analysis
@@ -26,13 +16,30 @@
   - Threat Intelligence Reporting
   - Threat Intelligence Platform
 
-**Updates:**
-- **MiniBadge:** A MiniBadge will be available for community members, with details to be announced at the booth.
+- **Learning Opportunities:** Exposure to OSINT tools, enterprise security tools (SIEM, EDR, etc.), incident response plans, and tabletop exercises.
 
-**Visuals:**
-- Featured images and logos for the community, including an invitation to download a community desktop wallpaper.
+**Hours of Operation:**
+- **Monday:** Expo Closed
+- **Tuesday:** 10:30 AM – 5:00 PM
+- **Wednesday:** 10:30 AM – 5:00 PM
+- **Thursday:** 9:00 AM – 5:00 PM
+- **Friday:** 9:00 AM – 11:00 AM
 
-**Contact and Engagement:**
-- Activities will include opportunities for both novices and experienced individuals to learn and share knowledge about defensive security practices. 
+**Upcoming Event Features:**
+- MiniBadge collection at their booth (details pending).
+- Desktop wallpapers available for download.
 
-**Website Link:** [Visit the Blueteam Community](https://saintcon.org/com-blueteam-community/)
+**Social Media and Community Resources:**
+- Join us on [Discord](https://discord.gg/saintcon).
+- MiniBadge specs and standards on GitHub.
+- Video tutorial on how to build a MiniBadge.
+
+**Event Registration:** 
+- [Register Now!](https://saintcon.org/register/)
+- [Student Groups](https://saintcon.org/reg-students/)
+- [Scholarship Program](https://saintcon.org/reg-scholarships/)
+
+**Image Resources**
+- Featured Images: [Blueteam Graphic Logo](https://www.saintcon.org/wp-content/uploads/2023/06/Blueteam-2023_Graphic_Logo.svg), [Desktop Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/Blueteam-2023_5K_Wallpaper.png)
+
+This community is a part of SAINTCON, which offers various contests, presentations, and keynotes related to the field of cybersecurity and defensive measures.

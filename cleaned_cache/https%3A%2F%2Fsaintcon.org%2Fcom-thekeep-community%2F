@@ -1,16 +1,18 @@
 **Title:** COM - TheKeep Community
 
-**Description:** 
-The Keep is an educational environment for honing hacking skills, targeting both beginners and experts in a fun, realistic setting. It offers opportunities to learn the fundamentals of hacking and test abilities through practical scenarios.
+**Website:** [saintcon.org](https://saintcon.org/com-thekeep-community/)
 
-**Community Structure:**
+**Overview:**
+- **Description:** The Keep is an educational community designed for individuals to enhance their hacking skills through practical experiences in a fun environment. It caters to both beginners and expert hackers, offering opportunities for learning and skill testing.
+
+**Key Components:**
 1. **Exploit Armory:** 
-   - Provides tools and knowledge needed before entering The Dungeon. 
-   - Focuses on real red team engagement tools and techniques.
-  
-2. **The Dungeon:** 
-   - A place to apply skills by exploiting vulnerable boxes.
-   - Includes challenges that simulate real-world attacks with escalating difficulty.
+   - Focus on equipping participants with knowledge and tools for hacking.
+   - Learning about techniques used in real red team engagements.
+
+2. **Dungeon:**
+   - A hands-on environment where participants can exploit vulnerable boxes.
+   - Participants earn points for successful hacks, with increasing difficulty and complexity.
 
 **Hours of Operation:**
 - **Monday:** Closed
@@ -19,28 +21,27 @@ The Keep is an educational environment for honing hacking skills, targeting both
 - **Thursday:** 9:00 AM - 5:00 PM
 - **Friday:** 9:00 AM - 11:00 AM
 
-**What You Will Learn:**
-- Network and host enumeration techniques (e.g., using NMAP).
-- Utilizing existing exploits to compromise hosts.
-- Techniques for privilege escalation on Windows and Linux.
-- Tools and strategies for post-compromise actions.
-- Pivoting techniques to access internal hosts.
+**Learning Opportunities Include:**
+- Network & Host Enumeration.
+- Using existing exploits.
+- Privilege escalation techniques on Windows & Linux.
+- Pivoting techniques.
 
-**Community Features:**
-- MiniBadge available for participants.
-- Downloadable desktop wallpapers as community resources.
+**Recommended for Best Experience:**
+- Participants should bring a laptop for optimal engagement.
 
-**Links:**
-- [SAINTCON Website](https://saintcon.org)
-- [Get Involved with our Community on Discord](https://discord.gg/saintcon)
-- [MiniBadge Specifications](https://github.com/lukejenkins/minibadge)
-- [How to Build a MiniBadge](https://www.youtube.com/watch?v=kkLfmo14oiQ)
+**Contact and Resources:**
+- Participant Code of Conduct and FAQs available on the website.
+- Various community links including Discord and GitHub for specifications related to MiniBadge.
 
-**Contact and Support:**
-- FAQs and Code of Conduct available via the main website.
-- Registration and general inquiries supported through designated links. 
+**MiniBadge:**
+- A MiniBadge will be available at the community booth with ongoing details for collection.
 
-**Social Media and Sharing:**
-- Available on various platforms including Discord for community interactions. 
+**Visuals:**
+- Includes the Keep's logo and promotional wallpaper available for download.
 
-This summary encapsulates the core aspects of The Keep Community as outlined in the provided text.
+**Social Media:**
+- Encouragement to join the community's Discord for interaction and updates. 
+
+**Copyright Information:**
+- © 2024 UtahSAINT Organization, a 501(c)(6) non-profit organization.

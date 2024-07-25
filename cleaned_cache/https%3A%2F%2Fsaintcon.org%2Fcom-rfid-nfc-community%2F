@@ -1,42 +1,40 @@
-**Page Title**: COM - RFID/NFC Community - SAINTCON
+**Title:** COM - RFID/NFC Community
 
-**Description**: 
-This community focuses on RFID/NFC technologies, helping participants understand how short-range wireless communication works, discover its applications, and explore security aspects related to RFID systems.
+**Website:** [saintcon.org/com-rfid-nfc-community/](https://saintcon.org/com-rfid-nfc-community/)
 
-**Key Contributors**: Iceman and Gobo42
+**Community Overview:**
+- Hosted by: Iceman and Gobo42
+- Focus: Education on RFID/NFC technology, tools, and techniques for reading, storing, replaying, sniffing, scanning, and securing RFID systems.
 
-**Main Topics**:
-- Difficulty in understanding RFID/NFC technologies
-- Hands-on learning through Capture The Flag (CTF) challenges
-- Introduction to tools like Proxmark3, Chameleon Ultra, and Flipper Zero
-- Learning about security vulnerabilities in RFID/NFC systems
+**Learning Opportunities:**
+- Participants can engage in hands-on activities with zero prior knowledge.
+- Tools introduced:
+  - Proxmark3
+  - Chameleon Ultra
+  - Flipper Zero
+- Areas covered:
+  - Basics of RFID/NFC technology
+  - Evaluating vulnerabilities
+  - Practical challenges designed as CTF (Capture The Flag) exercises
 
-**What to Bring**:
-- Optional: Laptop, RFID cards for investigation, RFID capable reading devices (Proxmark3, Chameleon Ultra, Flipper Zero)
+**Hours of Operation:**
+- **Monday:** Closed
+- **Tuesday:** 10:30 AM - 5:00 PM
+- **Wednesday:** 10:30 AM - 5:00 PM
+- **Thursday:** 9:00 AM - 5:00 PM
+- **Friday:** 9:00 AM - 11:00 AM
 
-**Hours of Operation**:
-- Monday: Expo Closed
-- Tuesday: 10:30 AM - 5:00 PM
-- Wednesday: 10:30 AM - 5:00 PM
-- Thursday: 9:00 AM - 5:00 PM
-- Friday: 9:00 AM - 11:00 AM
+**What to Bring:** (optional)
+- Laptop
+- RFID cards for investigation
+- RFID reading devices (Proxmark3, Chameleon Ultra, Flipper Zero)
 
-**Learning Outcomes**:
-- Understanding RFID/NFC technology
-- Reading basic NFC tags
-- Using Flipper Zero in RFID/NFC attacks
-- Identifying vulnerabilities in RFID/NFC systems
+**Additional Offerings:**
+- MiniBadge available with details announced at the booth.
+- Desktop wallpapers available for download from the community.
 
-**MiniBadge Information**:
-- The community will offer a MiniBadge, details to be announced at the booth.
+**Meta Information:**
+- **Open Graph Description:** RFID/NFC can be a difficult technology to understand. Come learn how! Experience learning about short-range communication through RFID and explore various reading techniques.
+- **Image:** ![RFID Image](http://www.saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)
 
-**Desktop Wallpaper**: A desktop wallpaper related to the community is available for download.
-
-**Links**:
-- [Community Page](https://saintcon.org/com-rfid-nfc-community/)
-- [Download Wallpaper](https://saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)
-
-**Social Media**:
-- Discord: [Join us on Discord](https://discord.gg/saintcon)
-
-**Previous Events**: Information about past SAINTCON events including locations and years.
+This concise summary captures the critical information about the RFID/NFC Community and its offerings at SAINTCON, including its focus, learning opportunities, operational hours, and key tools used.
