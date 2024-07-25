@@ -50,7 +50,7 @@ const faqUrl = "https://saintcon.org/faq/";
 setupEventHandlers(client);
 crawlAndCacheURLs(urls).then(() => processFAQ(faqUrl));
 
-const botToken = process.env.MY_BOT_TOKEN;
+const botToken = process.env.MY_BOT_TOKEN || process.env.MY_BOT_TOKEN;
 
 if (!botToken) {
   console.error(
