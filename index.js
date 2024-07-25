@@ -70,7 +70,7 @@ async function getReplyChainMessages(message) {
 
 function logMessageData(data) {
   const logData = `${new Date().toISOString()} - ${JSON.stringify(data)}\n`;
-  fs.appendFile("bot-log.txt", logData, (err) => {
+  fs.appendFile("saintcon-bot.log", logData, (err) => {
     if (err) {
       console.error("Error writing to log file", err);
     }
@@ -147,6 +147,8 @@ client.on(Events.MessageCreate, async (message) => {
       const totalCost = inputCost + outputCost;
 
       const logData = {
+        userId: message.author.id,
+        username: message.author.tag,
         userMessage: userMessage,
         botResponse: botResponse,
         inputTokens: inputTokens,
