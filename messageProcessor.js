@@ -57,7 +57,7 @@ function setupEventHandlers(client) {
 
       if (!cleanedCache) {
         await message.channel.send(
-          "Sorry, I could not retrieve the cleaned cache information at this time."
+          "Sorry, I could not retrieve the SAINTCON information at this time."
         );
         return;
       }
@@ -66,9 +66,9 @@ function setupEventHandlers(client) {
       const messages = [
         {
           role: "system",
-          content: `You are an expert in cybersecurity and the SAINTCON conference. Use the information from the cleaned cache to help respond to queries. Please keep your responses between 1 and 3 paragraphs, provide concise answers, and use bullet points when it makes sense.`,
+          content: `You are an expert in cybersecurity and the SAINTCON conference. Use the information from the SAINTCON Info to help respond to queries. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`,
         },
-        { role: "system", content: `Cleaned Cache:\n${cleanedCache}` },
+        { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
         ...replyChainMessages,
         { role: "user", content: userMessage },
       ];
@@ -78,6 +78,7 @@ function setupEventHandlers(client) {
         const response = await generateResponse(messages);
 
         const botResponse = response.choices[0].message.content.trim();
+
         const inputTokens = response.usage.prompt_tokens;
         const outputTokens = response.usage.completion_tokens;
         const totalTokens = response.usage.total_tokens;
