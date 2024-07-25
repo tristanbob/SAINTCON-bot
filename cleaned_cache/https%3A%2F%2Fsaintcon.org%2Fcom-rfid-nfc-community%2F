@@ -1,40 +1,36 @@
-**Title:** COM - RFID/NFC Community
+Title: COM - RFID/NFC Community
 
-**Website:** [saintcon.org/com-rfid-nfc-community/](https://saintcon.org/com-rfid-nfc-community/)
+Overview:
+- The RFID/NFC Community is focused on educating participants about RFID/NFC technology and its applications. It aims to help attendees understand the technology, its security concerns, and practical applications.
 
-**Community Overview:**
-- Hosted by: Iceman and Gobo42
-- Focus: Education on RFID/NFC technology, tools, and techniques for reading, storing, replaying, sniffing, scanning, and securing RFID systems.
+Key Information:
+- Presented by: Iceman and Gobo42
+- Description: The community aims to simplify the complexity of RFID/NFC technology, offering hands-on experiences and insights on short-range wireless communication.
+- Activities: Participants will engage in challenges (CTFs) to enhance their understanding from beginner to advanced levels. Hands-on experience with advanced tools such as Proxmark3, Chameleon Ultra, and Flipper Zero will be provided.
 
-**Learning Opportunities:**
-- Participants can engage in hands-on activities with zero prior knowledge.
-- Tools introduced:
-  - Proxmark3
-  - Chameleon Ultra
-  - Flipper Zero
-- Areas covered:
-  - Basics of RFID/NFC technology
-  - Evaluating vulnerabilities
-  - Practical challenges designed as CTF (Capture The Flag) exercises
+Learning Outcomes:
+- Understand how RFID/NFC technology functions.
+- Learn to read basic NFC tags.
+- Use FlipperZero for RFID/NFC attacks.
+- Evaluate vulnerabilities in RFID/NFC systems.
 
-**Hours of Operation:**
-- **Monday:** Closed
-- **Tuesday:** 10:30 AM - 5:00 PM
-- **Wednesday:** 10:30 AM - 5:00 PM
-- **Thursday:** 9:00 AM - 5:00 PM
-- **Friday:** 9:00 AM - 11:00 AM
-
-**What to Bring:** (optional)
+Equipment Recommendations:
 - Laptop
 - RFID cards for investigation
-- RFID reading devices (Proxmark3, Chameleon Ultra, Flipper Zero)
+- RFID capable reading devices (Proxmark3, Chameleon Ultra, Flipper Zero)
 
-**Additional Offerings:**
-- MiniBadge available with details announced at the booth.
-- Desktop wallpapers available for download from the community.
+Hours of Operation:
+- Monday: Closed
+- Tuesday & Wednesday: 10:30 AM – 5:00 PM
+- Thursday & Friday: 9:00 AM – 5:00 PM (Friday until 11:00 AM)
 
-**Meta Information:**
-- **Open Graph Description:** RFID/NFC can be a difficult technology to understand. Come learn how! Experience learning about short-range communication through RFID and explore various reading techniques.
-- **Image:** ![RFID Image](http://www.saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)
+Community Offerings:
+- MiniBadge details to be provided at the community booth.
+- Desktop wallpapers available for download.
 
-This concise summary captures the critical information about the RFID/NFC Community and its offerings at SAINTCON, including its focus, learning opportunities, operational hours, and key tools used.
+Canonical URL: [Community Link](https://saintcon.org/com-rfid-nfc-community/)
+
+Social Links:
+- Discord community link available for engagement.
+
+Overall, this community offers a supportive and educational environment for those interested in RFID/NFC technology, focusing on practical skills to address security vulnerabilities and engage with advanced tools.

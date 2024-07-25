@@ -1,26 +1,38 @@
-**Event Title:** CON - AppSec Challenge  
-**Organizer:** SAINTCON, sponsored by @Sketrik & @l4wke  
-**Event Description:** Participants compete to identify and fix vulnerabilities in a web application, using a cloned repository that includes several microservices written in different programming languages. Participants are allowed to utilize automated tools for assistance.  
-**Event URL:** [https://saintcon.org/con-appsec-challenge/](https://saintcon.org/con-appsec-challenge/)  
-**Competition Details:**
-- **Start Date:** Tuesday at 12 PM
-- **End Date:** Friday at 9 AM
-- **Booth Hours:**
+**Event Title:** AppSec Challenge
+
+**Date and Time:**
+- Contest Start: Tuesday at 12 PM
+- Contest End: Friday at 9 AM
+- Booth Hours:
   - Tuesday: 10:30 AM – 5:00 PM
   - Wednesday: 10:30 AM – 5:00 PM
   - Thursday: 9:00 AM – 5:00 PM
   - Friday: 9:00 AM – 10:00 AM
-- **Participation Requirements:** 
-  - Basic programming knowledge
-  - Participants must clone the repo, find and fix vulnerabilities, ensure unit tests pass, and submit their code for scoring.
-- **Scoring:** Vulnerabilities are scored based on their difficulty.
-- **Prizes:** Awards for the highest scoters.
-- **Tiebreakers:** Go to the first submission.
-- **Prohibited actions:** Hacking the contest mechanics or using hardcoded solutions to bypass functionality tests.   
-**Community Support:** Participants can seek assistance from the AppSec community via Discord or directly from the organizers if needed.  
-**Get Started Link:** [https://appsec.saintcon.community/](https://appsec.saintcon.community/)  
-**Contest Rules:**
-- Only change files specified by the make-package.py file.
-- File uploads must be less than 4MB, with one submission every five minutes.  
-**Additional Information:** Desktop wallpaper is available for download related to the event. Participants are encouraged to join the AppSec community to smoothen their experience.  
-**Image Link:** ![AppSec Challenge Splash](http://www.saintcon.org/wp-content/uploads/2024/07/AppSecChallengeSplash2024.png)
+
+**Overview:**
+Participants will compete to find and fix vulnerabilities in source code. Participants need to clone the repository, identify vulnerabilities, fix them, and submit code to earn points. Tools like DAST and SAST are encouraged for use.
+
+**Requirements:**
+- A basic understanding of programming is necessary.
+- Participants must stick to modifications allowed in the provided package.
+- File upload limit: 4MB.
+- Submissions can be made once per user every 5 minutes.
+
+**Prizes:**
+- Awarded to the highest scorers at the awards ceremony.
+
+**Rules:**
+- Hacking the challenge site is forbidden.
+- Only designated files may be altered for submissions.
+- Tiebreakers will be resolved by the earliest submission time.
+  
+**Contact & Support:**
+For assistance, participants can engage with the AppSec community on Discord by using #appsec challenge, or contact @sketrik directly.
+
+**Additional Activities:**
+Participants are encouraged to visit the AppSec community for guidance on tools and to learn more about finding and fixing vulnerabilities.
+
+**Website for More Info:** [AppSec Community](https://appsec.saintcon.community/) 
+
+**Description:**
+The challenge aims to enhance participants' skills in finding and addressing security vulnerabilities in software applications, with a hands-on approach by working with different microservices in various programming languages.

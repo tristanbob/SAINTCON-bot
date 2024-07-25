@@ -32,4 +32,19 @@ async function extractRelevantInfo(text, options = {}) {
   return response.choices[0].message.content.trim();
 }
 
-module.exports = { generateResponse, extractRelevantInfo };
+async function extractFAQInfo(text) {
+  const instructions = `Extract all questions and answers from the following FAQ text, including all details. Remove HTML markup and similar items.`;
+  const messages = [
+    { role: "system", content: instructions },
+    { role: "user", content: text },
+  ];
+
+  const response = await openai.chat.completions.create({
+    model: "gpt-4o-mini",
+    messages: messages,
+  });
+
+  return response.choices[0].message.content.trim();
+}
+
+module.exports = { generateResponse, extractRelevantInfo, extractFAQInfo };

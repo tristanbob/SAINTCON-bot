@@ -57,7 +57,7 @@ function setupEventHandlers(client) {
 
       if (!cleanedCache) {
         await message.channel.send(
-          "Sorry, I could not retrieve the FAQ information at this time."
+          "Sorry, I could not retrieve the cleaned cache information at this time."
         );
         return;
       }

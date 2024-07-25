@@ -1,47 +1,54 @@
-**Title:** COM - TheKeep Community
-
-**Website:** [saintcon.org](https://saintcon.org/com-thekeep-community/)
+**Title:** COM – TheKeep Community
 
 **Overview:**
-- **Description:** The Keep is an educational community designed for individuals to enhance their hacking skills through practical experiences in a fun environment. It caters to both beginners and expert hackers, offering opportunities for learning and skill testing.
+- **Organization:** 801Labs
+- **Description:** The Keep is an educational community focusing on enhancing hacking skills in a realistic environment suitable for both beginners and expert hackers.
 
-**Key Components:**
-1. **Exploit Armory:** 
-   - Focus on equipping participants with knowledge and tools for hacking.
-   - Learning about techniques used in real red team engagements.
+**Key Features:**
+- **Community Areas:**
+  - **Exploit Armory:** A space to learn tools and techniques for hacking (e.g., red team engagements).
+  - **Dungeon:** A challenge space where participants can apply skills by hacking into vulnerable systems for points.
 
-2. **Dungeon:**
-   - A hands-on environment where participants can exploit vulnerable boxes.
-   - Participants earn points for successful hacks, with increasing difficulty and complexity.
+**Learning Opportunities:**
+- Topics include network and host enumeration, using exploits, privilege escalation, post-compromise guidance, and pivoting between hosts.
 
 **Hours of Operation:**
 - **Monday:** Closed
-- **Tuesday:** 10:30 AM - 5:00 PM
-- **Wednesday:** 10:30 AM - 5:00 PM
-- **Thursday:** 9:00 AM - 5:00 PM
-- **Friday:** 9:00 AM - 11:00 AM
+- **Tuesday to Wednesday:** 10:30 AM – 5:00 PM
+- **Thursday:** 9:00 AM – 5:00 PM
+- **Friday:** 9:00 AM – 11:00 AM
 
-**Learning Opportunities Include:**
-- Network & Host Enumeration.
-- Using existing exploits.
-- Privilege escalation techniques on Windows & Linux.
-- Pivoting techniques.
+**MiniBadge:** 
+- A collectible badge available for community members, details provided at the booth.
 
-**Recommended for Best Experience:**
-- Participants should bring a laptop for optimal engagement.
+**Resources:**
+- Desktop wallpapers and additional materials are available for download.
 
-**Contact and Resources:**
-- Participant Code of Conduct and FAQs available on the website.
-- Various community links including Discord and GitHub for specifications related to MiniBadge.
+**Community Links:**
+- **Main Website:** https://saintcon.org/com-thekeep-community/
+- **Social Media & Support:**
+  - Join on Discord
+  - Resources for building and specifications of MiniBadges
 
-**MiniBadge:**
-- A MiniBadge will be available at the community booth with ongoing details for collection.
+**Important Links:**
+- [Keynotes](https://saintcon.org/keynotes/)
+- [Presentations](https://saintcon.org/presentations/)
+- [Registration Info](https://saintcon.org/register/)
+- [Contests](https://saintcon.org/main-contests/)
+- [Communities](https://saintcon.org/main-communities/)
+- [Events](https://saintcon.org/main-events/)
 
-**Visuals:**
-- Includes the Keep's logo and promotional wallpaper available for download.
+**Images:**
+- Main logo and event backgrounds showcased on the site.
 
-**Social Media:**
-- Encouragement to join the community's Discord for interaction and updates. 
+**Contact Information:** 
+- Available on the main website, with options for various types of support (e.g., attendee, registration, sponsor).
 
-**Copyright Information:**
-- © 2024 UtahSAINT Organization, a 501(c)(6) non-profit organization.
+--- 
+**SEO and Meta Information:**
+- **Open Graph Title:** COM - TheKeep Community
+- **Open Graph Description:** Begin your quest! Hone your hacking skills in a fun educational environment.
+- **Open Graph Image:** [Image URL](http://www.saintcon.org/wp-content/uploads/2023/07/Keep-2023_5K_Wallpaper.png)
+- **Twitter Card Type:** summary_large_image
+
+This concise overview includes essential information about the community's focus, operational details, and various resources available to members and potential participants.

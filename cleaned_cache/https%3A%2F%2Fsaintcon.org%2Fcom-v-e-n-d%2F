@@ -1,32 +1,36 @@
-**Event Name:** SAINTCON
+**Title**: COM - V.E.N.D. - SAINTCON
 
-**Feature Introduction:** V.E.N.D. Machine  
-- **Description:** A physical vending machine that dispenses customizable virtual environments on demand, inspired by DEFCON's S.O.D.A. Machine.
-- **Functionality:** Attendees can access various virtual machines (VMs) within the SAINTCON network, including operating systems like Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
-  
-**Usage Details:**  
-- **Location & Availability:** Central spot in the SAINTCON contest and community space, available during regular conference hours.  
-- **Access:** After selecting a VM, a receipt with login credentials is printed for remote connection access.  
-- **Customization:** Users can install necessary tools and applications on their VMs.
+**Event Overview**:
+- **Event Name**: V.E.N.D. Machine at SAINTCON
+- **Sponsored By**: bashNinja
+- **Date**: October 2024
+- **Location**: At SAINTCON, featuring communities and contests.
 
-**Features & Benefits:**  
-- Provides hands-on learning opportunities.
-- Supports a variety of skill levels.
+**V.E.N.D. Machine Description**:
+- **Purpose**: Provides customizable virtual environments for hacking and learning.
+- **Functionality**: Allows attendees to deploy various virtual machines (VMs) including Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
+- **Access**: Users receive a receipt with login credentials after deploying a VM.
+- **Customization**: VMs can be tailored with necessary tools for learning and exploration.
 
-**FAQs:**  
-- **Sharing VMs:** Allowed; documentation for TailScale is provided.
-- **Data Saving:** VMs are decommissioned post-conference; backups are encouraged.
-- **Restrictions:** Illegal activities and harmful software are prohibited.
-- **Technical Support:** Dedicated support team available for assistance.
-- **Cost:** Free to use.
+**Operating Hours**:
+- **Monday**: Closed
+- **Tuesday**: 12:00 PM - 5:00 PM
+- **Wednesday - Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 11:00 AM
 
-**Hours of Operation:**  
-- **Tuesday:** Noon – 5:00 PM  
-- **Wednesday-Thursday:** 9:00 AM – 5:00 PM  
-- **Friday:** 9:00 AM – 11:00 AM  
-- **Monday:** Expo Closed  
+**FAQs**:
+- **Cost**: Free for attendees.
+- **Sharing VMs**: Yes, with a provided setup script for TailScale.
+- **Saving Work**: VMs decommissioned post-conference; backup is advised.
+- **Install Restrictions**: Safety and integrity of the network prioritized; illegal activities or harmful software prohibited.
+- **Support**: Available for technical issues at the V.E.N.D. Machine.
 
-**Support Resources:** Includes links to various community resources and FAQs.
+**Contact Links**:
+- Main Event: [SAINTCON](https://saintcon.org)
+- Registration and Events: [Registration](https://saintcon.org/register/)
 
-**Event Concept:**  
-Attendees arrive with curiosity and a desire for cybersecurity knowledge, with the V.E.N.D. Machine serving as a tool to enhance their experience through personalized virtual environments for learning and exploration.
+**Social Media**:
+- **Discord**: Join on Discord for community interaction.
+
+**Image**: 
+- V.E.N.D. logo and backdrop related to the event.

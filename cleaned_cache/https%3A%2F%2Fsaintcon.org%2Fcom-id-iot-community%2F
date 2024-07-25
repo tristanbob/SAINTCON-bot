@@ -1,34 +1,48 @@
-**Title:** COM – ID-IOT Community – SAINTCON
+**Page Title:** COM - ID-IOT Community - SAINTCON
 
-**Description:** 
-The ID-IOT Community is presenting "ID/IOT," focused on exploring vulnerabilities in industrial devices and IoT systems. Discussions include control system challenges, cybersecurity threats, and understanding various protocols. Participants will engage in practical activities like protocol manipulation and IoT hacking.
+**Meta Information:**
+- **Canonical URL:** https://saintcon.org/com-id-iot-community/
+- **Description:** From the dumpster fire that is Cyberjanitorial crawls out: Spectre and Phaktor to present ID/IOT. Explore the challenges of Industrial Devices and IoT, emphasizing security threats and vulnerabilities in control systems and IoT devices.
+- **Open Graph Image:** http://www.saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png
 
-**Image:** 
-![IDIOT 2023 Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png)
+**Overview:**
+- The ID-IOT Community focuses on the intersection of industrial devices and the Internet of Things (IoT), discussing security implications and vulnerabilities.
+- It invites participants interested in control systems to engage in discussions and hands-on activities that enhance understanding of vulnerabilities and hacking techniques.
 
-**Main Points:**
-1. **Event Overview:** Explore the integration of Industrial Devices and IoT.
-2. **Learning Opportunities:** Understanding of control systems, security vulnerabilities, and practical skills in manipulating devices.
-3. **Community Engagement:** Open to anyone interested in discussing and exploring the complexities of control systems and IoT security.
-4. **Resources Provided:**
-   - Skills in using tools like PyDNP3, Snap7, PyLogix.
-   - IoT firmware assessment techniques.
-5. **MiniBadge Program:** Participants can collect a MiniBadge by visiting the community booth.
+**Key Points:**
+- The community welcomes anyone interested in control systems and their security implications, including:
+  - Control system hacking and protocol manipulation (Modbus, DNP3).
+  - IoT hacking and firmware assessment.
+- Participants encouraged to explore protocols, learn about vulnerabilities, and engage in hands-on activities using various tools and programming languages (e.g., Python with libraries like PyDNP3 and Pymodbus).
+- Emphasis on building community knowledge and skills in handling critical infrastructure assets.
 
-**Hours of Operation:** 
-- **Monday:** Closed
-- **Tuesday - Wednesday:** 10:30 AM – 5:00 PM
+**Learning Outcomes:**
+- Understanding of ICS control protocols.
+- Ability to connect to and manage IoT systems.
+- Hands-on experience with IoT device vulnerabilities.
+
+**Hours of Operation:**
+- **Monday:** Expo Closed
+- **Tuesday-Wednesday:** 10:30 AM – 5:00 PM
 - **Thursday:** 9:00 AM – 5:00 PM
 - **Friday:** 9:00 AM – 11:00 AM
 
-**What You Will Learn:**
-- Connection to ICS systems and understanding their protocols.
-- Building insights into IoT challenges.
+**Community Offerings:**
+- MiniBadge details available for participants.
+- Promotional materials like desktop wallpapers related to the community.
 
-**Call to Action:** Everyone interested in control systems and IoT is encouraged to join the community for discussions and activities. 
+**Affiliated Communities:**
+- AI Community
+- AppSec Community
+- BadgeLife Community
+- Hardware Hacking Community
+- Health Care Hacking Community
+- And several more.
 
-**Related Links:**
-- [ID-IOT Community Page](https://saintcon.org/com-id-iot-community/)
-- [Registration for SAINTCON](https://saintcon.org/register/) 
+**Related Events:**
+- Application Security Jeopardy
+- Job Fair
+- Family Night
+- LAN Party
 
-**Note:** For further engagement, participants can join the community and access resources through the provided links.
+This concise extract captures the essence and relevant information of the ID-IOT Community's page on SAINTCON's website.

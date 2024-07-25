@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { client } = require("./bot");
 const { setupEventHandlers } = require("./messageProcessor");
-const { crawlAndCacheURLs } = require("./crawler");
+const { crawlAndCacheURLs, processFAQ } = require("./crawler");
 
 const urls = [
   "https://saintcon.org/keynotes/",
@@ -43,11 +43,13 @@ const urls = [
   "https://saintcon.org/evt-lanparty/",
   "https://saintcon.org/coc/",
   "https://www.saintcon.org/tac/",
-  "https://saintcon.org/faq/",
 ];
+
+const faqUrl = "https://saintcon.org/faq/";
 
 setupEventHandlers(client);
 crawlAndCacheURLs(urls);
+processFAQ(faqUrl);
 
 client.login(process.env.DISCORD_BOT_TOKEN).catch((error) => {
   console.error("Failed to log in:", error);
