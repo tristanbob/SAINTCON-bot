@@ -1,40 +1,33 @@
-**Page Information:**
-- **Title:** MAIN – Presentations – SAINTCON
-- **URL:** https://saintcon.org/presentations/
-- **Description:** Presentations for SAINTCON 2024 - Current sessions for SAINTCON 2024 - More Coming Soon! Speaker Wall - Up close and personal with Speakers.
+**Page Title:** MAIN – Presentations – SAINTCON  
 
-**Key Sections:**
-1. **Header:**
-   - Logo for SAINTCON.
-   - Navigation items include:
-     - Keynotes
-     - Presentations (current page)
-     - Registration (with sub-items: Register Now, Student Groups, Scholarship Program)
-     - Contests (with various challenges including Hackers Challenge and AppSec Challenge)
-     - Communities (committees for various interests like AI, AppSec, and Health Care)
-     - Events (including Application Security Jeopardy and Job Fair)
-   
-2. **Main Content:**
-   - Presentations for SAINTCON 2024 highlighted.
-   - Two main tabs: 
-     - Session List (current sessions for SAINTCON 2024)
-     - Speaker Wall (featuring speakers).
-   
-3. **Footer:**
-   - Links to documents such as the Code of Conduct and FAQs.
-   - Support links for attendees, registration, and sponsors.
-   - Resources including Discord and MiniBadge specs.
-   - Past events listed by year.
+**URL:** [https://saintcon.org/presentations/](https://saintcon.org/presentations/)  
 
-**Social Media & Open Graph:**
-- Open Graph information provided for better visibility on social platforms.
-- Images for sharing on social media included.
+**Overview:**  
+- Presentations for SAINTCON 2024
+- Current sessions for SAINTCON 2024 - More Coming Soon
 
-**Miscellaneous:**
-- Uses various scripts and stylesheets, including ones for navigation and session API loading.
-- Events and community sections include multiple links for user engagement and participation.
+**Sections:**
+1. **Session List**
+   - Shows current sessions for SAINTCON 2024.
+  
+2. **Speaker Wall**
+   - Offers a closer look at the speakers.
 
-**Contact and Support:**
-- Information available for participant support and registration inquiries.
+**Key Links:**
+- **Keynotes:** [Keynotes](https://saintcon.org/keynotes/)
+- **Registration:** [Register Now](https://saintcon.org/register/)
+- **Contests:** [Contests](https://saintcon.org/main-contests/)
+- **Communities:** [Communities](https://saintcon.org/main-communities/)
+- **Events:** [Events](https://saintcon.org/main-events/)
 
-This concise layout presents the key information for participants interested in the SAINTCON 2024 presentations.
+**Social Media and Resources:**
+- [Discord](https://discord.gg/saintcon)
+- [MiniBadge Specifications](https://github.com/lukejenkins/minibadge)
+- [How to Build a MiniBadge (YouTube)](https://www.youtube.com/watch?v=kkLfmo14oiQ)
+
+**Previous Events:**
+- Links to previous SAINTCON events are provided, detailing years and locations.
+
+**Target Audience:** Attendees of SAINTCON 2024, potential speakers, and people interested in cybersecurity and related communities.
+
+**Note:** Sessionize API used for sessions and speaker information presentation.

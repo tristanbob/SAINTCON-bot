@@ -48,8 +48,7 @@ const urls = [
 const faqUrl = "https://saintcon.org/faq/";
 
 setupEventHandlers(client);
-crawlAndCacheURLs(urls);
-processFAQ(faqUrl);
+crawlAndCacheURLs(urls).then(() => processFAQ(faqUrl));
 
 client.login(process.env.DISCORD_BOT_TOKEN).catch((error) => {
   console.error("Failed to log in:", error);

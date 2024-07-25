@@ -2,8 +2,7 @@ const axios = require("axios");
 const fs = require("fs").promises;
 const path = require("path");
 
-let cacheTimestamp = null;
-const CACHE_DURATION_MS = 60 * 60 * 1000; // 1 hour
+const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 1 day
 
 async function fetchAndCacheURL(url, cacheDir = "cache") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
@@ -56,4 +55,24 @@ async function getAllCleanedCache(cacheDir = "cleaned_cache") {
   }
 }
 
-module.exports = { fetchAndCacheURL, cacheCleanedContent, getAllCleanedCache };
+async function getCleanedCache(url, cacheDir = "cleaned_cache") {
+  const cacheFile = path.join(cacheDir, encodeURIComponent(url));
+  try {
+    const now = Date.now();
+    const cacheStat = await fs.stat(cacheFile);
+    if (now - cacheStat.mtimeMs < CACHE_DURATION_MS) {
+      console.log(`Using cleaned cached content for ${url}`);
+      return await fs.readFile(cacheFile, "utf-8");
+    }
+  } catch (err) {
+    console.log(`Cleaned cache miss for ${url}`);
+  }
+  return null;
+}
+
+module.exports = {
+  fetchAndCacheURL,
+  cacheCleanedContent,
+  getAllCleanedCache,
+  getCleanedCache,
+};
