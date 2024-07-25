@@ -1,6 +1,7 @@
 const { Client, GatewayIntentBits, Events } = require("discord.js");
 const OpenAI = require("openai");
 const axios = require("axios");
+const fs = require("fs");
 require("dotenv").config();
 
 const client = new Client({
@@ -65,6 +66,15 @@ async function getReplyChainMessages(message) {
   }
 
   return messages;
+}
+
+function logMessageData(data) {
+  const logData = `${new Date().toISOString()} - ${JSON.stringify(data)}\n`;
+  fs.appendFile("bot-log.txt", logData, (err) => {
+    if (err) {
+      console.error("Error writing to log file", err);
+    }
+  });
 }
 
 client.on(Events.MessageCreate, async (message) => {
@@ -135,6 +145,16 @@ client.on(Events.MessageCreate, async (message) => {
       const inputCost = (inputTokens / 1_000_000) * 0.15;
       const outputCost = (outputTokens / 1_000_000) * 0.6;
       const totalCost = inputCost + outputCost;
+
+      const logData = {
+        userMessage: userMessage,
+        botResponse: botResponse,
+        inputTokens: inputTokens,
+        outputTokens: outputTokens,
+        totalTokens: totalTokens,
+        totalCost: totalCost.toFixed(6),
+      };
+      logMessageData(logData);
 
       console.log(`Bot response: "${botResponse}"`);
       await message.channel.send(
