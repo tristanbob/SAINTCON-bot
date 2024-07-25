@@ -1,0 +1,49 @@
+**Event Title:** So, You've Been Hacked? - SAINTCON
+
+**Organizer:** @bashNinja
+
+**Description:**
+- A blue team contest where participants will assume the role of a corporate security team handling a situation where a developer's laptop has been compromised. The goal is to navigate the incident response process to halt the breach, investigate the attack, and secure the development environment.
+
+**Contest Overview:**
+- Participants will receive an unlocked Windows laptop simulating a compromised developer's machine involved in a CI/CD pipeline. Tasks include identifying and neutralizing threats and recovering stolen keys.
+
+**Requirements for Participation:**
+- Teams must consist of a minimum of three members; no individual participation permitted.
+- Registration must be completed by the end of the day on Tuesday. A maximum of 20 teams due to limited laptops will be allowed.
+
+**Schedule:**
+- **Laptop Pickup:** Wednesday at 9 AM
+- **Contest Duration:** Until Thursday at 5 PM
+- **Report Submission:** Final report due by 7 AM on Friday.
+
+**Skills Needed:**
+- Incident response, forensic analysis, network security, and system administration, particularly with Windows systems and CI/CD pipelines.
+
+**What to Bring:**
+- Forensic and incident response tools.
+- Critical thinking and problem-solving skills.
+
+**Additional Information:**
+- Integration with other contests like The Keep and Hacker’s Challenge for a comprehensive experience.
+- Networking opportunities with fellow professionals.
+
+**FAQs:**
+1. **Expertise Needed:** While a cybersecurity background helps, participants of all skill levels are encouraged.
+2. **Team Participation:** Teams of a minimum of three members are required.
+3. **Identifying Vulnerabilities:** Additional vulnerabilities can earn extra points, although focus remains on the scenario.
+4. **Judging Criteria:** Based on effectiveness in breach response, analysis, and detailed reporting.
+
+**General Rules:**
+- Teams must maintain an active internet connection throughout the contest.
+- All findings and behavior must adhere to ethical standards with confidentiality maintained.
+- Reports must document all stages of incident management with an executive focus.
+
+**Operational Hours for Event:**
+- **Tuesday:** Noon - 5 PM
+- **Wednesday & Thursday:** 9 AM - 5 PM
+- **Friday:** 9 AM - 11 AM
+
+**Footer:**
+- Support links and resources provided.
+- Copyright (c) 2024, UtahSAINT Organization, a 501(c)(6) Non-Profit Organization.

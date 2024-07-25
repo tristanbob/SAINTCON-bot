@@ -15,4 +15,22 @@ async function generateResponse(messages) {
   return response;
 }
 
-module.exports = { generateResponse };
+async function extractRelevantInfo(text) {
+  const messages = [
+    {
+      role: "system",
+      content:
+        "Extract all relevant information from the following text and present it concisely. Remove HTML markup and similar items.",
+    },
+    { role: "user", content: text },
+  ];
+
+  const response = await openai.chat.completions.create({
+    model: "gpt-4o-mini",
+    messages: messages,
+  });
+
+  return response.choices[0].message.content.trim();
+}
+
+module.exports = { generateResponse, extractRelevantInfo };

@@ -1,5 +1,5 @@
 const { Events } = require("discord.js");
-const { getCachedFAQText } = require("./faqCache");
+const { fetchAndCacheURL } = require("./contentCache");
 const { generateResponse } = require("./openai");
 const { logMessageData } = require("./logger");
 
@@ -53,7 +53,7 @@ function setupEventHandlers(client) {
 
       console.log(`Processed user message: "${userMessage}"`);
 
-      const faqText = await getCachedFAQText("https://saintcon.org/faq/");
+      const faqText = await fetchAndCacheURL("https://saintcon.org/faq/");
       if (!faqText) {
         await message.channel.send(
           "Sorry, I could not retrieve the FAQ information at this time."

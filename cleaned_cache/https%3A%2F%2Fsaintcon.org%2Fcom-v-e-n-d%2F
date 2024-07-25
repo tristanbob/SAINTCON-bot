@@ -1,0 +1,49 @@
+**Event Overview:**
+- **Title:** COM - V.E.N.D. at SAINTCON
+- **Date:** October 2024
+- **Location:** SAINTCON (specific venue not mentioned)
+
+**Key Feature:**
+- **V.E.N.D. Machine:** A physical vending machine that dispenses customizable virtual environments on-demand for conference attendees. 
+
+**Available Operating Systems:** 
+- Windows 11
+- Kali Linux
+- Ubuntu
+- Debian
+- BlackArch
+- Arch
+- Parrot Linux
+
+**Operational Details:**
+- **Location:** Central spot within the SAINTCON contest and community space.
+- **Availability:** Open during regular conference hours from the first day to the last day.
+
+**How It Works:**
+1. **Deployment:** Attendees select a VM via the machine interface.
+2. **Access:** A receipt with login credentials is printed for access to the selected VM.
+3. **Customization:** Users can install necessary tools on their VMs.
+
+**Hours of Operation:**
+- Monday: Closed
+- Tuesday: 12:00 PM - 5:00 PM
+- Wednesday: 9:00 AM - 5:00 PM
+- Thursday: 9:00 AM - 5:00 PM
+- Friday: 9:00 AM - 11:00 AM
+
+**FAQs:**
+- The VMs are free to use.
+- VMs cannot be saved post-conference.
+- Collaboration with others is allowed via a provided script.
+- Safety and integrity of the network are prioritized; illegal activities are prohibited.
+
+**Additional Features:**
+- **MiniBadge:** A collectible badge related to the community, details available at the booth.
+
+**Organizational Information:**
+- Organized by SAINTCON, promoting cybersecurity education and collaboration amongst enthusiasts. 
+
+**Contact Information:**
+- For technical support, attendees can reach out via contacts available near the V.E.N.D. Machine or through the Discord support channel.
+
+**Event URL:** [SAINTCON Official Site](https://saintcon.org/com-v-e-n-d/)

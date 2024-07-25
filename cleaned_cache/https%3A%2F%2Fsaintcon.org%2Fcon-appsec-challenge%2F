@@ -1,0 +1,43 @@
+**Event Information:**
+- **Event Name:** AppSec Challenge
+- **Organizer:** @Sketrik & @l4wke
+- **Location:** Virtual/in-person at SAINTCON
+- **Event Schedule:** 
+  - **Start Time:** Tuesday - Noon
+  - **End Time:** Friday - 9:00 AM
+  - **Booth Hours:**
+    - Tuesday: 10:30 AM - 5:00 PM
+    - Wednesday: 10:30 AM - 5:00 PM
+    - Thursday: 9:00 AM - 5:00 PM
+    - Friday: 9:00 AM - 10:00 AM
+
+**Description:**
+The challenge focuses on finding and fixing vulnerabilities in source code. Participants are expected to:
+- Clone the repository
+- Identify and fix vulnerabilities
+- Ensure unit tests pass
+- Submit code to the scoring engine for points
+
+**Unique Features:**
+- The application consists of various microservices written in different languages.
+- Participants may use automated tools for assistance.
+
+**Rules:**
+- Hacking the site or submission mechanism is forbidden.
+- Submissions limited to specified files and maximum size of 4MB.
+- One submission every 5 minutes per user.
+- Prizes awarded to the top scorers.
+
+**Resources:**
+- Contestants are encouraged to visit the AppSec community for help and resources.
+
+**Useful Links:**
+- [AppSec Community](https://appsec.saintcon.community/)
+
+**Social Media Tags:**
+- Open Graph Title: "CON - AppSec Challenge"
+- Open Graph URL: [Link](https://saintcon.org/con-appsec-challenge/)
+- Open Graph Description: "Find and Fix vulnerabilities, it's our biggest challenge."
+
+**Event Logo:**  
+![Event Logo](http://www.saintcon.org/wp-content/uploads/2024/07/AppSecChallengeSplash2024.png)

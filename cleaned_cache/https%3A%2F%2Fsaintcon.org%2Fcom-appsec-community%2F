@@ -1,0 +1,42 @@
+**Title:** COM - AppSec Community - SAINTCON
+
+**Description:**  
+The AppSec Community, presented by sketrik and l4wke, focuses on teaching how to identify and fix vulnerabilities in applications. It offers hands-on opportunities to engage with known vulnerabilities and application security tools, catering to both beginners and experienced individuals.
+
+**Goals & Learning Outcomes:**
+- Understanding application security principles.
+- Practical experience in finding and fixing vulnerabilities using tools such as:
+  - **SAST** (Static Application Security Testing): Tools like FluidAttacks and Snyk.
+  - **DAST** (Dynamic Application Security Testing): Tools like OWASP ZAP.
+  - **SCA** (Software Composition Analysis): Tools like Google's osv.dev.
+- Instruction on using Git for submitting fixes via pull requests.
+- Introductory challenges for those unfamiliar with coding.
+
+**Requirements for Attendees:**
+- No equipment is necessary, but bringing a laptop is recommended.
+- Must install Git and Python, and possess a Linux virtual machine for optimal experience.
+
+**Hours of Operation:**
+- **Monday:** Closed
+- **Tuesday:** 10:30 AM - 5:00 PM
+- **Wednesday:** 10:30 AM - 5:00 PM
+- **Thursday:** 9:00 AM - 5:00 PM
+- **Friday:** 9:00 AM - 11:00 AM
+
+**What Participants Will Learn:**
+- Application development processes and vulnerability management.
+- Interaction with developers and evaluation of code for vulnerabilities.
+
+**Community Engagement:**  
+Participants can collect a MiniBadge by visiting the booth for more details.
+
+**Desktop Wallpaper:** Available for download from the community page.
+
+**Footnotes:**
+- **Links:** [SAINTCON Official Site](https://saintcon.org)  
+- **Code of Conduct:** [Code of Conduct](https://saintcon.org/coc)  
+- **Registration Terms:** [Terms and Conditions](https://www.saintcon.org/tac/)  
+- **Support Links:** Attendee, Registration, and Sponsor Support available.
+
+**Disclaimer:**  
+Copyright © 2024, UtahSAINT Organization, a 501(c)(6) Non-Profit Organization. All Rights Reserved.
