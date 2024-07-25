@@ -1,57 +1,38 @@
-**Website Title:** COM – Blueteam Community – SAINTCON
+**Title:** COM - Blueteam Community - SAINTCON
 
-**URL:** [https://saintcon.org/com-blueteam-community/](https://saintcon.org/com-blueteam-community/)
+**Overview:**
+- **Entity:** Blueteam Community of Eiffel65
+- **Focus:** Defensive security community covering topics like Threat Intelligence, Threat Hunting, Incident Response, and Forensics.
+- **Objective:** Provide hands-on experience in defensive security practices, including incident response, threat hunting, and forensic analysis.
 
-**Meta Information:**
-- **Description:** Eiffel65 is a blue team (defensive security) community focused on topics like Threat Intelligence, Threat Hunting, Incident Response, and Forensics.
-- **Keywords:** Blue-Team Community, Defensive Security
-- **Image:** ![Blueteam Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/Blueteam-2023_5K_Wallpaper.png)
+**Content Highlights:**
+- **Description:** 
+  - The community primarily focuses on learning defensive techniques rather than offensive exploits. Members are encouraged to explore layers of defensive security through various activities, including using tools for threat intelligence and conducting exercises on responding to incidents.
 
-**Community Overview:**
-- **Name:** Eiffel65
-- **Focus Areas:** 
-  - Threat Intelligence
-  - Threat Hunting
-  - Incident Response
-  - Forensics
-- **Learning Opportunities:** 
-  - Access to OSINT tools
-  - Enterprise security tools
-  - Incident response plans
-  - Tabletop exercises
+- **Hours of Operation:**
+  - **Monday:** Closed
+  - **Tuesday:** 10:30 AM - 5:00 PM
+  - **Wednesday:** 10:30 AM - 5:00 PM
+  - **Thursday:** 9:00 AM - 5:00 PM
+  - **Friday:** 9:00 AM - 11:00 AM
 
-**Hours of Operation:**
-- **Monday:** Closed
-- **Tuesday:** 10:30 AM – 5:00 PM
-- **Wednesday:** 10:30 AM – 5:00 PM
-- **Thursday:** 9:00 AM – 5:00 PM
-- **Friday:** 9:00 AM – 11:00 AM
+- **Learning Opportunities Include:**
+  - Intrusion Analysis
+  - Creating Detection Rules
+  - PCAP Analysis
+  - SIEM Searching (ELK)
+  - Forensic Image Analysis
+  - Threat Hunting Methodologies
+  - Threat Intelligence Reporting
+  - Threat Intelligence Platform
 
-**Learning Outcomes:**
-- Intrusion Analysis
-- Detection Rules Creation
-- PCAP Analysis
-- SIEM Searching (ELK)
-- Forensic Image Analysis
-- Threat Hunting Methodologies
-- Threat Intelligence Reporting
-- Threat Intelligence Platforms
+**Updates:**
+- **MiniBadge:** A MiniBadge will be available for community members, with details to be announced at the booth.
 
-**Special Events and Offerings:**
-- MiniBadge for community engagement.
-- Desktop wallpaper available for download.
-- Community discussions around defensive security.
+**Visuals:**
+- Featured images and logos for the community, including an invitation to download a community desktop wallpaper.
 
-**Related Links:**
-- [Registration](https://saintcon.org/register/)
-- [Keynotes](https://saintcon.org/keynotes/)
-- [Presentations](https://saintcon.org/presentations/)
-- [Contests](https://saintcon.org/main-contests/)
-- [Previous Events](https://saintcon.org/main-events/)
+**Contact and Engagement:**
+- Activities will include opportunities for both novices and experienced individuals to learn and share knowledge about defensive security practices. 
 
-**Contact Information:** Not explicitly provided in the text but general support sections include:
-- Attendee Support, Registration Support, and Sponsor Support links.
-
-**Copyright:** © 2024 UtahSAINT Organization – All Rights Reserved
-
-**Organization Type:** 501(c)(6) Non-Profit Organization
+**Website Link:** [Visit the Blueteam Community](https://saintcon.org/com-blueteam-community/)

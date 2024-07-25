@@ -1,45 +1,46 @@
-**Event Title**: COM - ID-IOT Community
+**Title:** COM - ID-IOT Community
 
-**Description**: The ID-IOT Community focuses on the intersection of Industrial Devices (IIoT) and cybersecurity, addressing vulnerabilities in control systems and IoT devices. It encourages learning about and exploring these challenges, particularly in relation to protocols such as Modbus and DNP3.
+**URL:** [saintcon.org/com-id-iot-community](https://saintcon.org/com-id-iot-community/)
 
-**Speakers**: 
-- Spectre
-- Phaktor
+**Open Graph Metadata:**
+- **Site Name:** SAINTCON
+- **Description:** The IDIOTs are BACK! Presenting insights on the fragility of control systems and the cybersecurity challenges faced. Participate in discussions about control systems and IoT hacking.
+- **Image:** ![IDIOT 2023 Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png)
 
-**Focus Areas**:
-- Understanding implications of control systems
-- Hacking into IoT devices through methods like firmware access and protocol manipulation
-- Discussions on security threats and vulnerabilities associated with IIoT
+**Key Points:**
+- **Presenters:** Spectre and Phaktor
+- **Focus Areas:** Industrial Devices, IoT vulnerabilities
+- **Community Goals:** 
+  - Understanding ICS systems and control protocols.
+  - Discussions on control system hacking.
+  - Activities including firmware dumping, protocol manipulation (Modbus, DNP3).
+- **Learning Outcomes:**
+  - Connecting to ICS systems and managing IoT challenges.
+  - Understanding IoT security implications and vulnerabilities.
 
-**Learning Opportunities**:
-- Connecting to ICS systems
-- Understanding control protocols and tools
-- Managing IoT challenges
+**Hours of Operation:**
+- **Monday:** Expo Closed
+- **Tuesday:** 10:30 AM - 5:00 PM
+- **Wednesday:** 10:30 AM - 5:00 PM
+- **Thursday:** 9:00 AM - 5:00 PM
+- **Friday:** 9:00 AM - 11:00 AM
 
-**Hours of Operation**:
-- Monday: Closed
-- Tuesday: 10:30 AM - 5:00 PM
-- Wednesday: 10:30 AM - 5:00 PM
-- Thursday: 9:00 AM - 5:00 PM
-- Friday: 9:00 AM - 11:00 AM
+**What You Learn:**
+- Connecting to ICS systems.
+- Understanding control protocols and tools.
+- Managing IoT challenges.
 
-**Community Offerings**:
-- Protocol manipulation workshops
-- Discussions on critical infrastructure security
-- MiniBadge available for participants
+**MiniBadge Details:** 
+- Collect a MiniBadge at the community booth (details to be confirmed).
 
-**Relevant Links**:
-- [Community Homepage](https://saintcon.org/com-id-iot-community/)
-- [Registration](https://saintcon.org/register/)
-- [Keynotes](https://saintcon.org/keynotes/)
-- [Presentations](https://saintcon.org/presentations/)
-- [Join us on Discord](https://discord.gg/saintcon)
+**Downloads:**
+- Desktop Wallpaper available [here](https://saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png).
 
-**Social Media**:
-- Open Graph and Twitter Card meta tags for sharing purposes.
+**Communities Available:**
+- AI Community
+- AppSec Community
+- BadgeLife Community
+- Health Care Hacking Community
+- Many more including the ID-IOT Community. 
 
-**Event Year**: 2024
-
-**Sponsorship**: Participants are encouraged to find information about sponsorship and support via the footer links.
-
-**Miscellaneous Information**: This event is part of the SAINTCON conference framework that hosts various communities focussing on different cybersecurity aspects.
+Participants are encouraged to engage and explore both the cybersecurity and IoT realms through community activities and discussions.

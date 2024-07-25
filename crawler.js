@@ -7,7 +7,9 @@ async function crawlAndCacheURLs(urls) {
     console.log(`Crawling ${url}`);
     const rawText = await fetchAndCacheURL(url);
     if (rawText) {
-      const cleanedContent = await extractRelevantInfo(rawText);
+      const cleanedContent = await extractRelevantInfo(rawText, {
+        exclude: ["footer", "footnote", "disclaimer"],
+      });
       await cacheCleanedContent(url, cleanedContent);
 
       // Log the metadata (not the content) including token usage

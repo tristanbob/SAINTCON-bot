@@ -1,42 +1,49 @@
-**Title:** COM - AppSec Community - SAINTCON
+**Event Information: AppSec Community - SAINTCON**
 
-**Description:**  
-The AppSec Community, presented by sketrik and l4wke, focuses on teaching how to identify and fix vulnerabilities in applications. It offers hands-on opportunities to engage with known vulnerabilities and application security tools, catering to both beginners and experienced individuals.
+- **Title:** AppSec Community
+- **Description:** 
+  - Focuses on app security, teaching how to identify and fix vulnerabilities in applications.
+  - Offers hands-on experience with security tools (SAST, DAST, SCA).
+  - Participants can learn through direct engagement with sample repositories.
+  
+- **Hosts:** Sketrik and l4wke
+  
+- **What Participants Will Learn:**
+  - Identification and remediation of security flaws.
+  - Use of application security tools.
+  - Interaction with developers regarding vulnerabilities.
+  - Evaluating an application security program.
+  
+- **Key Sessions and Tools:**
+  - Static Application Security Testing (SAST): Tools like FluidAttacks and Snyk.
+  - Dynamic Application Security Testing (DAST): Using OWASP ZAP.
+  - Software Composition Analysis (SCA): Utilizing tools like Google's osv.dev.
+  
+- **Participation:**
+  - Open to beginners and experienced individuals in code security.
+  - No prior coding experience required; introductory challenges will be available.
+  
+- **Requirements for Participation:**
+  - Laptops recommended (limited workstations provided).
+  - Must install Git, Python, and a Linux virtual machine for best experience.
 
-**Goals & Learning Outcomes:**
-- Understanding application security principles.
-- Practical experience in finding and fixing vulnerabilities using tools such as:
-  - **SAST** (Static Application Security Testing): Tools like FluidAttacks and Snyk.
-  - **DAST** (Dynamic Application Security Testing): Tools like OWASP ZAP.
-  - **SCA** (Software Composition Analysis): Tools like Google's osv.dev.
-- Instruction on using Git for submitting fixes via pull requests.
-- Introductory challenges for those unfamiliar with coding.
+- **Hours of Operation:**
+  - **Monday:** Closed
+  - **Tuesday & Wednesday:** 10:30 AM - 5:00 PM
+  - **Thursday:** 9:00 AM - 5:00 PM
+  - **Friday:** 9:00 AM - 11:00 AM
 
-**Requirements for Attendees:**
-- No equipment is necessary, but bringing a laptop is recommended.
-- Must install Git and Python, and possess a Linux virtual machine for optimal experience.
+- **Additional Offerings:**
+  - MiniBadge available, details at the booth.
+  
+- **Resources:**
+  - Desktop wallpaper available for download.
+  
+- **Contact and Support:**
+  - Event website: [SAINTCON](https://saintcon.org/)
+  - For support, there are links for attendee, registration, and sponsor queries.
 
-**Hours of Operation:**
-- **Monday:** Closed
-- **Tuesday:** 10:30 AM - 5:00 PM
-- **Wednesday:** 10:30 AM - 5:00 PM
-- **Thursday:** 9:00 AM - 5:00 PM
-- **Friday:** 9:00 AM - 11:00 AM
+- **Image Resources:**
+  - Main promotional image of AppSec Community and desktop wallpapers provided.
 
-**What Participants Will Learn:**
-- Application development processes and vulnerability management.
-- Interaction with developers and evaluation of code for vulnerabilities.
-
-**Community Engagement:**  
-Participants can collect a MiniBadge by visiting the booth for more details.
-
-**Desktop Wallpaper:** Available for download from the community page.
-
-**Footnotes:**
-- **Links:** [SAINTCON Official Site](https://saintcon.org)  
-- **Code of Conduct:** [Code of Conduct](https://saintcon.org/coc)  
-- **Registration Terms:** [Terms and Conditions](https://www.saintcon.org/tac/)  
-- **Support Links:** Attendee, Registration, and Sponsor Support available.
-
-**Disclaimer:**  
-Copyright © 2024, UtahSAINT Organization, a 501(c)(6) Non-Profit Organization. All Rights Reserved.
+**Note:** Ensure to check for the latest updates and more details on the official SAINTCON website and community pages.

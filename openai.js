@@ -15,13 +15,12 @@ async function generateResponse(messages) {
   return response;
 }
 
-async function extractRelevantInfo(text) {
+async function extractRelevantInfo(text, options = {}) {
+  const instructions = `Extract all relevant information from the following text and present it concisely. Remove HTML markup and similar items. Exclude ${options.exclude.join(
+    ", "
+  )}.`;
   const messages = [
-    {
-      role: "system",
-      content:
-        "Extract all relevant information from the following text and present it concisely. Remove HTML markup and similar items.",
-    },
+    { role: "system", content: instructions },
     { role: "user", content: text },
   ];
 

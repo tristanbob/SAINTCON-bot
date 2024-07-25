@@ -1,5 +1,5 @@
 const { Events } = require("discord.js");
-const { fetchAndCacheURL } = require("./contentCache");
+const { fetchAndCacheURL, getAllCleanedCache } = require("./contentCache");
 const { generateResponse } = require("./openai");
 const { logMessageData } = require("./logger");
 
@@ -54,6 +54,8 @@ function setupEventHandlers(client) {
       console.log(`Processed user message: "${userMessage}"`);
 
       const faqText = await fetchAndCacheURL("https://saintcon.org/faq/");
+      const cleanedCache = await getAllCleanedCache();
+
       if (!faqText) {
         await message.channel.send(
           "Sorry, I could not retrieve the FAQ information at this time."
@@ -65,9 +67,9 @@ function setupEventHandlers(client) {
       const messages = [
         {
           role: "system",
-          content: `You are an expert in cybersecurity and the SAINTCON conference. Use the information from the FAQ page to help respond to queries. Please keep your responses between 1 and 3 paragraphs, provide concise answers, and use bullet points when it makes sense.`,
+          content: `You are an expert in cybersecurity and the SAINTCON conference. Use the information from the cleaned cache to help respond to queries. Please keep your responses between 1 and 3 paragraphs, provide concise answers, and use bullet points when it makes sense.`,
         },
-        { role: "system", content: `FAQ:\n${faqText}` },
+        { role: "system", content: `Cleaned Cache:\n${cleanedCache}` },
         ...replyChainMessages,
         { role: "user", content: userMessage },
       ];

@@ -43,4 +43,17 @@ async function cacheCleanedContent(
   }
 }
 
-module.exports = { fetchAndCacheURL, cacheCleanedContent };
+async function getAllCleanedCache(cacheDir = "cleaned_cache") {
+  try {
+    const files = await fs.readdir(cacheDir);
+    const contents = await Promise.all(
+      files.map((file) => fs.readFile(path.join(cacheDir, file), "utf-8"))
+    );
+    return contents.join("\n");
+  } catch (error) {
+    console.error(`Error reading cleaned cache:`, error);
+    return "";
+  }
+}
+
+module.exports = { fetchAndCacheURL, cacheCleanedContent, getAllCleanedCache };

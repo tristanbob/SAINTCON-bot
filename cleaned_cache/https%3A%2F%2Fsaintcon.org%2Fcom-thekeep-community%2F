@@ -1,12 +1,16 @@
-**Title:** COM - TheKeep Community - SAINTCON
+**Title:** COM - TheKeep Community
 
-**Overview:**
-- **Event:** SAINTCON
-- **Organizers:** 801Labs
-- **Purpose:** An educational and fun hacking environment for both beginners and expert hackers.
-- **Main Components:** 
-  - **Exploit Armory:** Training ground with tools and techniques used in real hacking engagements.
-  - **Dungeon:** A competitive area to test skills against vulnerable systems with a leaderboard.
+**Description:** 
+The Keep is an educational environment for honing hacking skills, targeting both beginners and experts in a fun, realistic setting. It offers opportunities to learn the fundamentals of hacking and test abilities through practical scenarios.
+
+**Community Structure:**
+1. **Exploit Armory:** 
+   - Provides tools and knowledge needed before entering The Dungeon. 
+   - Focuses on real red team engagement tools and techniques.
+  
+2. **The Dungeon:** 
+   - A place to apply skills by exploiting vulnerable boxes.
+   - Includes challenges that simulate real-world attacks with escalating difficulty.
 
 **Hours of Operation:**
 - **Monday:** Closed
@@ -15,30 +19,28 @@
 - **Thursday:** 9:00 AM - 5:00 PM
 - **Friday:** 9:00 AM - 11:00 AM
 
-**What to Bring:**
-- A laptop for optimal experience.
+**What You Will Learn:**
+- Network and host enumeration techniques (e.g., using NMAP).
+- Utilizing existing exploits to compromise hosts.
+- Techniques for privilege escalation on Windows and Linux.
+- Tools and strategies for post-compromise actions.
+- Pivoting techniques to access internal hosts.
 
-**Skills Developed:**
-- Network and host enumeration
-- Using existing exploits for host compromise
-- Privilege escalation techniques
-- Pivoting techniques to access internal hosts
+**Community Features:**
+- MiniBadge available for participants.
+- Downloadable desktop wallpapers as community resources.
 
-**MiniBadge:**
-- MiniBadge details available during community visits.
+**Links:**
+- [SAINTCON Website](https://saintcon.org)
+- [Get Involved with our Community on Discord](https://discord.gg/saintcon)
+- [MiniBadge Specifications](https://github.com/lukejenkins/minibadge)
+- [How to Build a MiniBadge](https://www.youtube.com/watch?v=kkLfmo14oiQ)
 
-**Additional Resources:**
-- Desktop wallpaper available for download.
+**Contact and Support:**
+- FAQs and Code of Conduct available via the main website.
+- Registration and general inquiries supported through designated links. 
 
-**Links & References:**
-- **Website:** [SAINTCON](https://saintcon.org)
-- **Communities & Events:** Various communities under SAINTCON include AI, AppSec, Hardware Hacking, etc.
-- **Previous Events:** Records of past SAINTCON events available through links.
+**Social Media and Sharing:**
+- Available on various platforms including Discord for community interactions. 
 
-**Social Media & Support:**
-- Join Discord for community interaction.
-- Support links for attendees, registration, and sponsors.
-
-**Legal Information:**
-- Copyright (c) 2024, UtahSAINT Organization
-- A 501(c)(6) Non-Profit Organization
+This summary encapsulates the core aspects of The Keep Community as outlined in the provided text.

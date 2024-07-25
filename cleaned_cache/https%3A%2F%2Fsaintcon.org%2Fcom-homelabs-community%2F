@@ -1,60 +1,46 @@
-### Overview of HomeLabs Community - SAINTCON
+**Page Title:** COM – HomeLabs Community – SAINTCON
 
-**Title**: HomeLabs Community
+**Description:** 
+The Home Labs community is a space for IT professionals and hobbyists to enhance their skills while building projects at home. The community offers discussions on various projects, lab guides, demos, and hardware enthusiasts' collaboration.
 
-**Website**: [saintcon.org/com-homelabs-community](https://saintcon.org/com-homelabs-community/)
-
-**Description**: The HomeLabs Community, spearheaded by bfcoder and crack3r, is dedicated to IT professionals and hobbyists who enhance their skills while creating innovative projects at home. This community facilitates discussions on ongoing projects, provides various lab guides, and showcases demos for hardware enthusiasts.
-
-### Key Information
-
-- **Purpose**: Encourage members to build home labs and share knowledge, skills, and resources.
+**Key Information:**
+- **Creators:** bfcoder and crack3r
+- **Core Activities:** 
+  - Sharing projects
+  - Creating lab guides
+  - Engaging in discussions and presentations
+- **Community Goals:** 
+  - Enhance skills in infrastructure as code, containers, SASE, home automation, etc.
+  - Provide support for hardware-related queries and projects.
+- **Participation Requirements:** 
+  - Bring curiosity and a laptop for hands-on labs.
   
-- **Community Origin**: Stemmed from a SAINTCON talk in 2019.
-  
-- **Offerings**:
-  - Community guides maintained collaboratively.
-  - Opportunities to learn about infrastructure, containerization, home automation, and more.
-  - A space for networking and resource sharing among tech enthusiasts.
+**Hours of Operation:**
+- Monday: Closed
+- Tuesday: 10:30 AM - 5:00 PM
+- Wednesday: 10:30 AM - 5:00 PM
+- Thursday: 9:00 AM - 5:00 PM
+- Friday: 9:00 AM - 11:00 AM
 
-- **Participation**:
-  - Attendees are encouraged to bring a laptop for hands-on activities.
-  
-- **Hours of Operation**:
-  - Monday: Closed
-  - Tuesday: 10:30 AM - 5:00 PM
-  - Wednesday: 10:30 AM - 5:00 PM
-  - Thursday: 9:00 AM - 5:00 PM
-  - Friday: 9:00 AM - 11:00 AM
-
-### Community Learning Topics
-
+**What You Learn:**
 - Building a home lab
-- Necessary resources for success
-- Project ideas and equipment acquisition
-- Budgeting for utilities
+- Necessary equipment for success
+- Project ideas and resources
 
-### Additional Features
+**MiniBadge:** 
+Available at the community booth, with details to be announced.
 
-- **MiniBadge**: Available at the Community booth, details forthcoming on how to collect it.
-  
-- **Desktop Wallpaper**: Download available for community branding.
+**Community Wallpaper:** 
+Desktop wallpapers available for download.
 
-### Related Links
+**Website Links:**
+- Main Community: [HomeLabs Community](https://saintcon.org/com-homelabs-community/)
+- Community Guides: [GitHub Guides](https://github.com/uthomelabs/guides/wiki)
+- Wallpaper Download: [Download Wallpaper](https://saintcon.org/wp-content/uploads/2023/06/Homelabs-2023_5K_Wallpaper.png)
 
-- [Community GitHub Guides](https://github.com/uthomelabs/guides/wiki)
-- [Wallpaper Download](https://saintcon.org/wp-content/uploads/2023/06/Homelabs-2023_5K_Wallpaper.png)
+**Open Graph & Twitter Card Summary:**
+- **Title:** COM - HomeLabs Community
+- **Description:** A community for IT professionals and hobbyists to collaborate and share their home projects and lab setups.
+- **Image:** ![Homelabs Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/Homelabs-2023_5K_Wallpaper.png)
 
-### Contact & Support
-
-- **General Info**: [SAINTCON Website](https://saintcon.org)
-- **Support Links**:
-  - [Code of Conduct](https://saintcon.org/coc)
-  - [Frequently Asked Questions](https://saintcon.org/faq)
-  - [Terms and Conditions](https://www.saintcon.org/tac/)
-- **Discord**: Join the community on [Discord](https://discord.gg/saintcon).
-
-### Copyright & Organization Information
-
-- **Copyright**: © 2024, UtahSAINT Organization - All Rights Reserved.
-- **Status**: A 501(c)(6) Non-Profit Organization.
+This summary encapsulates the purpose, offerings, and key details of the HomeLabs Community under SAINTCON.

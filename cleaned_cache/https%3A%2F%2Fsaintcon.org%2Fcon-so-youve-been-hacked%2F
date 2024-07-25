@@ -1,49 +1,50 @@
-**Event Title:** So, You've Been Hacked? - SAINTCON
+**Event Title:** So, You've Been Hacked? - A Blue Team Battle
 
-**Organizer:** @bashNinja
+**Overview:** 
+- A blue team contest at SAINTCON where participants act as a corporate security team dealing with a security breach involving a compromised developer's laptop.
 
-**Description:**
-- A blue team contest where participants will assume the role of a corporate security team handling a situation where a developer's laptop has been compromised. The goal is to navigate the incident response process to halt the breach, investigate the attack, and secure the development environment.
+**Objectives:**
+- Navigate the incident response process to halt the breach, investigate the attack, and secure the environment.
 
-**Contest Overview:**
-- Participants will receive an unlocked Windows laptop simulating a compromised developer's machine involved in a CI/CD pipeline. Tasks include identifying and neutralizing threats and recovering stolen keys.
+**Contest Details:**
+- **Setup:** Participants will use an unlocked Windows laptop that has been flagged for compromise.
+- **Goal:** Identify and neutralize threats, recover stolen keys, and prevent a ransomware attack.
 
-**Requirements for Participation:**
-- Teams must consist of a minimum of three members; no individual participation permitted.
-- Registration must be completed by the end of the day on Tuesday. A maximum of 20 teams due to limited laptops will be allowed.
+**Requirements:**
+- **What to Bring:** 
+  - Forensic and incident response tools.
+  - Critical thinking skills.
 
-**Schedule:**
-- **Laptop Pickup:** Wednesday at 9 AM
-- **Contest Duration:** Until Thursday at 5 PM
-- **Report Submission:** Final report due by 7 AM on Friday.
-
-**Skills Needed:**
-- Incident response, forensic analysis, network security, and system administration, particularly with Windows systems and CI/CD pipelines.
-
-**What to Bring:**
-- Forensic and incident response tools.
-- Critical thinking and problem-solving skills.
+- **Skills Needed:**
+  - Incident Response
+  - Forensic Analysis
+  - Network Security
+  - System Administration (Windows, CI/CD, basic scripting)
 
 **Additional Information:**
-- Integration with other contests like The Keep and Hacker’s Challenge for a comprehensive experience.
-- Networking opportunities with fellow professionals.
+- Integration with other contests for a richer experience.
+- Up-to-date knowledge on common Windows vulnerabilities, CI/CD practices, and incident response is recommended.
+- Great opportunity to network with fellow cybersecurity professionals.
 
 **FAQs:**
-1. **Expertise Needed:** While a cybersecurity background helps, participants of all skill levels are encouraged.
-2. **Team Participation:** Teams of a minimum of three members are required.
-3. **Identifying Vulnerabilities:** Additional vulnerabilities can earn extra points, although focus remains on the scenario.
-4. **Judging Criteria:** Based on effectiveness in breach response, analysis, and detailed reporting.
+1. **Expertise Required:** Not mandatory; designed for various skill levels.
+2. **Team Participation:** Yes, teamwork is required with a minimum of three members per team.
+3. **Identifying Additional Vulnerabilities:** Not the focus, but appreciated.
+4. **Judging Criteria:** Effectiveness in breach response, thoroughness of incident reporting.
 
-**General Rules:**
-- Teams must maintain an active internet connection throughout the contest.
-- All findings and behavior must adhere to ethical standards with confidentiality maintained.
-- Reports must document all stages of incident management with an executive focus.
+**Rules:**
+- **Eligibility:** Open to all SAINTCON attendees; teams must have at least three members.
+- **Registration Deadline:** End of the day on Tuesday; maximum 20 teams.
+- **Schedule:**
+  - Laptop Pickup: Wednesday at 9 AM
+  - Contest Duration: Until Thursday at 5 PM
+  - Report Submission: Due by Friday at 7 AM
+- **Conduct:** Legal and ethical tools only; no actions damaging to equipment or fair competition.
+- **Reporting:** Regular updates required every 4 hours during active contest hours.
+- **Ethics:** Maintain confidentiality and avoid sharing details outside the contest.
 
-**Operational Hours for Event:**
-- **Tuesday:** Noon - 5 PM
-- **Wednesday & Thursday:** 9 AM - 5 PM
-- **Friday:** 9 AM - 11 AM
+**Contact Information:** Available for registration support and inquiries related to the contest on the SAINTCON website. 
 
-**Footer:**
-- Support links and resources provided.
-- Copyright (c) 2024, UtahSAINT Organization, a 501(c)(6) Non-Profit Organization.
+**Event Image:** ![So you've been hacked?](http://www.saintcon.org/wp-content/uploads/2024/07/SoYouveBeenHackedSplash2024.png)
+
+**Event URL:** [So You've Been Hacked?](https://saintcon.org/con-so-youve-been-hacked/)

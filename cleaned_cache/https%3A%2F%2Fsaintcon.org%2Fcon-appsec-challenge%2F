@@ -1,43 +1,37 @@
-**Event Information:**
-- **Event Name:** AppSec Challenge
-- **Organizer:** @Sketrik & @l4wke
-- **Location:** Virtual/in-person at SAINTCON
-- **Event Schedule:** 
-  - **Start Time:** Tuesday - Noon
-  - **End Time:** Friday - 9:00 AM
-  - **Booth Hours:**
-    - Tuesday: 10:30 AM - 5:00 PM
-    - Wednesday: 10:30 AM - 5:00 PM
-    - Thursday: 9:00 AM - 5:00 PM
-    - Friday: 9:00 AM - 10:00 AM
+**Event Title:** CON - AppSec Challenge  
+**Organizer(s):** @Sketrik & @l4wke  
+**Event Description:** Participants are tasked with finding and fixing vulnerabilities in source code within a web application. Participants will clone a repository, identify vulnerabilities, resolve them, and submit their fixed code for scoring. The application consists of multiple microservices in different programming languages.  
 
-**Description:**
-The challenge focuses on finding and fixing vulnerabilities in source code. Participants are expected to:
-- Clone the repository
-- Identify and fix vulnerabilities
-- Ensure unit tests pass
-- Submit code to the scoring engine for points
+**Contest Details:**  
+- **Start Date & Time:** Tuesday, 12 PM  
+- **End Date & Time:** Friday, 9 AM  
+- **Booth Hours:**  
+  - Tuesday: 10:30 AM – 5:00 PM  
+  - Wednesday: 10:30 AM – 5:00 PM  
+  - Thursday: 9:00 AM – 5:00 PM  
+  - Friday: 9:00 AM – 10:00 AM  
 
-**Unique Features:**
-- The application consists of various microservices written in different languages.
-- Participants may use automated tools for assistance.
+**Contest Rules:**  
+1. Hacking the site or submission mechanism is prohibited (only allowed on self-hosted code).
+2. Changes should be limited to those specified in `make-package.py`.
+3. File uploads must not exceed 4 MB.
+4. One submission allowed per user every 5 minutes (duplicate submissions not scored).
+5. Prizes awarded at the ceremony.
+6. Tiebreaks go to the first submission.
+7. Seek help from the AppSec Community if issues arise.
 
-**Rules:**
-- Hacking the site or submission mechanism is forbidden.
-- Submissions limited to specified files and maximum size of 4MB.
-- One submission every 5 minutes per user.
-- Prizes awarded to the top scorers.
+**Instructions to Participate:**  
+Visit [AppSec Community](https://appsec.saintcon.community/) to get started. Basic programming knowledge is required; help is available from the community.
 
-**Resources:**
-- Contestants are encouraged to visit the AppSec community for help and resources.
+**Vulnerability Scoring:** Based on difficulty to find and fix.
 
-**Useful Links:**
-- [AppSec Community](https://appsec.saintcon.community/)
+**Prizes:** Awarded to the highest scorers, detailed information will be shared after contest completion.  
 
-**Social Media Tags:**
-- Open Graph Title: "CON - AppSec Challenge"
-- Open Graph URL: [Link](https://saintcon.org/con-appsec-challenge/)
-- Open Graph Description: "Find and Fix vulnerabilities, it's our biggest challenge."
+**Image:**  
+![AppSec Challenge](http://www.saintcon.org/wp-content/uploads/2024/07/AppSecChallengeSplash2024.png)
 
-**Event Logo:**  
-![Event Logo](http://www.saintcon.org/wp-content/uploads/2024/07/AppSecChallengeSplash2024.png)
+**SEO Information:**  
+- **Canonical URL:** [CON - AppSec Challenge](https://saintcon.org/con-appsec-challenge/)  
+- **Feed URLs:** [SAINTCON Feed](https://saintcon.org/feed/), [Comments Feed](https://saintcon.org/comments/feed/)  
+
+**Related Events:** Participants can check other contests like Hackers Challenge, CTF Blue Team Style, and more.

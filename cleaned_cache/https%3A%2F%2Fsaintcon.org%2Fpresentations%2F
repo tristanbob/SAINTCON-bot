@@ -1,32 +1,58 @@
-**Event Information: SAINTCON 2024 Presentations**
+**Page Title:** MAIN – Presentations – SAINTCON
 
-- **Title**: MAIN - Presentations at SAINTCON
-- **URL**: [saintcon.org/presentations](https://saintcon.org/presentations/)
-- **Description**: Presentations for SAINTCON 2024. Current sessions - More coming soon!
-- **Features**:
-  - Session List: Current sessions for SAINTCON 2024.
-  - Speaker Wall: Up close and personal with speakers.
+**URL:** https://saintcon.org/presentations/
 
-**Logo**: 
-- ![SAINTCON Logo](https://saintcon.org/wp-content/uploads/2024/04/SC2024.svg)
+**Description:**
+- Presentations for SAINTCON 2024
+- Current sessions for SAINTCON 2024 - More Coming Soon!
+- Up close and personal with Speakers.
 
-**Menu**:
-- Keynotes
-- Presentations
-- Registration (including links for "REGISTER NOW", Student Groups, Scholarship Program)
-- Contests (e.g., Hackers Challenge, AppSec Challenge)
-- Communities (e.g., AI Community, AppSec Community, Hardware Hacking Community)
-- Events (e.g., Application Security Jeopardy, Job Fair)
+**Key Sections:**
+1. **Header Navigation:**
+   - Home: [SAINTCON](https://saintcon.org/)
+   - Keynotes: [Keynotes](https://saintcon.org/keynotes/)
+   - Presentations: [Presentations](https://saintcon.org/presentations/) (current page)
+   - Registration: [Registration](https://saintcon.org/register/)
+     - Register Now
+     - Student Groups
+     - Scholarship Program
+   - Contests: [Contests](https://saintcon.org/main-contests/)
+     - Various contest links (Hackers Challenge, AppSec Challenge, CTF Blue Team Style, etc.)
+   - Communities: [Communities](https://saintcon.org/main-communities/)
+     - Various communities (AI, AppSec, BadgeLife, etc.)
+   - Events: [Events](https://saintcon.org/main-events/)
+     - Event links (Application Security Jeopardy, Job Fair, etc.)
 
-**Footer Resources**:
-- Code of Conduct
-- Frequently Asked Questions
-- Terms and Conditions
-- Support Links for attendees, registration, and sponsors
-- Join on Discord
-- MiniBadge specs
-- Previous Events summaries (SAINTCON 15-23)
+2. **Main Content:**
+   - presents sections:
+     - **Session List:** Current sessions for SAINTCON 2024
+     - **Speaker Wall:** Information about speakers
 
-**Copyright Notice**: 
-- Copyright (c) 2024, UtahSAINT Organization -- All Rights Reserved. 
-- A 501(c)(6) Non-Profit Organization.
+3. **SEO and Open Graph Tags:**
+   - Open Graph Title: MAIN - Presentations
+   - Open Graph URL: https://saintcon.org/presentations/
+   - Twitter Card Description: PRESENTATIONS FOR SAINTCON 2024
+
+4. **Contact & Resources Section:**
+   - Participant Code of Conduct
+   - Frequently Asked Questions
+   - Registration Terms and Conditions
+   - Attendee Support
+   - Discord link
+   - MiniBadge Specs and Standards
+
+5. **Footer:**
+   - Copyright © 2024, UtahSAINT Organization - All Rights Reserved
+   - A 501(c)(6) Non-Profit Organization
+
+**Image:**
+- Logo Image: `/wp-content/uploads/2023/06/LOGO-Content.svg`
+
+**Scripts and Styles:**
+- Includes various scripts for functionality and styling, integrated with UI Kit.
+
+**Meta Tags:**
+- Charset: UTF-8
+- Viewport: width=device-width, initial-scale=1
+- Language: English (en-US)
+- Robots: max-image-preview:large
