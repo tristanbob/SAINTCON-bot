@@ -50,7 +50,7 @@ const faqUrl = "https://saintcon.org/faq/";
 setupEventHandlers(client);
 crawlAndCacheURLs(urls).then(() => processFAQ(faqUrl));
 
-client.login(process.env.DISCORD_BOT_TOKEN).catch((error) => {
+client.login(process.env.MY_BOT_TOKEN).catch((error) => {
   console.error("Failed to log in:", error);
   if (error.code === "TokenInvalid") {
     console.error(
