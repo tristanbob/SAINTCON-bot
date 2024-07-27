@@ -1,7 +1,12 @@
 require("dotenv").config();
 const { client } = require("./bot");
 const { setupEventHandlers } = require("./messageProcessor");
-const { crawlAndCacheURLs, processFAQ } = require("./crawler");
+const {
+  crawlAndCacheURLs,
+  processFAQ,
+  shouldRunCrawler,
+  storeLastRunTime,
+} = require("./crawler");
 
 const urls = [
   "https://saintcon.org/keynotes/",
@@ -48,13 +53,40 @@ const urls = [
 const faqUrl = "https://saintcon.org/faq/";
 
 setupEventHandlers(client);
-crawlAndCacheURLs(urls).then(() => processFAQ(faqUrl));
 
-client.login(process.env.MY_BOT_TOKEN).catch((error) => {
+const botToken = process.env.MY_BOT_TOKEN || process.env.DISCORD_BOT_TOKEN;
+
+if (!botToken) {
+  console.error(
+    "Discord bot token not found. Please set MY_BOT_TOKEN in the environment or DISCORD_BOT_TOKEN in the .env file."
+  );
+  process.exit(1);
+}
+
+client.login(botToken).catch((error) => {
   console.error("Failed to log in:", error);
   if (error.code === "TokenInvalid") {
     console.error(
-      "The provided token is invalid. Please check your .env file and Discord Developer Portal."
+      "The provided token is invalid. Please check your environment variable and Discord Developer Portal."
     );
   }
 });
+
+async function runDailyCrawler() {
+  const shouldRun = await shouldRunCrawler();
+  if (shouldRun) {
+    try {
+      await crawlAndCacheURLs(urls);
+      await processFAQ(faqUrl);
+      await storeLastRunTime();
+      console.log("Crawler has successfully updated the cache.");
+    } catch (error) {
+      console.error("Error running the crawler:", error);
+    }
+  } else {
+    console.log("Crawler has already run in the last 24 hours. Skipping...");
+  }
+}
+
+// Run the crawler initially on startup
+runDailyCrawler();
