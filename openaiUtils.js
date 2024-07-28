@@ -1,50 +1,103 @@
+const fs = require("fs");
+const path = require("path");
 const OpenAI = require("openai");
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize the OpenAI client
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-async function generateResponse(messages) {
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
-    messages: messages,
-    max_tokens: 600,
-    temperature: 0.5,
-    top_p: 0.9,
-  });
-  return response;
-}
+// Read the AI prompt from the text file and generate messages
+const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
+  const promptPath = path.join(__dirname, "ai_prompt.txt");
+  let systemMessage = "";
 
-async function extractRelevantInfo(text, options = {}) {
-  const instructions = `Extract all relevant information from the following text and present it concisely. Remove HTML markup and similar items. Exclude ${options.exclude.join(
-    ", "
-  )}.`;
+  try {
+    systemMessage = fs.readFileSync(promptPath, "utf-8");
+  } catch (error) {
+    console.error("Error reading AI prompt file:", error);
+    systemMessage = `You are a helpful chatbot that provides information about the SAINTCON conference and activities related to the SAINTCON conference. Do not answer questions about any topic not related to the conference experience. Be sure to always consider the SAINTCON information when responding. If the question is about food options, provide a recommendation for some local restaurants near the convention center, mention that there is an option to purchase lunch meals during SAINTCON registration, and then make a funny comment about how much Nate Henne loves Los Hermanos. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`;
+  }
+
   const messages = [
-    { role: "system", content: instructions },
-    { role: "user", content: text },
+    { role: "system", content: systemMessage },
+    { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
+    {
+      role: "system",
+      content: `Sessionize Data:\n${JSON.stringify(sessionizeData)}`,
+    },
+    { role: "user", content: userMessage },
   ];
 
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
-    messages: messages,
-  });
+  return messages;
+};
 
-  return response.choices[0].message.content.trim();
-}
+const generateResponse = async (messages) => {
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: messages,
+      max_tokens: 500,
+    });
 
-async function extractFAQInfo(text) {
-  const instructions = `Extract all questions and answers from the following FAQ text, including all details. Remove HTML markup and similar items.`;
-  const messages = [
-    { role: "system", content: instructions },
-    { role: "user", content: text },
-  ];
+    return response;
+  } catch (error) {
+    console.error("Error interacting with OpenAI:", error);
+    throw error;
+  }
+};
 
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
-    messages: messages,
-  });
+const extractRelevantInfo = async (content, options) => {
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a helpful assistant that extracts relevant information from given content.",
+        },
+        {
+          role: "user",
+          content: `Extract relevant information from the following content, removing ${options.exclude.join(
+            ", "
+          )}:\n\n${content}`,
+        },
+      ],
+      max_tokens: 1500,
+    });
+    return response.choices[0].message.content.trim();
+  } catch (error) {
+    console.error(`Error extracting information:`, error);
+    throw error;
+  }
+};
 
-  return response.choices[0].message.content.trim();
-}
+const extractFAQInfo = async (content) => {
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a helpful assistant that extracts FAQs from given content.",
+        },
+        {
+          role: "user",
+          content: `Extract all questions and answers from the following FAQ content:\n\n${content}`,
+        },
+      ],
+      max_tokens: 1500,
+    });
+    return response.choices[0].message.content.trim();
+  } catch (error) {
+    console.error(`Error extracting FAQ information:`, error);
+    throw error;
+  }
+};
 
-module.exports = { generateResponse, extractRelevantInfo, extractFAQInfo };
+module.exports = {
+  getAIPrompt,
+  generateResponse,
+  extractRelevantInfo,
+  extractFAQInfo,
+};

@@ -8,6 +8,7 @@ const {
   fetchAndCacheSessionizeData,
 } = require("./cacheManager");
 const { extractRelevantInfo, extractFAQInfo } = require("./openaiUtils");
+const { logExtractionMetadata } = require("./logger");
 
 const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/fjfjo2d9/view/All";
 

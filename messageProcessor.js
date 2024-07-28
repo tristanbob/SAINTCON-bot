@@ -1,6 +1,9 @@
 const { Events } = require("discord.js");
-const { getAllCleanedCache, getSessionizeData } = require("./cacheManager");
-const { generateResponse } = require("./openaiUtils");
+const {
+  getAllCleanedCache,
+  fetchAndCacheSessionizeData,
+} = require("./cacheManager");
+const { generateResponse, getAIPrompt } = require("./openaiUtils");
 const { logMessageData } = require("./logger");
 
 async function getReplyChainMessages(message) {
@@ -21,25 +24,6 @@ async function getReplyChainMessages(message) {
   return messages;
 }
 
-function splitMessage(content, maxLength = 2000) {
-  const parts = [];
-  let currentPart = "";
-
-  for (const line of content.split("\n")) {
-    if (currentPart.length + line.length + 1 > maxLength) {
-      parts.push(currentPart);
-      currentPart = "";
-    }
-    currentPart += line + "\n";
-  }
-
-  if (currentPart) {
-    parts.push(currentPart);
-  }
-
-  return parts;
-}
-
 function setupEventHandlers(client) {
   client.on(Events.MessageCreate, async (message) => {
     if (message.author.bot) return;
@@ -48,8 +32,9 @@ function setupEventHandlers(client) {
       `Received message: "${message.content}" from ${message.author.tag}`
     );
 
+    const botUsername = client.user.username.toLowerCase();
     const botMention = `<@${client.user.id}>`;
-    const isBotMentioned = message.content.includes(botMention);
+    const isMentioned = message.content.includes(botMention);
     const isReplyToBot =
       message.reference &&
       message.reference.messageId &&
@@ -57,48 +42,41 @@ function setupEventHandlers(client) {
         .id === client.user.id;
 
     console.log(
-      `Bot mentioned: ${isBotMentioned}, Is reply to bot: ${isReplyToBot}`
+      `Bot mentioned: ${isMentioned}, Is reply to bot: ${isReplyToBot}`
     );
 
-    if (isBotMentioned || isReplyToBot) {
+    if (isMentioned || isReplyToBot) {
       console.log("Bot was mentioned or this is a reply to the bot");
       let userMessage = message.content;
 
-      // Remove the bot's mention from the message content
-      if (isBotMentioned) {
+      // Remove the bot's mention from the message if present
+      if (isMentioned) {
         userMessage = userMessage.replace(botMention, "").trim();
       }
 
       console.log(`Processed user message: "${userMessage}"`);
 
       const cleanedCache = await getAllCleanedCache();
-      const sessionizeData = await getSessionizeData();
-
       if (!cleanedCache) {
-        await message.reply(
+        await message.channel.send(
           "Sorry, I could not retrieve the SAINTCON information at this time."
         );
         return;
       }
 
+      const sessionizeData = await fetchAndCacheSessionizeData(
+        "https://sessionize.com/api/v2/fjfjo2d9/view/All"
+      );
+
       const replyChainMessages = await getReplyChainMessages(message);
-      const messages = [
-        {
-          role: "system",
-          content: `You are a helpful chatbot that provides information about the SAINTCON conference and activities related to the SAINTCON conference. Do not answer questions about any topic not related to the conference experience. Be sure to always consider the SAINTCON information when responding. If the question is about places to eat, provide a recommendation for some local restaurants near the convention center and then make a funny comment about how much Nate Henne loves Los Hermanos. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`,
-        },
-        { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
-        {
-          role: "system",
-          content: `Sessionize Data:\n${JSON.stringify(sessionizeData)}`,
-        },
-        ...replyChainMessages,
-        { role: "user", content: userMessage },
-      ];
+      const messages = getAIPrompt(cleanedCache, sessionizeData, userMessage);
+      messages.push(...replyChainMessages);
 
       try {
         console.log("Sending request to OpenAI API");
+        client.user.setActivity("typing...", { type: "CUSTOM" });
         const response = await generateResponse(messages);
+        client.user.setActivity(null);
 
         const botResponse = response.choices[0].message.content.trim();
 
@@ -123,16 +101,11 @@ function setupEventHandlers(client) {
         logMessageData(logData);
 
         console.log(`Bot response: "${botResponse}"`);
-
-        const parts = splitMessage(
+        await message.reply(
           `${botResponse}\n\n_Tokens used: ${totalTokens} (Input: ${inputTokens}, Output: ${outputTokens})_\n_Estimated cost: $${totalCost.toFixed(
             6
           )}_`
         );
-
-        for (const part of parts) {
-          await message.reply(part);
-        }
       } catch (error) {
         console.error("Error interacting with OpenAI:", error);
         if (error.response) {
@@ -140,7 +113,7 @@ function setupEventHandlers(client) {
         } else {
           console.error(error.message);
         }
-        await message.reply(
+        await message.channel.send(
           "Sorry, I encountered an error while processing your request. Please try again later."
         );
       }

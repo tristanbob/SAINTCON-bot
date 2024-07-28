@@ -44,6 +44,10 @@ const urls = [
   "https://saintcon.org/evt-lanparty/",
   "https://saintcon.org/coc/",
   "https://www.saintcon.org/tac/",
+  "https://saintcon.org/main-contests/",
+  "https://saintcon.org/main-communities/",
+  "https://saintcon.org/main-events/",
+  "https://saintcon.org/evt-jeopardy/",
 ];
 
 const faqUrl = "https://saintcon.org/faq/";
