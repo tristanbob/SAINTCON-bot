@@ -29,9 +29,8 @@ function setupEventHandlers(client) {
       `Received message: "${message.content}" from ${message.author.tag}`
     );
 
-    const botUsername = client.user.username.toLowerCase();
     const botMention = `<@${client.user.id}>`;
-    const startsWithBotMention = message.content.startsWith(botMention);
+    const isBotMentioned = message.content.includes(botMention);
     const isReplyToBot =
       message.reference &&
       message.reference.messageId &&
@@ -39,16 +38,16 @@ function setupEventHandlers(client) {
         .id === client.user.id;
 
     console.log(
-      `Starts with bot mention: ${startsWithBotMention}, Is reply to bot: ${isReplyToBot}`
+      `Bot mentioned: ${isBotMentioned}, Is reply to bot: ${isReplyToBot}`
     );
 
-    if (startsWithBotMention || isReplyToBot) {
-      console.log("Bot was addressed or this is a reply to the bot");
+    if (isBotMentioned || isReplyToBot) {
+      console.log("Bot was mentioned or this is a reply to the bot");
       let userMessage = message.content;
 
-      // Remove the bot's mention from the start of the message if present
-      if (startsWithBotMention) {
-        userMessage = userMessage.slice(botMention.length).trim();
+      // Remove the bot's mention from the message content
+      if (isBotMentioned) {
+        userMessage = userMessage.replace(botMention, "").trim();
       }
 
       console.log(`Processed user message: "${userMessage}"`);
@@ -57,7 +56,7 @@ function setupEventHandlers(client) {
       const sessionizeData = await getSessionizeData();
 
       if (!cleanedCache) {
-        await message.channel.send(
+        await message.reply(
           "Sorry, I could not retrieve the SAINTCON information at this time."
         );
         return;
@@ -105,7 +104,7 @@ function setupEventHandlers(client) {
         logMessageData(logData);
 
         console.log(`Bot response: "${botResponse}"`);
-        await message.channel.send(
+        await message.reply(
           `${botResponse}\n\n_Tokens used: ${totalTokens} (Input: ${inputTokens}, Output: ${outputTokens})_\n_Estimated cost: $${totalCost.toFixed(
             6
           )}_`
@@ -117,7 +116,7 @@ function setupEventHandlers(client) {
         } else {
           console.error(error.message);
         }
-        await message.channel.send(
+        await message.reply(
           "Sorry, I encountered an error while processing your request. Please try again later."
         );
       }
