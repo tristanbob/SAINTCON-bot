@@ -41,6 +41,7 @@ async function fetchAndCacheURL(url, cacheDir = "cache") {
 async function fetchAndCacheSessionizeData() {
   try {
     const now = Date.now();
+    await fs.mkdir(path.dirname(SESSIONIZE_CACHE_FILE), { recursive: true });
     const cacheStat = await fs.stat(SESSIONIZE_CACHE_FILE);
     if (now - cacheStat.mtimeMs < CACHE_DURATION_MS) {
       console.log(`Using cached Sessionize data`);
