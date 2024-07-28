@@ -1,48 +1,43 @@
-**Page Title:** COM - ID-IOT Community - SAINTCON
-
-**Meta Information:**
-- **Canonical URL:** https://saintcon.org/com-id-iot-community/
-- **Description:** From the dumpster fire that is Cyberjanitorial crawls out: Spectre and Phaktor to present ID/IOT. Explore the challenges of Industrial Devices and IoT, emphasizing security threats and vulnerabilities in control systems and IoT devices.
-- **Open Graph Image:** http://www.saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png
-
-**Overview:**
-- The ID-IOT Community focuses on the intersection of industrial devices and the Internet of Things (IoT), discussing security implications and vulnerabilities.
-- It invites participants interested in control systems to engage in discussions and hands-on activities that enhance understanding of vulnerabilities and hacking techniques.
-
-**Key Points:**
-- The community welcomes anyone interested in control systems and their security implications, including:
-  - Control system hacking and protocol manipulation (Modbus, DNP3).
-  - IoT hacking and firmware assessment.
-- Participants encouraged to explore protocols, learn about vulnerabilities, and engage in hands-on activities using various tools and programming languages (e.g., Python with libraries like PyDNP3 and Pymodbus).
-- Emphasis on building community knowledge and skills in handling critical infrastructure assets.
-
-**Learning Outcomes:**
-- Understanding of ICS control protocols.
-- Ability to connect to and manage IoT systems.
-- Hands-on experience with IoT device vulnerabilities.
+**Event Information:**
+- **Event Title:** COM - ID-IOT Community
+- **URL:** [SAINTCON ID-IOT Community](https://saintcon.org/com-id-iot-community/)
+- **Description:** Presenting the integration of Industrial Devices and Internet of Things (IoT). The focus is on discussing cybersecurity challenges and vulnerabilities in control systems and related IoT devices.
+- **Focus Areas:**
+  - Understanding control systems and protocols, especially Modbus and DNP3.
+  - Vulnerability assessment in IoT devices, including firmware and debugging techniques.
 
 **Hours of Operation:**
 - **Monday:** Expo Closed
-- **Tuesday-Wednesday:** 10:30 AM – 5:00 PM
-- **Thursday:** 9:00 AM – 5:00 PM
-- **Friday:** 9:00 AM – 11:00 AM
+- **Tuesday - Wednesday:** 10:30 AM - 5:00 PM
+- **Thursday:** 9:00 AM - 5:00 PM
+- **Friday:** 9:00 AM - 11:00 AM
 
-**Community Offerings:**
-- MiniBadge details available for participants.
-- Promotional materials like desktop wallpapers related to the community.
+**Learning Outcomes:**
+- How to connect to ICS systems.
+- Understanding of control protocols and IoT challenges.
+- Skills for managing IoT devices better.
 
-**Affiliated Communities:**
-- AI Community
-- AppSec Community
-- BadgeLife Community
-- Hardware Hacking Community
-- Health Care Hacking Community
-- And several more.
+**Community Engagement:**
+- Open discussions on the implications of control systems security.
+- Activities involving hacking and protocol manipulation.
 
-**Related Events:**
-- Application Security Jeopardy
-- Job Fair
-- Family Night
-- LAN Party
+**Visual Materials:**
+- Logo and graphic materials for branding.
+- Desktop wallpaper available for download.
 
-This concise extract captures the essence and relevant information of the ID-IOT Community's page on SAINTCON's website.
+**MiniBadge Information:**
+- A MiniBadge will be available; details to collect it at the community booth are forthcoming.
+
+**Previous Events:**
+- Lists of past events are documented, with links to previous SAINTCON events from 2015 to 2023.
+
+**Relevant Links:**
+- [Registration for SAINTCON](https://saintcon.org/register/)
+- [Join us on Discord](https://discord.gg/saintcon)
+- [MiniBadge Specs and Standards](https://github.com/lukejenkins/minibadge)
+
+**Social Media & Additional Resources:**
+- Promoting participation through Discord and other platforms while ensuring easy access to community support and resources.
+
+**Footer Information:**
+- Copyright © 2024, UtahSAINT Organization - A non-profit organization, 501(c)(6).

@@ -1,36 +1,35 @@
-**Title**: COM - V.E.N.D. - SAINTCON
+**Title:** COM - V.E.N.D. - SAINTCON
 
-**Event Overview**:
-- **Event Name**: V.E.N.D. Machine at SAINTCON
-- **Sponsored By**: bashNinja
-- **Date**: October 2024
-- **Location**: At SAINTCON, featuring communities and contests.
+**Event Overview:**
+- **Concept:** Introducing the V.E.N.D. (Virtual Environment Network Dispenser) Machine at SAINTCON.
+- **Date:** October 2024
+- **Brought to you by:** bashNinja
 
-**V.E.N.D. Machine Description**:
-- **Purpose**: Provides customizable virtual environments for hacking and learning.
-- **Functionality**: Allows attendees to deploy various virtual machines (VMs) including Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
-- **Access**: Users receive a receipt with login credentials after deploying a VM.
-- **Customization**: VMs can be tailored with necessary tools for learning and exploration.
+**V.E.N.D. Machine Features:**
+- Provides customizable virtual environments on-demand.
+- Attendees can choose from multiple operating systems including Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
+- Located in the contest and community space, available throughout the conference.
+- The machine prints a receipt with login credentials for accessing a remote virtual machine (VM).
 
-**Operating Hours**:
-- **Monday**: Closed
-- **Tuesday**: 12:00 PM - 5:00 PM
-- **Wednesday - Thursday**: 9:00 AM - 5:00 PM
-- **Friday**: 9:00 AM - 11:00 AM
+**Functionality:**
+- **Customization:** Users can install tools and applications on their VMs.
+- **Sharing VMs:** Collaboration allowed using TailScale.
+- **Data Storage:** VMs are decommissioned post-conference; users should back up important data.
+- **Restrictions:** Illegal activities are prohibited. Must adhere to the SAINTCON Code of Conduct.
+- **Support:** A dedicated team is available for technical difficulties.
 
-**FAQs**:
-- **Cost**: Free for attendees.
-- **Sharing VMs**: Yes, with a provided setup script for TailScale.
-- **Saving Work**: VMs decommissioned post-conference; backup is advised.
-- **Install Restrictions**: Safety and integrity of the network prioritized; illegal activities or harmful software prohibited.
-- **Support**: Available for technical issues at the V.E.N.D. Machine.
+**Operating Hours:**
+- **Monday:** Closed
+- **Tuesday:** Noon - 5:00 PM
+- **Wednesday to Thursday:** 9:00 AM - 5:00 PM
+- **Friday:** 9:00 AM - 11:00 AM
 
-**Contact Links**:
-- Main Event: [SAINTCON](https://saintcon.org)
-- Registration and Events: [Registration](https://saintcon.org/register/)
+**Additional Information:**
+- **Cost:** Free to use
+- **Self-Hosting:** Guides available for setting up personal VMs/containers.
 
-**Social Media**:
-- **Discord**: Join on Discord for community interaction.
+**Expected Outcomes:**
+- Hands-on learning and opportunities to practice skills in real-time.
+- Increased accessibility to diverse computing environments for all attendees.
 
-**Image**: 
-- V.E.N.D. logo and backdrop related to the event.
+For more details, visit the event's webpage: [SAINTCON](https://saintcon.org/com-v-e-n-d/)

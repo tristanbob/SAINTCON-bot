@@ -1,38 +1,34 @@
-**Event Title:** AppSec Challenge
+**Title:** CON - AppSec Challenge - SAINTCON
 
-**Date and Time:**
-- Contest Start: Tuesday at 12 PM
-- Contest End: Friday at 9 AM
-- Booth Hours:
+**Description:** This challenge invites participants to find and fix vulnerabilities in source code. Competitors will clone a repository, identify vulnerabilities, address issues, and submit their code to earn scores based on the difficulty of the vulnerabilities they fix.
+
+**Key Information:**
+- **Organizers:** @Sketrik & @l4wke
+- **Challenge Focus:** Competing to fix web application vulnerabilities using varying programming languages in a microservices architecture.
+- **Requirements:** Basic programming knowledge recommended; help available through the AppSec community.
+- **Contest Duration:** 
+  - Starts: Tuesday at 12 PM
+  - Ends: Friday at 9 AM
+- **Booth Hours:**
   - Tuesday: 10:30 AM – 5:00 PM
   - Wednesday: 10:30 AM – 5:00 PM
   - Thursday: 9:00 AM – 5:00 PM
   - Friday: 9:00 AM – 10:00 AM
+- **Rules:**
+  - Hacking the challenge site is forbidden.
+  - Submissions should be limited to specific files; max file size is 4MB.
+  - Only one submission allowed every 5 minutes.
+  - Prizes awarded for top scores.
 
-**Overview:**
-Participants will compete to find and fix vulnerabilities in source code. Participants need to clone the repository, identify vulnerabilities, fix them, and submit code to earn points. Tools like DAST and SAST are encouraged for use.
+**Website for Details:** [AppSec Community](https://appsec.saintcon.community/)
 
-**Requirements:**
-- A basic understanding of programming is necessary.
-- Participants must stick to modifications allowed in the provided package.
-- File upload limit: 4MB.
-- Submissions can be made once per user every 5 minutes.
+**Media:**
+- Main Image: AppSec Challenge Splash 2024
+- Desktop wallpaper available for download.
 
-**Prizes:**
-- Awarded to the highest scorers at the awards ceremony.
+**SEO Information:**
+- **Canonical:** https://saintcon.org/con-appsec-challenge/
+- **Open Graph URL:** https://saintcon.org/con-appsec-challenge/
+- **Twitter Card:** Summary with an image.
 
-**Rules:**
-- Hacking the challenge site is forbidden.
-- Only designated files may be altered for submissions.
-- Tiebreakers will be resolved by the earliest submission time.
-  
-**Contact & Support:**
-For assistance, participants can engage with the AppSec community on Discord by using #appsec challenge, or contact @sketrik directly.
-
-**Additional Activities:**
-Participants are encouraged to visit the AppSec community for guidance on tools and to learn more about finding and fixing vulnerabilities.
-
-**Website for More Info:** [AppSec Community](https://appsec.saintcon.community/) 
-
-**Description:**
-The challenge aims to enhance participants' skills in finding and addressing security vulnerabilities in software applications, with a hands-on approach by working with different microservices in various programming languages.
+This challenge is presented by SAINTCON, which is committed to fostering a vibrant community of cybersecurity enthusiasts.

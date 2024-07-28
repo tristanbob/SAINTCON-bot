@@ -1,54 +1,46 @@
-**Title:** COM – TheKeep Community
+**Title:** COM - TheKeep Community - SAINTCON
 
-**Overview:**
-- **Organization:** 801Labs
-- **Description:** The Keep is an educational community focusing on enhancing hacking skills in a realistic environment suitable for both beginners and expert hackers.
+**Overview:**  
+- Brought to you by 801Labs, The Keep is an educational environment focused on hacking skills. Participants can learn fundamental techniques and test their skills in realistic scenarios.
 
 **Key Features:**
-- **Community Areas:**
-  - **Exploit Armory:** A space to learn tools and techniques for hacking (e.g., red team engagements).
-  - **Dungeon:** A challenge space where participants can apply skills by hacking into vulnerable systems for points.
-
-**Learning Opportunities:**
-- Topics include network and host enumeration, using exploits, privilege escalation, post-compromise guidance, and pivoting between hosts.
+1. **Exploit Armory:**   
+   - A preparatory space to learn tools and techniques for hacking.
+   
+2. **The Dungeon:**  
+   - A challenge arena where participants can exploit vulnerable boxes for points. Involves real-world attack simulations and requires creativity and persistence.
 
 **Hours of Operation:**
-- **Monday:** Closed
-- **Tuesday to Wednesday:** 10:30 AM – 5:00 PM
-- **Thursday:** 9:00 AM – 5:00 PM
-- **Friday:** 9:00 AM – 11:00 AM
+- **Monday:** Closed  
+- **Tuesday:** 10:30 AM - 5:00 PM  
+- **Wednesday:** 10:30 AM - 5:00 PM  
+- **Thursday:** 9:00 AM - 5:00 PM  
+- **Friday:** 9:00 AM - 11:00 AM  
 
-**MiniBadge:** 
-- A collectible badge available for community members, details provided at the booth.
+**Learning Objectives:**
+- Network and host enumeration using tools like NMAP.
+- Utilizing existing exploits to compromise hosts.
+- Techniques for privilege escalation on Windows and Linux.
+- Pivoting techniques for accessing internal hosts.
 
-**Resources:**
-- Desktop wallpapers and additional materials are available for download.
+**Community and Events:**
+- Offers various communities including AI, AppSec, BadgeLife, and more.
+- Hosts contests such as Hackers Challenge and AppSec Challenge.
+- Features events like Application Security Jeopardy and Job Fair.
 
-**Community Links:**
-- **Main Website:** https://saintcon.org/com-thekeep-community/
-- **Social Media & Support:**
-  - Join on Discord
-  - Resources for building and specifications of MiniBadges
+**MiniBadge:**  
+- Collectibles available at events for participating in The Keep community.
 
-**Important Links:**
-- [Keynotes](https://saintcon.org/keynotes/)
-- [Presentations](https://saintcon.org/presentations/)
-- [Registration Info](https://saintcon.org/register/)
-- [Contests](https://saintcon.org/main-contests/)
-- [Communities](https://saintcon.org/main-communities/)
-- [Events](https://saintcon.org/main-events/)
+**Promotional Visuals:**  
+- The Keep offers desktop wallpapers available for download.
 
-**Images:**
-- Main logo and event backgrounds showcased on the site.
+**Contact and Support:**  
+- Registration and attendee support links available.
+  
+**Website Link:** [SAINTCON](https://saintcon.org/com-thekeep-community/)  
 
-**Contact Information:** 
-- Available on the main website, with options for various types of support (e.g., attendee, registration, sponsor).
+**Images:** 
+- [Desktop Wallpaper Example](http://www.saintcon.org/wp-content/uploads/2023/07/Keep-2023_5K_Wallpaper.png)  
+- [Keep Logo](https://saintcon.org/wp-content/uploads/2023/07/Keep-2023_Full_Logo.svg)
 
---- 
-**SEO and Meta Information:**
-- **Open Graph Title:** COM - TheKeep Community
-- **Open Graph Description:** Begin your quest! Hone your hacking skills in a fun educational environment.
-- **Open Graph Image:** [Image URL](http://www.saintcon.org/wp-content/uploads/2023/07/Keep-2023_5K_Wallpaper.png)
-- **Twitter Card Type:** summary_large_image
-
-This concise overview includes essential information about the community's focus, operational details, and various resources available to members and potential participants.
+This information gives a comprehensive look at The Keep Community under the SAINTCON event, including its purpose, operations, and learning opportunities available to attendees.

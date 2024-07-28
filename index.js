@@ -6,9 +6,11 @@ const {
   processFAQ,
   shouldRunCrawler,
   storeLastRunTime,
+  fetchAndCacheSessionizeData,
 } = require("./crawler");
 
 const urls = [
+  "https://saintcon.org/",
   "https://saintcon.org/keynotes/",
   "https://saintcon.org/presentations/",
   "https://saintcon.org/register/",
@@ -72,21 +74,24 @@ client.login(botToken).catch((error) => {
   }
 });
 
-async function runDailyCrawler() {
+async function runDailyTasks() {
   const shouldRun = await shouldRunCrawler();
   if (shouldRun) {
     try {
       await crawlAndCacheURLs(urls);
       await processFAQ(faqUrl);
+      await fetchAndCacheSessionizeData();
       await storeLastRunTime();
-      console.log("Crawler has successfully updated the cache.");
+      console.log("Daily tasks have successfully completed.");
     } catch (error) {
-      console.error("Error running the crawler:", error);
+      console.error("Error running the daily tasks:", error);
     }
   } else {
-    console.log("Crawler has already run in the last 24 hours. Skipping...");
+    console.log(
+      "Daily tasks have already run in the last 24 hours. Skipping..."
+    );
   }
 }
 
-// Run the crawler initially on startup
-runDailyCrawler();
+// Run the daily tasks initially on startup
+runDailyTasks();

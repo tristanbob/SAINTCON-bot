@@ -7,6 +7,12 @@ const { logExtractionMetadata } = require("./logger");
 const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 1 day
 
 const LAST_RUN_FILE = path.join(__dirname, "last_run_time.json");
+const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/fjfjo2d9/view/All";
+const SESSIONIZE_CACHE_FILE = path.join(
+  __dirname,
+  "cache",
+  "sessionize_cache.json"
+);
 
 async function fetchAndCacheURL(url, cacheDir = "cache") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
@@ -29,6 +35,46 @@ async function fetchAndCacheURL(url, cacheDir = "cache") {
   } catch (error) {
     console.error(`Error fetching URL ${url}:`, error);
     return null;
+  }
+}
+
+async function fetchAndCacheSessionizeData() {
+  try {
+    const now = Date.now();
+    const cacheStat = await fs.stat(SESSIONIZE_CACHE_FILE);
+    if (now - cacheStat.mtimeMs < CACHE_DURATION_MS) {
+      console.log(`Using cached Sessionize data`);
+      return JSON.parse(await fs.readFile(SESSIONIZE_CACHE_FILE, "utf-8"));
+    }
+  } catch (err) {
+    console.log(`Cache miss for Sessionize data`);
+  }
+
+  try {
+    const response = await axios.get(SESSIONIZE_API_URL);
+    const data = response.data;
+    await fs.mkdir(path.dirname(SESSIONIZE_CACHE_FILE), { recursive: true });
+    await fs.writeFile(SESSIONIZE_CACHE_FILE, JSON.stringify(data), "utf-8");
+    return data;
+  } catch (error) {
+    console.error(`Error fetching Sessionize data:`, error);
+    return null;
+  }
+}
+
+async function getSessionizeData() {
+  try {
+    const data = await fs.readFile(SESSIONIZE_CACHE_FILE, "utf-8");
+    return JSON.parse(data);
+  } catch (error) {
+    console.error(`Error reading Sessionize cache:`, error);
+    return {
+      sessions: [],
+      speakers: [],
+      questions: [],
+      categories: [],
+      rooms: [],
+    };
   }
 }
 
@@ -134,7 +180,7 @@ async function processFAQ(url) {
       const cleanedContent = await extractFAQInfo(rawText);
       await cacheCleanedContent(url, cleanedContent);
 
-      const inputTokens = rawText.length / 4; // Rough estimate: 1 token ≼ 4 chars
+      const inputTokens = rawText.length / 4; // Rough estimate: 1 token ≈ 4 chars
       const outputTokens = cleanedContent.length / 4; // Rough estimate
       const totalTokens = inputTokens + outputTokens;
 
@@ -157,8 +203,12 @@ async function processFAQ(url) {
 }
 
 module.exports = {
+  fetchAndCacheURL,
   crawlAndCacheURLs,
   processFAQ,
   shouldRunCrawler,
   storeLastRunTime,
+  fetchAndCacheSessionizeData,
+  getSessionizeData,
+  getAllCleanedCache,
 };

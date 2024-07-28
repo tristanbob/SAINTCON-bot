@@ -1,5 +1,5 @@
 const { Events } = require("discord.js");
-const { getAllCleanedCache } = require("./contentCache");
+const { getAllCleanedCache, getSessionizeData } = require("./crawler");
 const { generateResponse } = require("./openai");
 const { logMessageData } = require("./logger");
 
@@ -54,6 +54,7 @@ function setupEventHandlers(client) {
       console.log(`Processed user message: "${userMessage}"`);
 
       const cleanedCache = await getAllCleanedCache();
+      const sessionizeData = await getSessionizeData();
 
       if (!cleanedCache) {
         await message.channel.send(
@@ -69,6 +70,10 @@ function setupEventHandlers(client) {
           content: `You are a helpful chatbot that provides information about the SAINTCON conference and activities related to the SAINTCON conference. Do not answer questions about any topic not related to the conference experience. Be sure to always consider the SAINTCON information when responding. If the question is about places to eat, provide a recommendation for some local restaurants near the convention center and then make a funny comment about how much Nate Henne loves Los Hermanos. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`,
         },
         { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
+        {
+          role: "system",
+          content: `Sessionize Data:\n${JSON.stringify(sessionizeData)}`,
+        },
         ...replyChainMessages,
         { role: "user", content: userMessage },
       ];
