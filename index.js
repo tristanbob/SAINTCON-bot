@@ -94,4 +94,7 @@ async function runDailyTasks() {
 }
 
 // Run the daily tasks initially on startup
-runDailyTasks();
+(async () => {
+  await fetchAndCacheSessionizeData(); // Ensure initial cache for Sessionize data
+  runDailyTasks();
+})();

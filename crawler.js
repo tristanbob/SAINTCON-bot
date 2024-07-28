@@ -40,21 +40,9 @@ async function fetchAndCacheURL(url, cacheDir = "cache") {
 
 async function fetchAndCacheSessionizeData() {
   try {
-    const now = Date.now();
     await fs.mkdir(path.dirname(SESSIONIZE_CACHE_FILE), { recursive: true });
-    const cacheStat = await fs.stat(SESSIONIZE_CACHE_FILE);
-    if (now - cacheStat.mtimeMs < CACHE_DURATION_MS) {
-      console.log(`Using cached Sessionize data`);
-      return JSON.parse(await fs.readFile(SESSIONIZE_CACHE_FILE, "utf-8"));
-    }
-  } catch (err) {
-    console.log(`Cache miss for Sessionize data`);
-  }
-
-  try {
     const response = await axios.get(SESSIONIZE_API_URL);
     const data = response.data;
-    await fs.mkdir(path.dirname(SESSIONIZE_CACHE_FILE), { recursive: true });
     await fs.writeFile(SESSIONIZE_CACHE_FILE, JSON.stringify(data), "utf-8");
     return data;
   } catch (error) {
