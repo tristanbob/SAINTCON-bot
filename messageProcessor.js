@@ -1,6 +1,6 @@
 const { Events } = require("discord.js");
-const { getAllCleanedCache, getSessionizeData } = require("./crawler");
-const { generateResponse } = require("./openai");
+const { getAllCleanedCache, getSessionizeData } = require("./cacheManager");
+const { generateResponse } = require("./openaiUtils");
 const { logMessageData } = require("./logger");
 
 async function getReplyChainMessages(message) {
@@ -19,6 +19,25 @@ async function getReplyChainMessages(message) {
   }
 
   return messages;
+}
+
+function splitMessage(content, maxLength = 2000) {
+  const parts = [];
+  let currentPart = "";
+
+  for (const line of content.split("\n")) {
+    if (currentPart.length + line.length + 1 > maxLength) {
+      parts.push(currentPart);
+      currentPart = "";
+    }
+    currentPart += line + "\n";
+  }
+
+  if (currentPart) {
+    parts.push(currentPart);
+  }
+
+  return parts;
 }
 
 function setupEventHandlers(client) {
@@ -104,11 +123,16 @@ function setupEventHandlers(client) {
         logMessageData(logData);
 
         console.log(`Bot response: "${botResponse}"`);
-        await message.reply(
+
+        const parts = splitMessage(
           `${botResponse}\n\n_Tokens used: ${totalTokens} (Input: ${inputTokens}, Output: ${outputTokens})_\n_Estimated cost: $${totalCost.toFixed(
             6
           )}_`
         );
+
+        for (const part of parts) {
+          await message.reply(part);
+        }
       } catch (error) {
         console.error("Error interacting with OpenAI:", error);
         if (error.response) {

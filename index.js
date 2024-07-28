@@ -1,13 +1,7 @@
 require("dotenv").config();
 const { client } = require("./bot");
 const { setupEventHandlers } = require("./messageProcessor");
-const {
-  crawlAndCacheURLs,
-  processFAQ,
-  shouldRunCrawler,
-  storeLastRunTime,
-  fetchAndCacheSessionizeData,
-} = require("./crawler");
+const { runDailyTasks } = require("./crawler");
 
 const urls = [
   "https://saintcon.org/",
@@ -74,27 +68,5 @@ client.login(botToken).catch((error) => {
   }
 });
 
-async function runDailyTasks() {
-  const shouldRun = await shouldRunCrawler();
-  if (shouldRun) {
-    try {
-      await crawlAndCacheURLs(urls);
-      await processFAQ(faqUrl);
-      await fetchAndCacheSessionizeData();
-      await storeLastRunTime();
-      console.log("Daily tasks have successfully completed.");
-    } catch (error) {
-      console.error("Error running the daily tasks:", error);
-    }
-  } else {
-    console.log(
-      "Daily tasks have already run in the last 24 hours. Skipping..."
-    );
-  }
-}
-
 // Run the daily tasks initially on startup
-(async () => {
-  await fetchAndCacheSessionizeData(); // Ensure initial cache for Sessionize data
-  runDailyTasks();
-})();
+runDailyTasks(urls, faqUrl);
