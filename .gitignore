@@ -129,5 +129,13 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-cache/
-cleaned_cache/
+# Cache directories
+/cache/
+/cleaned_cache/
+
+/# Ignore specific cache files if necessary
+cache/*.json
+cleaned_cache/*.json
+
+# Ignore last run time file
+last_run_time.json
