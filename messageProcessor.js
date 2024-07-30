@@ -74,9 +74,8 @@ function setupEventHandlers(client) {
 
       try {
         console.log("Sending request to OpenAI API");
-        client.user.setActivity("typing...", { type: "CUSTOM" });
+        await message.channel.sendTyping(); // Show typing indicator
         const response = await generateResponse(messages);
-        client.user.setActivity(null);
 
         const botResponse = response.choices[0].message.content.trim();
 
