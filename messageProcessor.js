@@ -5,6 +5,7 @@ const {
 } = require("./cacheManager");
 const { generateResponse, getAIPrompt } = require("./openaiUtils");
 const { logMessageData } = require("./logger");
+const config = require("./config");
 
 async function getReplyChainMessages(message) {
   const messages = [];
@@ -73,7 +74,7 @@ function setupEventHandlers(client) {
       }
 
       const sessionizeData = await fetchAndCacheSessionizeData(
-        "https://sessionize.com/api/v2/fjfjo2d9/view/All"
+        config.sessionizeApiUrl
       );
 
       const replyChainMessages = await getReplyChainMessages(message);
