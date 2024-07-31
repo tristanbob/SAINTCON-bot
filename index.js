@@ -6,11 +6,11 @@ const config = require("./config");
 
 setupEventHandlers(client);
 
-const botToken = process.env.DISCORD_BOT_TOKEN;
+const botToken = process.env.MY_BOT_TOKEN;
 
 if (!botToken) {
   console.error(
-    "Discord bot token not found. Please set DISCORD_BOT_TOKEN in the environment."
+    "Discord bot token not found. Please set MY_BOT_TOKEN in the environment."
   );
   process.exit(1);
 }
