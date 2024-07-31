@@ -2,6 +2,7 @@ require("dotenv").config();
 const { client } = require("./bot");
 const { setupEventHandlers } = require("./messageProcessor");
 const { runDailyTasks } = require("./crawler");
+const { allowedChannels } = require("./config");
 
 const urls = [
   "https://saintcon.org/",
@@ -44,10 +45,6 @@ const urls = [
   "https://saintcon.org/evt-lanparty/",
   "https://saintcon.org/coc/",
   "https://www.saintcon.org/tac/",
-  "https://saintcon.org/main-contests/",
-  "https://saintcon.org/main-communities/",
-  "https://saintcon.org/main-events/",
-  "https://saintcon.org/evt-jeopardy/",
 ];
 
 const faqUrl = "https://saintcon.org/faq/";
@@ -72,5 +69,24 @@ client.login(botToken).catch((error) => {
   }
 });
 
-// Run the daily tasks initially on startup
-runDailyTasks(urls, faqUrl);
+// Fetch channel IDs based on friendly names
+client.on("ready", async () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+
+  const allowedChannelIDs = [];
+
+  allowedChannels.forEach((channelName) => {
+    const channel = client.channels.cache.find((ch) => ch.name === channelName);
+    if (channel) {
+      allowedChannelIDs.push(channel.id);
+    } else {
+      console.warn(`Channel with name "${channelName}" not found`);
+    }
+  });
+
+  // Store the allowed channel IDs for use in the message processor
+  client.allowedChannelIDs = allowedChannelIDs;
+
+  // Run the daily tasks initially on startup
+  runDailyTasks(urls, faqUrl);
+});

@@ -28,6 +28,14 @@ function setupEventHandlers(client) {
   client.on(Events.MessageCreate, async (message) => {
     if (message.author.bot) return;
 
+    // Check if the message is in an allowed channel
+    if (!client.allowedChannelIDs.includes(message.channel.id)) {
+      console.log(
+        `Message received in disallowed channel: "${message.content}" from ${message.author.tag} in channel ${message.channel.name}`
+      );
+      return;
+    }
+
     console.log(
       `Received message: "${message.content}" from ${message.author.tag}`
     );
