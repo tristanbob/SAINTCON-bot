@@ -1,46 +1,51 @@
-**Title:** COM - TheKeep Community - SAINTCON
+**Page Title:**
+COM - TheKeep Community
 
-**Overview:**  
-- Brought to you by 801Labs, The Keep is an educational environment focused on hacking skills. Participants can learn fundamental techniques and test their skills in realistic scenarios.
+**Organization:**
+Brought to you by 801Labs
 
-**Key Features:**
-1. **Exploit Armory:**   
-   - A preparatory space to learn tools and techniques for hacking.
-   
-2. **The Dungeon:**  
-   - A challenge arena where participants can exploit vulnerable boxes for points. Involves real-world attack simulations and requires creativity and persistence.
+**Description:**
+The Keep is a fun and educational environment where you can both learn the fundamentals of hacking and test your abilities in a realistic environment. Whether you are a beginner or an expert hacker, there are opportunities for you to learn new things.
+
+**Community Structure:**
+1. **Exploit Armory**: 
+   - Equip yourself with the tools and knowledge needed before venturing into The Dungeon. 
+   - Learn about tools and techniques used in real red team engagements.
+
+2. **The Dungeon**: 
+   - Engage in challenges that simulate real-world attacks using skills and creativity.
+   - Challenges get harder but more rewarding as you progress, involving scenarios that require pivoting techniques and exploiting vulnerabilities.
+
+**What to Bring:**
+- A laptop is recommended for the best experience while visiting The Keep.
 
 **Hours of Operation:**
-- **Monday:** Closed  
-- **Tuesday:** 10:30 AM - 5:00 PM  
-- **Wednesday:** 10:30 AM - 5:00 PM  
-- **Thursday:** 9:00 AM - 5:00 PM  
-- **Friday:** 9:00 AM - 11:00 AM  
+- **Monday**: Closed
+- **Tuesday**: 10:30 AM - 5:00 PM
+- **Wednesday**: 10:30 AM - 5:00 PM
+- **Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 11:00 AM
 
-**Learning Objectives:**
-- Network and host enumeration using tools like NMAP.
-- Utilizing existing exploits to compromise hosts.
-- Techniques for privilege escalation on Windows and Linux.
-- Pivoting techniques for accessing internal hosts.
+**Skills to Learn:**
+- Network & Host Enumeration (using NMAP)
+- Using existing exploits to compromise a host
+- Privilege escalation techniques on Windows & Linux
+- Looting guidance after compromising a host
+- Pivoting from one host to internal hosts
 
-**Community and Events:**
-- Offers various communities including AI, AppSec, BadgeLife, and more.
-- Hosts contests such as Hackers Challenge and AppSec Challenge.
-- Features events like Application Security Jeopardy and Job Fair.
+**MiniBadge Details:**
+- A MiniBadge will be available at the community's booth.
 
-**MiniBadge:**  
-- Collectibles available at events for participating in The Keep community.
+**Desktop Wallpaper:**
+- Desktop wallpaper available for download at the website.
 
-**Promotional Visuals:**  
-- The Keep offers desktop wallpapers available for download.
+**Main Links:**
+- For more information, visit the [SAINTCON website](https://saintcon.org).
+- Access the [Code of Conduct](https://saintcon.org/coc).
+- View [Frequently Asked Questions](https://saintcon.org/faq).
+- Visit [Registration Terms and Conditions](https://www.saintcon.org/tac/).
+- Join the community on [Discord](https://discord.gg/saintcon).
+- Check the [MiniBadge Specs and Standards](https://github.com/lukejenkins/minibadge).
+- Watch the tutorial on [How to Build a MiniBadge](https://www.youtube.com/watch?v=kkLfmo14oiQ).
 
-**Contact and Support:**  
-- Registration and attendee support links available.
-  
-**Website Link:** [SAINTCON](https://saintcon.org/com-thekeep-community/)  
-
-**Images:** 
-- [Desktop Wallpaper Example](http://www.saintcon.org/wp-content/uploads/2023/07/Keep-2023_5K_Wallpaper.png)  
-- [Keep Logo](https://saintcon.org/wp-content/uploads/2023/07/Keep-2023_Full_Logo.svg)
-
-This information gives a comprehensive look at The Keep Community under the SAINTCON event, including its purpose, operations, and learning opportunities available to attendees.
+This overview captures essential information regarding the Keep Community program without extraneous content.

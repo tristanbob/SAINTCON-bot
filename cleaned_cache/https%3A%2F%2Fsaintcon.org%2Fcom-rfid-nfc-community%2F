@@ -1,44 +1,52 @@
-**Title:** COM - RFID/NFC Community
+### Relevant Information Extracted:
 
-**URL:** [https://saintcon.org/com-rfid-nfc-community/](https://saintcon.org/com-rfid-nfc-community/)
+**Title**: COM – RFID/NFC Community – SAINTCON
 
-**Description:** 
-The RFID/NFC Community focuses on educating individuals about RFID/NFC technology. The initiative aims to help attendees understand short-range wireless communication, explore tools for reading/storing/replaying/sniffing/and scanning RFID, and discuss security aspects of RFID systems. 
+**Description**:  
+RFID/NFC can be a difficult technology to understand. Come learn how!  
+We can help you discover how short-range wireless communication through RFID works and how you can take advantage of it or secure it. We can help you explore various tools and techniques to read/store/replay/sniff/scan/bruteforce RFID systems.
 
-**Organizers:** Iceman and Gobo42
+**Image**:  
+![RFID 2023 Wallpaper](http://www.saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)
 
-**Learning Opportunities:**
-- Hands-on activities through Capture The Flag (CTF) challenges.
-- Use of tools such as Proxmark3, Chameleon Ultra, and Flipper Zero.
-- Understanding security vulnerabilities in RFID/NFC technology.
-- Introduction to the practical use of RFID in consumer devices.
+**Brought to You By**:  
+Iceman and Gobo42
 
-**Things to Bring:**
-- Laptop
-- RFID cards for investigation
-- RFID-capable devices (e.g., Proxmark3, Chameleon Ultra, Flipper Zero).
+**Learning Opportunities**:  
+- Direct learning through hands-on CTF challenges from beginner to advanced levels.
+- Understanding the operational aspects of Long Range HF readers.
+- Exploring the impact of RFID technology in consumer devices such as car keys.
+- Identification of security shortcomings within RFID systems.
 
-**Hours of Operation:**
-- **Monday:** Closed
-- **Tuesday:** 10:30 AM - 5:00 PM
-- **Wednesday:** 10:30 AM - 5:00 PM
-- **Thursday:** 9:00 AM - 5:00 PM
-- **Friday:** 9:00 AM - 11:00 AM
+**Tools Covered**:
+- Proxmark3
+- Chameleon Ultra
+- Flipper Zero
 
-**Learning Outcomes:**
-- Understanding RFID/NFC technology.
+**What to Bring**:
+- Laptop (optional)
+- RFID cards for investigation (optional)
+- RFID reading devices (optional)
+- Loaner gear available on a first-come, first-served basis.
+
+**Hours of Operation**:
+- **Monday**: Closed
+- **Tuesday**: 10:30 AM - 5:00 PM
+- **Wednesday**: 10:30 AM - 5:00 PM
+- **Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 11:00 AM
+
+**What You Will Learn**:
+- Functionality of RFID/NFC technology.
 - Reading basic NFC tags.
-- Utilizing Flipper Zero for attacks.
-- Evaluating vulnerabilities in RFID/NFC systems.
+- Usage of the Flipper Zero for RFID/NFC attacks.
+- Understanding vulnerabilities in RFID/NFC systems.
+- Evaluating your own NFC/RFID systems for vulnerabilities.
 
-**Additional Information:**
-A MiniBadge will be available at the community booth. 
+**MiniBadge Details**:  
+Visit the community booth for more details on how to obtain the MiniBadge.
 
-**Downloadable Resource:**
-- Desktop wallpaper for the community is available [here](https://saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png).
+**Community Features**:  
+- Desktop wallpaper available for download.  
 
-**Open Graph and Twitter Card Tags:**
-- **Image:** ![RFID Community Image](http://www.saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)
-- **Twitter Card Type:** Summary large image
-
-This page provides an overview and details about the RFID/NFC Community at SAINTCON, intended for individuals looking to learn and engage with this technology.
+**Download Wallpaper**: [Download Wallpaper](https://saintcon.org/wp-content/uploads/2023/06/RFID-2023_5K_Wallpaper.png)

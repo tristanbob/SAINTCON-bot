@@ -1,43 +1,42 @@
-**Event Information:**
-- **Event Title:** COM - ID-IOT Community
-- **URL:** [SAINTCON ID-IOT Community](https://saintcon.org/com-id-iot-community/)
-- **Description:** Presenting the integration of Industrial Devices and Internet of Things (IoT). The focus is on discussing cybersecurity challenges and vulnerabilities in control systems and related IoT devices.
-- **Focus Areas:**
-  - Understanding control systems and protocols, especially Modbus and DNP3.
-  - Vulnerability assessment in IoT devices, including firmware and debugging techniques.
+**Title:** COM - ID-IOT Community
+
+**Overview:** 
+The ID-IOT Community brings together individuals interested in exploring Industrial Devices and IoT challenges. Hosted by Spectre and Phaktor, the community welcomes discussions on the complexities of control systems and their cybersecurity implications.
+
+**Key Message:**
+From last year's revelations about the vulnerabilities of operational technology (OT) and industrial control systems (ICS), the community aims to deepen understanding of these issues and provide a platform for learning.
+
+**Community Objectives:**
+- Explore control systems and their security issues, including vulnerabilities in PLCs and the challenges posed by proprietary protocols.
+- Facilitate discussions about protocol manipulation (e.g., Modbus and DNP3) and IoT device security.
+- Encourage the use of tools such as PyDNP3, Snap7, pylogix, and pymodbus for hands-on learning.
+- Provide opportunities for hacking IoT devices and understanding their vulnerabilities through firmware analysis and interaction with debugging capabilities.
+
+**Activities:**
+- Workshops and discussions about control systems, IoT vulnerabilities, and ethical hacking practices.
+- Engaging with Python tools to manipulate protocols and secure infrastructure.
 
 **Hours of Operation:**
-- **Monday:** Expo Closed
-- **Tuesday - Wednesday:** 10:30 AM - 5:00 PM
-- **Thursday:** 9:00 AM - 5:00 PM
-- **Friday:** 9:00 AM - 11:00 AM
+- Monday: Closed 
+- Tuesday: 10:30 AM – 5:00 PM
+- Wednesday: 10:30 AM – 5:00 PM
+- Thursday: 9:00 AM – 5:00 PM
+- Friday: 9:00 AM – 11:00 AM
 
 **Learning Outcomes:**
-- How to connect to ICS systems.
-- Understanding of control protocols and IoT challenges.
-- Skills for managing IoT devices better.
+Participants will learn:
+- Connecting to and understanding ICS systems.
+- Insights on control protocols and management of IoT challenges.
 
-**Community Engagement:**
-- Open discussions on the implications of control systems security.
-- Activities involving hacking and protocol manipulation.
+**MiniBadge:**
+The community will offer a MiniBadge for attendees, with details to be shared at the community booth.
 
-**Visual Materials:**
-- Logo and graphic materials for branding.
-- Desktop wallpaper available for download.
+**Wallpaper Availability:**
+Desktop wallpapers related to the community are available for download.
 
-**MiniBadge Information:**
-- A MiniBadge will be available; details to collect it at the community booth are forthcoming.
+**Resource Links:**
+- [Community Registration](https://saintcon.org/register/)
+- [Learning and Development Resources](https://github.com/lukejenkins/minibadge)
 
-**Previous Events:**
-- Lists of past events are documented, with links to previous SAINTCON events from 2015 to 2023.
-
-**Relevant Links:**
-- [Registration for SAINTCON](https://saintcon.org/register/)
-- [Join us on Discord](https://discord.gg/saintcon)
-- [MiniBadge Specs and Standards](https://github.com/lukejenkins/minibadge)
-
-**Social Media & Additional Resources:**
-- Promoting participation through Discord and other platforms while ensuring easy access to community support and resources.
-
-**Footer Information:**
-- Copyright © 2024, UtahSAINT Organization - A non-profit organization, 501(c)(6).
+**Contact Information:**
+Participants are encouraged to join discussions and explore unique training opportunities to enhance their skills in control systems and IoT security.
