@@ -1,34 +1,42 @@
-**Title:** CON - AppSec Challenge - SAINTCON
+### Event Details
 
-**Description:** This challenge invites participants to find and fix vulnerabilities in source code. Competitors will clone a repository, identify vulnerabilities, address issues, and submit their code to earn scores based on the difficulty of the vulnerabilities they fix.
+**Event Title:** AppSec Challenge  
+**Hosted by:** @Sketrik & @l4wke  
+**Event Description:**  
+Compete against other attendees to identify and fix vulnerabilities in a web application. Participants will clone a repository, find vulnerabilities, fix them, and submit their code for scoring. Participants are encouraged to learn from the AppSec community how to use tools for vulnerability detection.
 
-**Key Information:**
-- **Organizers:** @Sketrik & @l4wke
-- **Challenge Focus:** Competing to fix web application vulnerabilities using varying programming languages in a microservices architecture.
-- **Requirements:** Basic programming knowledge recommended; help available through the AppSec community.
-- **Contest Duration:** 
-  - Starts: Tuesday at 12 PM
-  - Ends: Friday at 9 AM
+**Key Points:**
+- The challenge and application will consist of various microservices, each built in different programming languages.
+- You can utilize free automated tools such as DAST and SAST.
+- Prizes will be given to the highest scorers.
+
+**How to Participate:**
+- Visit [AppSec Community](https://appsec.saintcon.community/) to get started.
+- Basic programming knowledge is required for participation.
+- For assistance, visit the AppSec community for help with an easy vulnerability.
+
+**Rules:**
+- Hacking this site or submission mechanism is forbidden, but participants can run code on their own hosts.
+- Submissions are limited to changes specified in the `make-package.py` file.
+- File uploads must be under 4MB.
+- Submissions allowed once every 5 minutes; duplicates will not be scored.
+- Contest starts at 12 PM on Tuesday and ends at 9 AM on Friday.
+- Tiebreaker goes to the first submission.
+- Do not hardcode past functionality tests.
+
+### Contest Schedule
+
+- **Contest Start:** Tuesday at Noon
+- **Contest End:** Friday at 9:00 AM
 - **Booth Hours:**
   - Tuesday: 10:30 AM – 5:00 PM
   - Wednesday: 10:30 AM – 5:00 PM
   - Thursday: 9:00 AM – 5:00 PM
   - Friday: 9:00 AM – 10:00 AM
-- **Rules:**
-  - Hacking the challenge site is forbidden.
-  - Submissions should be limited to specific files; max file size is 4MB.
-  - Only one submission allowed every 5 minutes.
-  - Prizes awarded for top scores.
 
-**Website for Details:** [AppSec Community](https://appsec.saintcon.community/)
+### Visuals and Media
+- **Banner Image:** ![AppSec Challenge Banner](http://www.saintcon.org/wp-content/uploads/2024/07/AppSecChallengeSplash2024.png)
+- **Downloadable Wallpaper:** Available at the event site.
 
-**Media:**
-- Main Image: AppSec Challenge Splash 2024
-- Desktop wallpaper available for download.
-
-**SEO Information:**
-- **Canonical:** https://saintcon.org/con-appsec-challenge/
-- **Open Graph URL:** https://saintcon.org/con-appsec-challenge/
-- **Twitter Card:** Summary with an image.
-
-This challenge is presented by SAINTCON, which is committed to fostering a vibrant community of cybersecurity enthusiasts.
+### Additional Information
+For more information about previous events or to gain insight into the AppSec community, please refer to the links provided on the main site.

@@ -484,8 +484,8 @@ Looking to get your feet wet in code security? Hacked a thousand applications bu
 
     
                 <picture>
-<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=b855c297 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=912ae6ad 1024w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=89f03dfe 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=a57919e9 1366w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221600%2C900%2C%22%7D&amp;hash=8ee92988 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=6c412f11 1920w, /wp-content/themes/yootheme/cache/83/Appsec-2023_5K_Wallpaper-1-83f507e3.webp 2560w" sizes="(min-width: 1280px) 1280px">
-<img decoding="async" src="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=85146379" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
+<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=b855c297 768w, /wp-content/themes/yootheme/cache/eb/Appsec-2023_5K_Wallpaper-1-eb579c36.webp 1024w, /wp-content/themes/yootheme/cache/1b/Appsec-2023_5K_Wallpaper-1-1bc1f696.webp 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=a57919e9 1366w, /wp-content/themes/yootheme/cache/d4/Appsec-2023_5K_Wallpaper-1-d4894770.webp 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=6c412f11 1920w, /wp-content/themes/yootheme/cache/83/Appsec-2023_5K_Wallpaper-1-83f507e3.webp 2560w" sizes="(min-width: 1280px) 1280px">
+<img decoding="async" src="/wp-content/themes/yootheme/cache/0f/Appsec-2023_5K_Wallpaper-1-0f79044a.png" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
 </picture>        
         
     
@@ -562,9 +562,9 @@ Looking to get your feet wet in code security? Hacked a thousand applications bu
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#82e1edecf6e3e1f6c2f1e3ebecf6e1edecacedf0e5"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#f98b9c9e908a8d8b988d909697b98a9890978d9a9697d7968b9e"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#9eedeef1f0edf1eceddeedfff7f0eafdf1f0b0f1ecf9"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#0c6f6362786d6f784c7f6d6562786f636222637e6b"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#71031416180205031005181e1f310210181f05121e1f5f1e0316"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#4033302f2e332f3233003321292e34232f2e6e2f3227"><b>Sponsor</b> Support</a></p></div>
                 
             
         

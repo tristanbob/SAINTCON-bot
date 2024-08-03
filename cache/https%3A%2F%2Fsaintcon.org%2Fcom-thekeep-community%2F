@@ -475,8 +475,8 @@ The Keep is a fun and educational environment where you can both learn the funda
 
     
                 <picture>
-<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=c5d36396 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=625eb303 1024w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=aa3fc5bd 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=058f40b8 1366w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221600%2C900%2C%22%7D&amp;hash=d834788e 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=14501f84 1920w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%222560%2C1440%2C%22%7D&amp;hash=8edb0bca 2560w" sizes="(min-width: 1280px) 1280px">
-<img decoding="async" src="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=613d1cc0" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
+<source type="image/webp" srcset="/wp-content/themes/yootheme/cache/2f/Keep-2023_5K_Wallpaper-2f320556.webp 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=625eb303 1024w, /wp-content/themes/yootheme/cache/9d/Keep-2023_5K_Wallpaper-9d2e63bd.webp 1280w, /wp-content/themes/yootheme/cache/db/Keep-2023_5K_Wallpaper-db6d89bd.webp 1366w, /wp-content/themes/yootheme/cache/52/Keep-2023_5K_Wallpaper-5266d25b.webp 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F07%2FKeep-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=14501f84 1920w, /wp-content/themes/yootheme/cache/32/Keep-2023_5K_Wallpaper-3200ce32.webp 2560w" sizes="(min-width: 1280px) 1280px">
+<img decoding="async" src="/wp-content/themes/yootheme/cache/9c/Keep-2023_5K_Wallpaper-9cd96d60.png" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
 </picture>        
         
     
@@ -553,9 +553,9 @@ The Keep is a fun and educational environment where you can both learn the funda
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#84e7ebeaf0e5e7f0c4f7e5edeaf0e7ebeaaaebf6e3"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#f38196949a80878192879a9c9db380929a9d87909c9ddd9c8194"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#97e4e7f8f9e4f8e5e4d7e4f6fef9e3f4f8f9b9f8e5f0"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#c6a5a9a8b2a7a5b286b5a7afa8b2a5a9a8e8a9b4a1"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#c2b0a7a5abb1b6b0a3b6abadac82b1a3abacb6a1adacecadb0a5"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#087b7867667b677a7b487b6961667c6b676626677a6f"><b>Sponsor</b> Support</a></p></div>
                 
             
         

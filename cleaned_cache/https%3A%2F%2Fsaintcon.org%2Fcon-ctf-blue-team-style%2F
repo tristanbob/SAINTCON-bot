@@ -1,40 +1,42 @@
-**Page Title**: CON - CTF Blue Team Style - SAINTCON
+**Title:** CON - CTF Blue Team Style
 
-**Description**: This event is a Capture the Flag (CTF) game designed to sharpen blue team cybersecurity skills. It focuses on digital forensics, network forensics, malware analysis, hashing/encryption, threat intelligence, OSINT, scripting, and more.
+**Overview:**
+- The event is a Capture the Flag (CTF) game focused on honing skills on the blue team side of cybersecurity.
+- It tests proficiency in:
+  - Digital forensics
+  - Network forensics
+  - Malware analysis
+  - Hashing/encryption
+  - Threat intelligence
+  - OSINT (Open Source Intelligence)
+  - Scripting
 
-**Organizer**: NAME OF PERSONS/ORG
+**Objective:**
+- Participants will analyze digital forensics data, log files, and cyber threat intelligence to identify vulnerabilities, detect intrusions, and mitigate threats.
 
-**Event Details**:
-- **Objective**: Participants will unravel the details of a cyber-attack using provided data to identify vulnerabilities, detect intrusions, and mitigate threats.
-- **Game Format**: 
-  - Team or solo play (teams of 3-4 members allowed).
-  - Access through an online portal to set up teams and submit findings.
-  - Compatible with any OS; tools like SANS SIFT Workstation may be utilized.
-  - Real-time scoreboard updates.
+**Game Format:**
+- **Team or Solo Play:** Participants can join individually or in teams of 3-4.
+- **Online Portal:** Accessible to set up teams, view challenges, and submit findings.
+- **Tools and Setup:** Compatible with any operating system; may require downloading additional files/tools.
+- **Scoring:** Features a real-time scoreboard to track progress.
 
-- **Rules**:
-  - Respect the platform; no attacking the scoreboard or other players' challenges.
-  - Fair play is mandatory; intentional disruptions are prohibited.
-  - Scoring will be dynamic based on challenge difficulty.
+**Rules of Engagement:**
+- **Respect the Platform:** No attacks on the scoreboard or other players' challenges.
+- **Fair Play:** No intentional disruptions to other players’ challenges.
+- **Scoring Dynamics:** Points for challenges decrease in value as they get solved frequently, emphasizing quality over quantity.
 
-- **Who Can Participate**: Open to all skill levels, from beginners to experienced professionals.
+**Participation:**
+- Inclusive for all skill levels, from beginners to professionals.
 
-**Hours of Operation**:
-- **Monday**: Expo Closed
-- **Tuesday**: Noon – 5:00 PM
-- **Wednesday**: 9:00 AM – 5:00 PM
-- **Thursday**: 9:00 AM – 5:00 PM
-- **Friday**: 9:00 AM – 11:00 AM 
+**Contact:**
+- Welcome all participants for an engaging competition in cybersecurity defense. 
 
-**Icons and Images**: 
-- CTF Blue Team logo and promotional graphics are included.
+**Hours of Operation:**
+- Monday: Closed
+- Tuesday: 12:00 PM - 5:00 PM
+- Wednesday: 9:00 AM - 5:00 PM
+- Thursday: 9:00 AM - 5:00 PM
+- Friday: 9:00 AM - 11:00 AM
 
-**Links**:
-- Official Event Page: [SAINTCON CTF Blue Team Style](https://saintcon.org/con-ctf-blue-team-style/) 
-- Social Media and additional resources available on the SAINTCON website.
-
-**Contact**:
-- For support and inquiries, details can be found on the event website. 
-
-**Learning and Competition**: 
-- Engage and challenge yourself in a dynamic cybersecurity defense environment.
+**Additional Information:**
+- The game is designed to teach and challenge participants in blue team operations. Join for an immersive learning experience.

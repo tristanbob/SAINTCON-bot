@@ -428,8 +428,8 @@ Evening hacker space, near the event venue, which opens after the main speaking 
 
     
                 <picture>
-<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=67bee33a 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=8bda6ca4 1024w, /wp-content/themes/yootheme/cache/e1/HITB-2023_5K_Wallpaper-e1afd0be.webp 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=830dc8a1 1366w, /wp-content/themes/yootheme/cache/2e/HITB-2023_5K_Wallpaper-2ee76158.webp 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=f9e5e4e4 1920w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%222560%2C1440%2C%22%7D&amp;hash=9da583a8 2560w" sizes="(min-width: 1280px) 1280px">
-<img decoding="async" src="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=1de4c86f" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
+<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=67bee33a 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=8bda6ca4 1024w, /wp-content/themes/yootheme/cache/e1/HITB-2023_5K_Wallpaper-e1afd0be.webp 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FHITB-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=830dc8a1 1366w, /wp-content/themes/yootheme/cache/2e/HITB-2023_5K_Wallpaper-2ee76158.webp 1600w, /wp-content/themes/yootheme/cache/2f/HITB-2023_5K_Wallpaper-2fa10067.webp 1920w, /wp-content/themes/yootheme/cache/fe/HITB-2023_5K_Wallpaper-fefbaed0.webp 2560w" sizes="(min-width: 1280px) 1280px">
+<img decoding="async" src="/wp-content/themes/yootheme/cache/21/HITB-2023_5K_Wallpaper-21dcc848.png" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
 </picture>        
         
     
@@ -506,9 +506,9 @@ Evening hacker space, near the event venue, which opens after the main speaking 
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#bad9d5d4cedbd9cefac9dbd3d4ced9d5d494d5c8dd"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#85f7e0e2ecf6f1f7e4f1eceaebc5f6e4ecebf1e6eaebabeaf7e2"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#681b1807061b071a1b281b0901061c0b070646071a0f"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#57343839233634231724363e392334383979382530"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#f48691939d87808695809d9b9ab487959d9a80979b9ada9b8693"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#1162617e7f627e6362516270787f65727e7f3f7e6376"><b>Sponsor</b> Support</a></p></div>
                 
             
         

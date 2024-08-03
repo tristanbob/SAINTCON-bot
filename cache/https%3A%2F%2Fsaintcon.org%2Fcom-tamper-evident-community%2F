@@ -485,8 +485,8 @@ The Tamp"/>
 
     
                 <picture>
-<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=d4080559 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=80effbce 1024w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=ac9332b6 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=738f7dfa 1366w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221600%2C900%2C%22%7D&amp;hash=e7944889 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=afeee681 1920w, /wp-content/themes/yootheme/cache/e3/Tamper-2023_5K_Wallpaper-1-e338677e.webp 2560w" sizes="(min-width: 1280px) 1280px">
-<img decoding="async" src="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=0daa21c3" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
+<source type="image/webp" srcset="/wp-content/themes/yootheme/cache/83/Tamper-2023_5K_Wallpaper-1-83156c50.webp 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=80effbce 1024w, /wp-content/themes/yootheme/cache/e4/Tamper-2023_5K_Wallpaper-1-e4a4b816.webp 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FTamper-2023_5K_Wallpaper-1.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=738f7dfa 1366w, /wp-content/themes/yootheme/cache/2b/Tamper-2023_5K_Wallpaper-1-2bec09f0.webp 1600w, /wp-content/themes/yootheme/cache/32/Tamper-2023_5K_Wallpaper-1-3262c9c9.webp 1920w, /wp-content/themes/yootheme/cache/e3/Tamper-2023_5K_Wallpaper-1-e338677e.webp 2560w" sizes="(min-width: 1280px) 1280px">
+<img decoding="async" src="/wp-content/themes/yootheme/cache/0a/Tamper-2023_5K_Wallpaper-1-0a544627.png" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
 </picture>        
         
     
@@ -563,9 +563,9 @@ The Tamp"/>
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#e1828e8f95808295a19280888f95828e8fcf8e9386"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#295b4c4e405a5d5b485d404647695a4840475d4a464707465b4e"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#1b686b7475687469685b687a72756f7874753574697c"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#ea8985849e8b899eaa998b83849e898584c485988d"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#40322527293334322134292f2e003321292e34232f2e6e2f3227"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#1f6c6f70716c706d6c5f6c7e76716b7c707131706d78"><b>Sponsor</b> Support</a></p></div>
                 
             
         

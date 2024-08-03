@@ -6,15 +6,32 @@ const cacheDir = path.join(__dirname, "cache");
 const cleanedCacheDir = path.join(__dirname, "cleaned_cache");
 const sessionizeCachePath = path.join(cacheDir, "sessionize_cache.json");
 
+const CACHE_EXPIRATION_HOURS = 24;
+
+const isCacheExpired = async (filePath) => {
+  try {
+    const stats = await fs.stat(filePath);
+    const now = new Date();
+    const cacheAge = (now - stats.mtime) / (1000 * 60 * 60); // Age in hours
+    return cacheAge >= CACHE_EXPIRATION_HOURS;
+  } catch (err) {
+    return true; // If there's an error reading the file, assume it's expired
+  }
+};
+
 async function fetchAndCacheURL(url) {
   const cacheFilePath = path.join(cacheDir, encodeURIComponent(url));
 
-  try {
-    const cachedContent = await fs.readFile(cacheFilePath, "utf-8");
-    console.log(`Using cached content for ${url}`);
-    return cachedContent;
-  } catch (err) {
-    console.log(`Fetching content for ${url}`);
+  if (!(await isCacheExpired(cacheFilePath))) {
+    try {
+      const cachedContent = await fs.readFile(cacheFilePath, "utf-8");
+      console.log(`Using cached content for ${url}`);
+      return cachedContent;
+    } catch (err) {
+      console.log(`Fetching content for ${url}`);
+    }
+  } else {
+    console.log(`Cache expired for ${url}, fetching new content`);
   }
 
   try {
@@ -42,11 +59,16 @@ async function getCleanedCache(url) {
     encodeURIComponent(url)
   );
 
-  try {
-    const cleanedContent = await fs.readFile(cleanedCacheFilePath, "utf-8");
-    console.log(`Using cleaned cached content for ${url}`);
-    return cleanedContent;
-  } catch (err) {
+  if (!(await isCacheExpired(cleanedCacheFilePath))) {
+    try {
+      const cleanedContent = await fs.readFile(cleanedCacheFilePath, "utf-8");
+      console.log(`Using cleaned cached content for ${url}`);
+      return cleanedContent;
+    } catch (err) {
+      return null;
+    }
+  } else {
+    console.log(`Cleaned cache expired for ${url}`);
     return null;
   }
 }
@@ -69,17 +91,7 @@ async function getAllCleanedCache() {
 async function shouldRunCrawler() {
   const lastRunTimeFilePath = path.join(cacheDir, "last_run_time.txt");
 
-  try {
-    const lastRunTime = await fs.readFile(lastRunTimeFilePath, "utf-8");
-    const lastRunDate = new Date(lastRunTime);
-    const now = new Date();
-    const timeDiff = now - lastRunDate;
-    const hoursDiff = timeDiff / (1000 * 60 * 60);
-
-    return hoursDiff >= 24;
-  } catch (err) {
-    return true; // If there's an error reading the file, assume it's time to run the crawler.
-  }
+  return isCacheExpired(lastRunTimeFilePath);
 }
 
 async function storeLastRunTime() {
@@ -88,12 +100,16 @@ async function storeLastRunTime() {
 }
 
 async function fetchAndCacheSessionizeData(url) {
-  try {
-    const cachedData = await fs.readFile(sessionizeCachePath, "utf-8");
-    console.log("Using cached Sessionize data");
-    return JSON.parse(cachedData);
-  } catch (err) {
-    console.log("Fetching Sessionize data");
+  if (!(await isCacheExpired(sessionizeCachePath))) {
+    try {
+      const cachedData = await fs.readFile(sessionizeCachePath, "utf-8");
+      console.log("Using cached Sessionize data");
+      return JSON.parse(cachedData);
+    } catch (err) {
+      console.log("Fetching Sessionize data");
+    }
+  } else {
+    console.log("Sessionize cache expired, fetching new data");
   }
 
   try {

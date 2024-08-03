@@ -473,8 +473,8 @@ Do you have what it takes to find and fix vulnerabilities in source code? Compet
 
     
                 <picture>
-<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=162e07b7 768w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221024%2C576%2C%22%7D&amp;hash=bffc55e6 1024w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=581e890e 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=c25b09f3 1366w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221600%2C900%2C%22%7D&amp;hash=2971063d 1600w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221920%2C1080%2C%22%7D&amp;hash=464cba8d 1920w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%222560%2C1440%2C%22%7D&amp;hash=a9206de7 2560w" sizes="(min-width: 1280px) 1280px">
-<img decoding="async" src="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22thumbnail%22%3A%221280%2C720%2C%22%7D&amp;hash=2aee4b85" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
+<source type="image/webp" srcset="https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%22768%2C432%2C%22%7D&amp;hash=162e07b7 768w, /wp-content/themes/yootheme/cache/d3/Appsec-2023_5K_Wallpaper-d3897fd8.webp 1024w, /wp-content/themes/yootheme/cache/23/Appsec-2023_5K_Wallpaper-231f1578.webp 1280w, https://saintcon.org/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=%7B%22file%22%3A%22wp-content%2Fuploads%2F2023%2F06%2FAppsec-2023_5K_Wallpaper.png%22%2C%22type%22%3A%22webp%2C100%22%2C%22thumbnail%22%3A%221366%2C768%2C%22%7D&amp;hash=c25b09f3 1366w, /wp-content/themes/yootheme/cache/ec/Appsec-2023_5K_Wallpaper-ec57a49e.webp 1600w, /wp-content/themes/yootheme/cache/31/Appsec-2023_5K_Wallpaper-31535598.webp 1920w, /wp-content/themes/yootheme/cache/e0/Appsec-2023_5K_Wallpaper-e009fb2f.webp 2560w" sizes="(min-width: 1280px) 1280px">
+<img decoding="async" src="/wp-content/themes/yootheme/cache/b6/Appsec-2023_5K_Wallpaper-b6946d7e.png" width="1280" height="720" alt loading="lazy" class="el-image uk-object-cover uk-height-1-1">
 </picture>        
         
     
@@ -551,9 +551,9 @@ Do you have what it takes to find and fix vulnerabilities in source code? Compet
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#bbd8d4d5cfdad8cffbc8dad2d5cfd8d4d595d4c9dc"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#41332426283235332035282e2f013220282f35222e2f6f2e3326"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#c9bab9a6a7baa6bbba89baa8a0a7bdaaa6a7e7a6bbae"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#3e5d51504a5f5d4a7e4d5f57504a5d515010514c59"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#2e5c4b49475d5a5c4f5a4741406e5d4f47405a4d414000415c49"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#7f0c0f10110c100d0c3f0c1e16110b1c101151100d18"><b>Sponsor</b> Support</a></p></div>
                 
             
         

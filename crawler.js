@@ -69,7 +69,7 @@ async function processFAQ(url) {
           (inputTokens / 1_000_000) * 0.15 + (outputTokens / 1_000_000) * 0.6,
       });
 
-      console.log(`Cached cleaned content for ${url}`);
+      console.log(`Cached cleaned content for FAQ ${url}`);
     } else {
       console.log(`Using existing cleaned content for FAQ ${url}`);
     }
