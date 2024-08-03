@@ -1,41 +1,45 @@
-**Event Title:** So, You’ve Been Hacked? - SAINTCON
+Here’s the relevant extracted information from the provided content regarding the SAINTCON event titled "So, You’ve Been Hacked?":
 
-**Overview:**
-- A blue team contest where participants assume the role of a corporate security team responding to a security breach.
-- A critical alert indicates a developer's laptop has been compromised.
-- The mission involves incident response, investigating the attack vector, and ensuring the integrity of the development environment.
+### Event Overview
+- **Title**: So, You’ve Been Hacked? - A Blue Team Battle
+- **Hosted by**: @bashNinja
+- **Description**: This contest places participants in the role of a corporate security team dealing with a critical alert indicating a developer's laptop has been compromised. Teams must navigate the incident response process to halt the breach, investigate the attack vector, and secure the build environment.
 
-**Key Details:**
-- **Organizer:** Brought to participants by @bashNinja.
-- **Format:** Hands-on competition with real-time incident response scenarios using unlocked Windows laptops.
-- **Skills Required:**
-  - Incident Response
-  - Forensic Analysis
-  - Network Security
-  - System Administration
+### Contest Details
+- **Scenario**: Participants will receive an unlocked Windows laptop flagged as compromised by EDR tools, which is involved in a CI/CD pipeline.
+- **Objectives**:
+  - Identify and neutralize threats.
+  - Recover stolen keys.
+  - Secure the environment against ransomware threats.
+  
+### Participation Requirements
+- **Eligibility**: Open to all SAINTCON attendees; teams must consist of at least three members. No individual participants are allowed.
+- **Registration**: Teams must register by the end of the day on Tuesday. Maximum of 20 teams will be allowed based on laptop availability.
 
-**Preparation:**
-- Familiarize with common Windows vulnerabilities, CI/CD pipelines, and incident response protocols.
-- Participants need forensic and incident response tools and should be able to think critically under pressure.
+### Contest Schedule
+- **Laptop Pickup**: Wednesday at 9 AM.
+- **Contest Duration**: Until Thursday at 5 PM.
+- **Report Submission**: Final report due by 7 AM on Friday.
 
-**Rules & Guidelines:**
-1. **Eligibility:** Minimum team size of three, maximum of 20 teams due to laptop availability. Individual participants not accepted.
-2. **Registration:** Required by Tuesday end of day.
-3. **Schedule:**
-   - Laptop Pickup: Wednesday at 9 AM
-   - Contest Duration: Until Thursday at 5 PM
-   - Final Report Submission: By 7 AM on Friday
-4. **Reporting:** Teams must submit reports every 4 hours and a final document detailing the breach's lifecycle.
+### Skills Needed
+- Incident Response
+- Forensic Analysis
+- Network Security
+- System Administration (especially familiarity with Windows, CI/CD pipelines, and scripting)
 
-**Networking Opportunity:**
-- Participants can connect with fellow cybersecurity professionals during the contest.
+### Additional Information
+- Collaboration is encouraged within teams.
+- Participants are advised to have tools for forensic and incident response at hand.
+- Networking opportunities with fellow cybersecurity professionals will be available.
 
-**Frequently Asked Questions:**
-- **Expertise Required:** Background in cybersecurity is beneficial but not mandatory. All skill levels welcomed.
-- **Can I be in a team?:** Yes, teams of three or more are required.
-- **Judging Criteria:** Teams judged on their breach identification and response effectiveness, along with report quality.
+### FAQ Highlights
+- **Experts Required?**: The contest is suitable for various skill levels; eagerness to learn is essential.
+- **Team Participation**: Yes, teamwork is required with a minimum of three members.
+- **Judging Criteria**: Effectiveness in stopping the breach, comprehensiveness of the incident response, and accuracy of the final report.
 
-**Contact Details:**
-- Participants may access support for registration and general queries via the event's website.
+### Rules
+- Participants must adhere to ethical conduct and confidentiality.
+- Use of legal, ethical, and non-destructive tools is mandatory.
+- Teams must submit progress reports to judges every four hours from 9 AM to 5 PM.
 
-**Link for More Information:** https://saintcon.org/con-so-youve-been-hacked/
+This information outlines the essential details about the "So, You’ve Been Hacked?" contest at SAINTCON, including objectives, requirements, schedules, and participant guidance.
