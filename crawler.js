@@ -10,7 +10,7 @@ const {
 const { extractRelevantInfo, extractFAQInfo } = require("./openaiUtils");
 const { logExtractionMetadata } = require("./logger");
 
-const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/fjfjo2d9/view/All";
+const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/wr191qz5/view/All";
 
 async function crawlAndCacheURLs(urls) {
   for (const url of urls) {

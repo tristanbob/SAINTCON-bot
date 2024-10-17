@@ -54,7 +54,7 @@ module.exports = {
   faqUrl: "https://saintcon.org/faq/",
 
   // URL for the Sessionize API to fetch session and speaker data
-  sessionizeApiUrl: "https://sessionize.com/api/v2/fjfjo2d9/view/All",
+  sessionizeApiUrl: "https://sessionize.com/api/v2/wr191qz5/view/All",
 
   // Settings for the AI model used for generating responses
   aiModel: "gpt-4o-mini",
