@@ -1,42 +1,35 @@
-**Title:** COM - ID-IOT Community
+**Title:** COM – ID-IOT Community
 
-**Overview:** 
-The ID-IOT Community brings together individuals interested in exploring Industrial Devices and IoT challenges. Hosted by Spectre and Phaktor, the community welcomes discussions on the complexities of control systems and their cybersecurity implications.
+**URL:** [ID-IOT Community](https://saintcon.org/com-id-iot-community/)
 
-**Key Message:**
-From last year's revelations about the vulnerabilities of operational technology (OT) and industrial control systems (ICS), the community aims to deepen understanding of these issues and provide a platform for learning.
+**Description:** 
+From the dumpster fire that is Cyberjanitorial crawls out: Spectre and Phaktor to present ID/IOT. Industrial Devices and IoT together make an interesting challenge you should explore. The IDIOTs are BACK! Remember last year? When you heard about the fragility of control systems and the cybersecurity problems they face? 
 
-**Community Objectives:**
-- Explore control systems and their security issues, including vulnerabilities in PLCs and the challenges posed by proprietary protocols.
-- Facilitate discussions about protocol manipulation (e.g., Modbus and DNP3) and IoT device security.
-- Encourage the use of tools such as PyDNP3, Snap7, pylogix, and pymodbus for hands-on learning.
-- Provide opportunities for hacking IoT devices and understanding their vulnerabilities through firmware analysis and interaction with debugging capabilities.
+**Main Points:**
+- Learning about control systems and their security implications.
+- Discussion on control system hacking and IoT.
+- Activities include protocol manipulation (Modbus, DNP3).
+- Focus on device vulnerabilities, firmware access, and interfacing with debugging capabilities.
+- Community welcomes anyone interested in understanding control systems and IoT security.
 
-**Activities:**
-- Workshops and discussions about control systems, IoT vulnerabilities, and ethical hacking practices.
-- Engaging with Python tools to manipulate protocols and secure infrastructure.
+**Learning Outcomes:**
+- How to connect to ICS systems.
+- Understanding ICS control protocols and tools.
+- Building a better understanding of IoT challenges and management.
 
 **Hours of Operation:**
-- Monday: Closed 
+- Monday: Closed
 - Tuesday: 10:30 AM – 5:00 PM
 - Wednesday: 10:30 AM – 5:00 PM
 - Thursday: 9:00 AM – 5:00 PM
 - Friday: 9:00 AM – 11:00 AM
 
-**Learning Outcomes:**
-Participants will learn:
-- Connecting to and understanding ICS systems.
-- Insights on control protocols and management of IoT challenges.
+**MiniBadge Details:** 
+A MiniBadge will be available at the community, details being worked out, and attendees can visit the booth for more information.
 
-**MiniBadge:**
-The community will offer a MiniBadge for attendees, with details to be shared at the community booth.
+**Wallpaper Availability:** 
+Desktop wallpaper available for download at [Download Wallpaper](https://saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png).
 
-**Wallpaper Availability:**
-Desktop wallpapers related to the community are available for download.
-
-**Resource Links:**
-- [Community Registration](https://saintcon.org/register/)
-- [Learning and Development Resources](https://github.com/lukejenkins/minibadge)
-
-**Contact Information:**
-Participants are encouraged to join discussions and explore unique training opportunities to enhance their skills in control systems and IoT security.
+**Images:**
+1. Logo: ![IDIOT Community Logo](https://saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_Full_Logo.svg)
+2. Background Image: ![Background Image](http://www.saintcon.org/wp-content/uploads/2023/06/IDIOT-2023_5K_Wallpaper.png)

@@ -1,51 +1,54 @@
-### Key Information Extracted:
+**Title:** COM – Blueteam Community – SAINTCON
 
-**Title:**  
-COM – Blueteam Community – SAINTCON
+**Description:** 
+Eiffel65 is a blue team (defensive security) community that focuses on topics such as Threat Intelligence, Threat Hunting, Incident Response, and Forensics. The initiative aims to provide hands-on opportunities to explore defensive security and enhance skill sets in various aspects of cybersecurity.
 
-**URL:**  
-[https://saintcon.org/com-blueteam-community/](https://saintcon.org/com-blueteam-community/)
+**Key Features:**
+- **Topics Covered:**
+  - Threat Intelligence
+    - Understanding current events
+    - Using OSINT to determine if indicators are malicious
+    - Creating MITRE ATT&CK maps
+  - Threat Hunting
+    - Malware sandbox submissions
+    - Log anomaly detection
+    - Investigating logs in OpenSearch
+  - Incident Response
+    - Zeek security monitoring
+    - PCAP analysis
+    - Collecting intrusion evidence
+  - Forensics
+    - Analyzing forensic artifacts
+    - Registry and forensic image analysis
 
-**Description:**  
-The Eiffel65 is a blue team (defensive security) community focusing on topics such as Threat Intelligence, Threat Hunting, Incident Response, and Forensics. It aims to provide a learning environment for both novices and experts interested in defensive security.
-
-**Main Topics Covered:**  
-- Incident Response
-- Threat Intelligence
-- Forensics
-- Threat Hunting
-
-**Learning Opportunities Offered:**
-- Explore threat intelligence reports
-- Hunt for malicious activity in a network
-- Analyze forensic data
-- Respond to incidents
-- Use OSINT tools and enterprise security tools (SIEM, EDR, etc.)
-
-**Hours of Operation:**
-- **Monday:** Expo Closed
-- **Tuesday & Wednesday:** 10:30 AM – 5:00 PM
-- **Thursday:** 9:00 AM – 5:00 PM
-- **Friday:** 9:00 AM – 11:00 AM
-
-**What You Will Learn:**
+**Opportunities for Learning:**
+- Defensive Security Careers
+- Blue Team Tools
 - Intrusion Analysis
-- Creating Detection Rules
-- PCAP Analysis
-- SIEM Searching (ELK)
-- Forensic Image Analysis
-- Threat Hunting Methodologies
+- Detection Rules Creation (Zeek)
+- Forensic Artifact Analysis
 - Threat Intelligence Reporting
+- OSINT Techniques
 
-**MiniBadge Details:**  
-A MiniBadge will be available for members. Further details can be found by visiting the booth during the event.
+**Community Engagement:**
+- **MiniBadge:** 
+  - A minibadge is available for community participation.
+- **Exercises:** 
+  - Various exercises ranging from entry-level to mid-advanced can be participated in to learn different skills.
+- **Skill Levels:**
+  - Activities are designed for all skill levels, from novice to expert.
 
-**Wallpaper Available:**  
-Desktop wallpapers for the community are available for download. 
+**Contact and Participation:**
+- Community support is accessible via Discord and in-person interactions.
+  
+**Hours of Operation:**
+- Tuesday: 10:30 AM – 5:00 PM
+- Wednesday: 10:30 AM – 5:00 PM
+- Thursday: 9:00 AM – 5:00 PM
+- Friday: 9:00 AM – 11:00 AM
 
-**Social Media/Community Resources:**  
-- [Join on Discord](https://discord.gg/saintcon) 
-- [MiniBadge Specifications](https://github.com/lukejenkins/minibadge) 
-- [Build a MiniBadge](https://www.youtube.com/watch?v=kkLfmo14oiQ) 
+**Image:** 
+- The community logo is featured prominently, symbolizing the Blueteam Community.
 
-This structured information highlights the purpose and offerings of the Blueteam Community associated with SAINTCON without extraneous details.
+**Additional Resources:**
+- A desktop wallpaper is available for download to community members.

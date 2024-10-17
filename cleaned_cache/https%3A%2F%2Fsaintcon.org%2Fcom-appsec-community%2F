@@ -1,37 +1,47 @@
-### Relevant Information Extracted:
+**Title:** COM – AppSec Community – SAINTCON
 
-**Title:** COM - AppSec Community
+**Overview:**
+The AppSec Community is designed for individuals looking to enhance their skills in application security. It invites participants to learn how to find and fix vulnerabilities in both running sites and source code.
 
-**Url:** [https://saintcon.org/com-appsec-community/](https://saintcon.org/com-appsec-community/)
+**Key Activities:**
 
-**Meta Description:** 
-Brought to you by sketrik and l4wke. Applications run everything, and we run the Applications. Join us! The AppSec Community teaches how to find and fix vulnerabilities in both running sites and source code.
+- **Learning Goals:**
+  - Teach how to identify and remediate vulnerabilities in applications.
+  - Understand the importance of application security and how to evaluate security programs.
+  - Utilize application security tools effectively, including:
+    - **Static Application Security Testing (SAST):** Tools like FluidAttacks and Snyk to identify code vulnerabilities.
+    - **Dynamic Application Security Testing (DAST):** Tools like OWASP ZAP for analyzing runtime applications for misconfigurations.
+    - **Software Composition Analysis (SCA):** Tools like Google’s osv.dev to identify vulnerable third-party components.
+  - Hands-on experience through sample vulnerable repositories and introductory challenges for beginners.
 
-**Event Highlights:**
-- Participants will learn to identify and fix vulnerabilities through practical exercises using various tools.
-- Focus on:
-  - **Static Application Security Testing (SAST):** Using tools like FluidAttacks and Snyk.
-  - **Dynamic Application Security Testing (DAST):** Using OWASP ZAP for analyzing running applications.
-  - **Software Composition Analysis (SCA):** Using tools like Google’s osv.dev to find vulnerable third-party components.
+- **What to Bring:**
+  - **Suggested Equipment:** 
+    - Laptop
+    - Installed Git
+    - Installed Python
+    - Linux virtual machine
+  - Participants may share workstations provided at the event.
 
-**Target Audience:** 
-Suitable for beginners and experienced professionals.
-
-**Operational Hours:**
+**Hours of Operation:**
 - **Monday:** Expo Closed
 - **Tuesday:** 10:30 AM – 5:00 PM
 - **Wednesday:** 10:30 AM – 5:00 PM
 - **Thursday:** 9:00 AM – 5:00 PM
 - **Friday:** 9:00 AM – 11:00 AM
 
-**What to Bring:**
-- Laptop
-- Git
-- Python
-- Linux Virtual Machine (optional)
+**What Participants Will Learn:**
+- Application development processes and vulnerability management.
+- Interaction with developers and evaluation of code for vulnerabilities.
 
-**Additional Community Offerings:**
-- **MiniBadge:** Available with details to be provided at the booth.
-- **Desktop Wallpaper:** Download available for community desktop wallpaper.
+**Special Features:**
+- MiniBadge available for participation.
+- Desktop wallpaper for download available to community members.
 
-This information provides an overview of the AppSec Community's focus, offerings, and operational details for attendees.
+**Links for Additional Information:**
+- [SAINTCON Website](https://saintcon.org)
+- [Discord Community](https://discord.gg/saintcon)
+
+**Images:**
+- AppSec Community logos and promotional images used for branding.
+
+This information outlines the AppSec Community's offerings and encourages participation to enhance skills in application security.

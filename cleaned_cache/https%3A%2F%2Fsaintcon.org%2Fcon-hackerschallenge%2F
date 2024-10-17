@@ -1,39 +1,38 @@
-**Event Title:** Hackers Challenge
+**Title:** CON - HackersChallenge - SAINTCON
 
-**Organizer:** Zevlag and Associates
+**Overview:**
+- The Hackers Challenge is the premiere challenge of SAINTCON, an event held annually during the SAINTCON conference.
+- The contest aims to challenge participants' skills as security professionals through technology, logical, and security-related puzzles and challenges.
 
-**Event Overview:** 
-- The Hackers Challenge is the premiere contest of the SAINTCON conference, held annually.
-- It aims to test participants' skills as security professionals through technology, logical, and security-related puzzles and challenges.
+**Contest Information:**
+- The contest starts at noon on Tuesday and ends at 10:00 AM on Friday.
+- More details can be found at [HackersChallenge.org](https://www.HackersChallenge.org/).
 
-**Contest Structure:**
-- The contest is described as Jeopardy-like and allows players to earn points by solving puzzles and submitting collected keys. The individual with the highest score at the end of the contest wins.
+**Gameplay:**
+- The Hackers Challenge follows a Jeopardy-like format:
+  - Players are presented with various puzzles requiring security and technical skills to solve.
+  - Points are earned by submitting keys from solved challenges.
+  - The player with the highest score wins the contest.
 
-**Contest Start:** 
-- Tuesday at Noon
+**Rules:**
+1. Play the game ethically; do not take unfair advantages.
+2. Do not share captured flags; doing so can result in loss of points.
+3. Teamwork is allowed, but only one player can be declared the winner.
+4. Do not brute force the scoring server; challenges do not require brute-forcing.
+5. Do not steal flags from other players; social engineering is permitted.
+6. Use the same email address registered for SAINTCON.
 
-**Contest End:** 
-- Friday at 10:00 AM
+**Hours of Operation:**
+- **Contest Start:** Tuesday, Noon
+- **Contest End:** Friday, 10:00 AM
 
 **Booth Hours:**
-- Tuesday: 10:30 AM – 5:00 PM
-- Wednesday: 10:30 AM – 5:00 PM
-- Thursday: 9:00 AM – 5:00 PM
-- Friday: 9:00 AM – 10:00 AM
+- **Tuesday:** 10:30 AM – 5:00 PM
+- **Wednesday:** 10:30 AM – 5:00 PM
+- **Thursday:** 9:00 AM – 5:00 PM
+- **Friday:** 9:00 AM – 10:00 AM
 
-**Contest Rules:**
-1. Play ethically; do not take unfair advantages over other players.
-2. Do NOT share captured flags.
-3. Teamwork is encouraged, but only one winner will be declared.
-4. Do NOT brute force the scoring server; no challenges include brute force.
-5. Do NOT steal flags from other players; however, social engineering is permitted.
-6. Use the registered email address for SAINTCON for participation.
+**Visual Elements:**
+- Logo and promotional material are showcased, indicating an emphasis on engagement and visual branding.
 
-**Resource Links:**
-- Contest Website: [HackersChallenge.org](https://www.HackersChallenge.org/)
-
-**Graphics:**
-- Desktop wallpaper is available for download related to the contest.
-
-**Additional Information:**
-- Participants are encouraged to ask for help in the #hackers-challenge channel on SAINTCON Discord if they experience problems.
+The Hackers Challenge promotes a competitive and collaborative atmosphere among security professionals, encouraging the pursuit of knowledge and ethical practices.

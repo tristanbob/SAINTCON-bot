@@ -45,7 +45,7 @@ const generateResponse = async (messages) => {
   }
 };
 
-const extractRelevantInfo = async (content, options) => {
+const extractRelevantInfo = async (content, options, retries = 3) => {
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
@@ -67,7 +67,11 @@ const extractRelevantInfo = async (content, options) => {
     return response.choices[0].message.content.trim();
   } catch (error) {
     console.error(`Error extracting information:`, error);
-    throw error;
+    if (retries > 0 && error.status === 502) {
+      console.log(`Retrying... (${3 - retries + 1})`);
+      return extractRelevantInfo(content, options, retries - 1); // Retry
+    }
+    throw error; // Rethrow if not retrying
   }
 };
 

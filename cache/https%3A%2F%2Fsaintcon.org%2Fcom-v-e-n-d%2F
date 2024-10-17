@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="SAINTCON &raquo; Comments Feed" href="https://saintcon.org/comments/feed/" />
 <script type="text/javascript">
 /* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/saintcon.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/saintcon.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
 /*! This file is auto-generated */
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 /* ]]> */
@@ -31,7 +31,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		padding: 0 !important;
 	}
 </style>
-<link rel='stylesheet' id='wp-block-library-css' href='https://saintcon.org/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://saintcon.org/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2' type='text/css' media='all' />
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -42,16 +42,16 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
-<link href="https://saintcon.org/wp-content/themes/yootheme/css/theme.1.css?ver=1722023714" rel="stylesheet">
+<link href="https://saintcon.org/wp-content/themes/yootheme/css/theme.1.css?ver=1728527222" rel="stylesheet">
 <link rel="https://api.w.org/" href="https://saintcon.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://saintcon.org/wp-json/wp/v2/pages/1475" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://saintcon.org/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.6.1" />
+<meta name="generator" content="WordPress 6.6.2" />
 <link rel="canonical" href="https://saintcon.org/com-v-e-n-d/" />
 <link rel='shortlink' href='https://saintcon.org/?p=1475' />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://saintcon.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsaintcon.org%2Fcom-v-e-n-d%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://saintcon.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsaintcon.org%2Fcom-v-e-n-d%2F&#038;format=xml" />
-<script src="https://saintcon.org/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit.min.js?ver=4.4.6"></script>
-<script src="https://saintcon.org/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit-icons-circle.min.js?ver=4.4.6"></script>
-<script src="https://saintcon.org/wp-content/themes/yootheme/js/theme.js?ver=4.4.6"></script>
+<script src="https://saintcon.org/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit.min.js?ver=4.4.10"></script>
+<script src="https://saintcon.org/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit-icons-circle.min.js?ver=4.4.10"></script>
+<script src="https://saintcon.org/wp-content/themes/yootheme/js/theme.js?ver=4.4.10"></script>
 <script>window.yootheme ||= {}; var $theme = yootheme.theme = {"i18n":{"close":{"label":"Close"},"totop":{"label":"Back to top"},"marker":{"label":"Open"},"navbarToggleIcon":{"label":"Open menu"},"paginationPrevious":{"label":"Previous page"},"paginationNext":{"label":"Next page"},"searchIcon":{"toggle":"Open Search","submit":"Submit Search"},"slider":{"next":"Next slide","previous":"Previous slide","slideX":"Slide %s","slideLabel":"%s of %s"},"slideshow":{"next":"Next slide","previous":"Previous slide","slideX":"Slide %s","slideLabel":"%s of %s"},"lightboxPanel":{"next":"Next slide","previous":"Previous slide","slideLabel":"%s of %s","close":"Close"}}};</script>
 <link rel="icon" href="https://saintcon.org/wp-content/uploads/2024/03/cropped-FAVICON-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="https://saintcon.org/wp-content/uploads/2024/03/cropped-FAVICON-2-192x192.png" sizes="192x192" />
@@ -153,55 +153,66 @@ IT&#039;S OCTOBER 2024 AND you step into SAINTCON, eyes wide with curiosity and 
     
 <ul class="uk-nav uk-nav-default">
     
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/keynotes/"> <b>KEYNOTES</b></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/presentations/"> PRESENTATIONS</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/register/"> REGISTRATION</a>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children uk-parent"><a href="https://saintcon.org/category/uncategorized/">CONTENT</a>
 	<ul class="uk-nav-sub">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/register/"> <big><b>REGISTER NOW!</b></big></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/reg-students/"> Student Groups</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/reg-scholarships/"> Scholarship Program</a></li></ul></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-contests/"> CONTESTS</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/keynotes/"><b>KEYNOTES</b></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/schedule/">SCHEDULE</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/presentations/">PRESENTATIONS</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/speakerwall/">SPEAKERS</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/training/">TRAININGS</a></li></ul></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-contests/">CONTESTS</a>
 	<ul class="uk-nav-sub">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-hackerschallenge/"> <b>Hackers Challenge</b></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-appsec-challenge/"> AppSec Challenge</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-ctf-blue-team-style/"> CTF Blue Team Style <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-lan-cable/"> LAN Cable Contest</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-foxhunt/"> Radio Fox Hunt</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-so-youve-been-hacked/"> So, You’ve Been Hacked? <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-tamper-evident-challenge/"> Tamper Evident Challenge</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-vault-challenge/"> Vault Challenge</a></li></ul></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children uk-active uk-parent"><a href="https://saintcon.org/main-communities/"> COMMUNITIES</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-hackerschallenge/"><b>Hackers Challenge</b></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-appsec-challenge/">AppSec Challenge</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-ctf-blue-team-style/">CTF Blue Team Style <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-lan-cable/">LAN Cable Contest</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-foxhunt/">Radio Fox Hunt</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-so-youve-been-hacked/">So, You’ve Been Hacked? <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-tamper-evident-challenge/">Tamper Evident Challenge</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-vault-challenge/">Vault Challenge</a></li></ul></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children uk-active uk-parent"><a href="https://saintcon.org/main-communities/">COMMUNITIES</a>
 	<ul class="uk-nav-sub">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ai-community/"> AI Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-appsec-community/"> AppSec Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-badgelife-community/"> BadgeLife Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-blueteam-community/"> Blueteam Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-hardware-community/"> Hardware Hacking Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-health-care-hacking-community/"> Health Care Hacking Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-id-iot-community/"> ID-IOT Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-lockpick-community/"> LockPick Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-rfid-nfc-community/"> RFID/NFC Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-space-community/"> Space Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-tamper-evident-community/"> Tamper Evident Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-thekeep-community/"> The Keep Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1475 current_page_item uk-active"><a href="https://saintcon.org/com-v-e-n-d/"> V.E.N.D. Community <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-wic-advocates/"> WiC Advocates <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-briefs-community/"> Briefs Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-education-security-community/"> Education Security Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ham-radio-community/"> Ham Radio Community <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-homelabs-community/"> HomeLabs Community</a></li></ul></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-events/"> EVENTS</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ai-community/">AI Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-appsec-community/">AppSec Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-badgelife-community/">BadgeLife Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-blueteam-community/">Blueteam Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-hardware-community/">Hardware Hacking Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-health-care-hacking-community/">Health Care Hacking Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-id-iot-community/">ID-IOT Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-lockpick-community/">LockPick Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-rfid-nfc-community/">RFID/NFC Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/sec/">Social Engineering Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-space-community/">Space Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-tamper-evident-community/">Tamper Evident Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-thekeep-community/">The Keep Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-briefs-community/">Briefs Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1475 current_page_item uk-active"><a href="https://saintcon.org/com-v-e-n-d/">V.E.N.D. Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-leadership-community/">Leadership Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-education-security-community/">Education Security Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-wic-advocates/">WiC Advocates <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ham-radio-community/">Ham Radio Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-homelabs-community/">HomeLabs Community</a></li></ul></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-events/">EVENTS</a>
 	<ul class="uk-nav-sub">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-jeopardy/"> Application Security Jeopardy <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-job-fair/"> Job Fair</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-family-night/"> Family Night</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-golf-club/"> Golf Club</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-hackinthebox/"> Hack In The Box</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-lanparty/"> LAN Party</a></li></ul></li></ul>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-jeopardy/">Application Security Jeopardy <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-job-fair/">Job Fair</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-family-night/">Family Night</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-golf-club/">Golf Club</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-hackinthebox/">Hack In The Box</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-lanparty/">LAN Party</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/minibadge-trading/">Minibadge Trading - <small><b>OFFICIAL</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-tfht/">TFHT</a></li></ul></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/register/">REGISTRATION</a>
+	<ul class="uk-nav-sub">
+
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/register/"><big>Conference is SOLD OUT</big></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://register.saintcon.org/standby">Get on the Standby List</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://register.saintcon.org/transfer">Transfer a Ticket - Self Service</a></li></ul></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/sponsors/">SPONSORS</a></li></ul>
 
 </div>
             </div>
@@ -242,55 +253,66 @@ IT&#039;S OCTOBER 2024 AND you step into SAINTCON, eyes wide with curiosity and 
                                                     
 <ul class="uk-navbar-nav">
     
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/keynotes/"> <b>KEYNOTES</b></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/presentations/"> PRESENTATIONS</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/register/"> REGISTRATION</a>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children uk-parent"><a href="https://saintcon.org/category/uncategorized/">CONTENT</a>
 	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/register/"> <big><b>REGISTER NOW!</b></big></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/reg-students/"> Student Groups</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/reg-scholarships/"> Scholarship Program</a></li></ul></div></div></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-contests/"> CONTESTS</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/keynotes/"><b>KEYNOTES</b></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/schedule/">SCHEDULE</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/presentations/">PRESENTATIONS</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/speakerwall/">SPEAKERS</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/training/">TRAININGS</a></li></ul></div></div></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-contests/">CONTESTS</a>
 	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-hackerschallenge/"> <b>Hackers Challenge</b></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-appsec-challenge/"> AppSec Challenge</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-ctf-blue-team-style/"> CTF Blue Team Style <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-lan-cable/"> LAN Cable Contest</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-foxhunt/"> Radio Fox Hunt</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-so-youve-been-hacked/"> So, You’ve Been Hacked? <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-tamper-evident-challenge/"> Tamper Evident Challenge</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-vault-challenge/"> Vault Challenge</a></li></ul></div></div></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children uk-active uk-parent"><a href="https://saintcon.org/main-communities/"> COMMUNITIES</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-hackerschallenge/"><b>Hackers Challenge</b></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-appsec-challenge/">AppSec Challenge</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-ctf-blue-team-style/">CTF Blue Team Style <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-lan-cable/">LAN Cable Contest</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-foxhunt/">Radio Fox Hunt</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-so-youve-been-hacked/">So, You’ve Been Hacked? <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-tamper-evident-challenge/">Tamper Evident Challenge</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/con-vault-challenge/">Vault Challenge</a></li></ul></div></div></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children uk-active uk-parent"><a href="https://saintcon.org/main-communities/">COMMUNITIES</a>
 	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ai-community/"> AI Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-appsec-community/"> AppSec Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-badgelife-community/"> BadgeLife Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-blueteam-community/"> Blueteam Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-hardware-community/"> Hardware Hacking Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-health-care-hacking-community/"> Health Care Hacking Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-id-iot-community/"> ID-IOT Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-lockpick-community/"> LockPick Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-rfid-nfc-community/"> RFID/NFC Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-space-community/"> Space Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-tamper-evident-community/"> Tamper Evident Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-thekeep-community/"> The Keep Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1475 current_page_item uk-active"><a href="https://saintcon.org/com-v-e-n-d/"> V.E.N.D. Community <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-wic-advocates/"> WiC Advocates <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-briefs-community/"> Briefs Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-education-security-community/"> Education Security Community</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ham-radio-community/"> Ham Radio Community <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-homelabs-community/"> HomeLabs Community</a></li></ul></div></div></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-events/"> EVENTS</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ai-community/">AI Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-appsec-community/">AppSec Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-badgelife-community/">BadgeLife Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-blueteam-community/">Blueteam Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-hardware-community/">Hardware Hacking Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-health-care-hacking-community/">Health Care Hacking Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-id-iot-community/">ID-IOT Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-lockpick-community/">LockPick Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-rfid-nfc-community/">RFID/NFC Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/sec/">Social Engineering Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-space-community/">Space Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-tamper-evident-community/">Tamper Evident Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-thekeep-community/">The Keep Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-briefs-community/">Briefs Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1475 current_page_item uk-active"><a href="https://saintcon.org/com-v-e-n-d/">V.E.N.D. Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-leadership-community/">Leadership Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-education-security-community/">Education Security Community</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-wic-advocates/">WiC Advocates <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-ham-radio-community/">Ham Radio Community <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/com-homelabs-community/">HomeLabs Community</a></li></ul></div></div></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/main-events/">EVENTS</a>
 	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
 
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-jeopardy/"> Application Security Jeopardy <small><b>NEW</b></small></a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-job-fair/"> Job Fair</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-family-night/"> Family Night</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-golf-club/"> Golf Club</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-hackinthebox/"> Hack In The Box</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-lanparty/"> LAN Party</a></li></ul></div></div></li></ul>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-jeopardy/">Application Security Jeopardy <small><b>NEW</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-job-fair/">Job Fair</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-family-night/">Family Night</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-golf-club/">Golf Club</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-hackinthebox/">Hack In The Box</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-lanparty/">LAN Party</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/minibadge-trading/">Minibadge Trading - <small><b>OFFICIAL</b></small></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/evt-tfht/">TFHT</a></li></ul></div></div></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://saintcon.org/register/">REGISTRATION</a>
+	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
+
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/register/"><big>Conference is SOLD OUT</big></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://register.saintcon.org/standby">Get on the Standby List</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://register.saintcon.org/transfer">Transfer a Ticket - Self Service</a></li></ul></div></div></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://saintcon.org/sponsors/">SPONSORS</a></li></ul>
 
 
     <a class="uk-navbar-toggle" href="#search-0-modal" uk-search-icon uk-toggle></a>
@@ -519,9 +541,9 @@ IT&#039;S OCTOBER 2024 AND you step into SAINTCON, eyes wide with curiosity and 
             
                 
                     <div class="uk-panel uk-margin" id="footer#1"><p class="title" style="color: grey;">Support</p>
-<p><a href="/cdn-cgi/l/email-protection#34575b5a405557407447555d5a40575b5a1a5b4653"><b>Attendee</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#81f3e4e6e8f2f5f3e0f5e8eeefc1f2e0e8eff5e2eeefafeef3e6"><b>Registration</b> Support</a></p>
-<p><a href="/cdn-cgi/l/email-protection#1e6d6e71706d716c6d5e6d7f77706a7d717030716c79"><b>Sponsor</b> Support</a></p></div>
+<p><a href="/cdn-cgi/l/email-protection#14777b7a607577605467757d7a60777b7a3a7b6673"><b>Attendee</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#92e0f7f5fbe1e6e0f3e6fbfdfcd2e1f3fbfce6f1fdfcbcfde0f5"><b>Registration</b> Support</a></p>
+<p><a href="/cdn-cgi/l/email-protection#5221223d3c213d20211221333b3c26313d3c7c3d2035"><b>Sponsor</b> Support</a></p></div>
                 
             
         

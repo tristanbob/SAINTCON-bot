@@ -1,39 +1,35 @@
-### Relevant Information:
+Here is the extracted relevant information from the provided content:
 
-**Event Title:** COM - V.E.N.D. at SAINTCON
+---
 
-**Date:** October 2024
+**Event Title:** COM - V.E.N.D.
 
-**Organizer:** bashNinja
+**Description:** Introduced by bashNinja, the V.E.N.D. Machine at SAINTCON provides attendees with customizable virtual environments for hacking, learning, and exploring. 
 
-**Event Description:**
-- The V.E.N.D. Machine offers customizable virtual environments for hacking, learning, and exploring during SAINTCON.
-- Attendees can access and deploy a variety of virtual machines (VMs) such as:
-  - Windows 11
-  - Kali Linux
-  - Ubuntu
-  - Debian
-  - BlackArch
-  - Arch
-  - Parrot Linux
+**Context:** 
+- Date: October 2024
+- Venue: SAINTCON, a cybersecurity conference filled with enthusiasts and experts.
 
-**Features of the V.E.N.D. Machine:**
-- **Location & Availability:** Available at a central spot within the SAINTCON conference from the first to the last day during regular hours.
-- **Deployment Process:** Attendees select their desired VM and are guided through the setup via the machine interface. 
-- **Access Method:** A receipt with login credentials is printed for remote access to the VM.
-- **Customization:** Attendees can install necessary tools and applications on the VM for the duration of the conference.
+**What is the V.E.N.D. Machine?** 
+- The **V.E.N.D. (Virtual Environment Network Dispenser) Machine** is inspired by DEFCON's S.O.D.A. Machine, providing access to various virtual machines (VMs) like Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
 
-**Benefits:**
-- Variety of environments available, catering to different experience levels.
-- Hands-on learning opportunities for skills practiced in workshops or talks.
+**How It Works:**
+1. **Location & Availability:** Located centrally within the conference, available from the first to the last day during regular hours.
+2. **Deployment:** Instructions will guide users in selecting and deploying their desired VMs on the network. 
+3. **Access:** A receipt with login credentials is printed for remote connection access.
+4. **Customization:** Users can install tools and applications to tailor their VMs.
+
+**Features & Benefits:**
+- Various environments suitable for beginners to advanced users.
+- Facilitates hands-on learning aligned with workshops and talks.
 
 **FAQs:**
-- **Can I share my VM?** Yes, scripts for sharing are provided.
-- **Can I save work on the VM?** No, all VMs will be decommissioned post-conference.
-- **Restrictions on installations?** Illegal activities and harmful software are prohibited per the SAINTCON Code of Conduct.
-- **Technical issues support:** Available during the conference via a dedicated support team.
+- **Sharing VMs:** Yes, details on sharing tools are provided.
+- **Saving Work:** VMs are decommissioned post-conference; backup any important data.
+- **Restrictions:** Safety and integrity of the SAINTCON network are prioritized; illegal activities are prohibited.
+- **Technical Issues:** Support contact provided near the machine and via the Discord channel.
 - **Cost:** Free to use.
-- **Self-hosting:** Guides will be shared on how to operate VM/Container setups closer to the conference.
+- **Self Hosting:** Guides for self-hosting VMs will be available.
 
 **Hours of Operation:**
 - **Monday:** Closed
@@ -42,7 +38,6 @@
 - **Thursday:** 9:00 AM – 5:00 PM
 - **Friday:** 9:00 AM – 11:00 AM
 
-**Community Engagement:**
-- The event features various communities, allowing networking and collaboration.
+---
 
-This content captures the essence of the V.E.N.D. Machine, the experience it offers at SAINTCON, and relevant operational details for attendees.
+This information summarizes the main aspects of the V.E.N.D. Machine at SAINTCON as highlighted in the document.
