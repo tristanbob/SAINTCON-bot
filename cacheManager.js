@@ -6,7 +6,7 @@ const cacheDir = path.join(__dirname, "cache");
 const cleanedCacheDir = path.join(__dirname, "cleaned_cache");
 const sessionizeCachePath = path.join(cacheDir, "sessionize_cache.json");
 
-const CACHE_EXPIRATION_HOURS = 24;
+const CACHE_EXPIRATION_HOURS = 0;
 
 const isCacheExpired = async (filePath) => {
   try {
