@@ -57,9 +57,9 @@ module.exports = {
   sessionizeApiUrl: "https://sessionize.com/api/v2/wr191qz5/view/All",
 
   // Settings for the AI model used for generating responses
-  aiModel: "gpt-4o-mini",
+  aiModel: "gemini-1.5-flash", // options: "gpt-4o-mini", "gemini-1.5-flash"
   maxTokens: 500,
-  aiPromptPath: "ai_prompt.txt",
+  // aiPromptPath: "ai_prompt.txt",
 
   // Settings for logging
   logFilePath: "saintcon-bot.log",

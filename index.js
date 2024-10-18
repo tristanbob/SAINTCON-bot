@@ -1,12 +1,48 @@
-require("dotenv").config();
-const { client } = require("./bot");
-const { setupEventHandlers } = require("./messageProcessor");
-const { runDailyTasks } = require("./crawler");
-const config = require("./config");
+// Remove dotenv import
+// require("dotenv").config(); // Not needed with Bun
+
+// Replace require with import for Bun compatibility
+import { client } from "./bot"; // Use import instead of require
+import { setupEventHandlers } from "./messageProcessor"; // Use import instead of require
+import { runDailyTasks } from "./crawler"; // Use import instead of require
+import config from "./config"; // Use import instead of require
+import {
+  generateResponse,
+  extractRelevantInfo,
+  extractFAQInfo,
+} from "./aiUtils";
+
+// Infer AI provider from model name
+const inferProvider = (model) => {
+  if (model.startsWith("gpt-")) return "openai";
+  if (model.startsWith("gemini-")) return "gemini15flash";
+  return null;
+};
+
+// Validate AI model and infer provider
+const validModels = {
+  openai: ["gpt-4o-mini"],
+  gemini15flash: ["gemini-1.5-flash"],
+};
+
+const inferredProvider = inferProvider(config.aiModel);
+
+if (!inferredProvider) {
+  console.error(`Unable to infer AI provider for model: ${config.aiModel}`);
+  process.exit(1);
+}
+
+if (!validModels[inferredProvider].includes(config.aiModel)) {
+  console.error(`Invalid AI model: ${config.aiModel}`);
+  process.exit(1);
+}
+
+// Use inferredProvider instead of config.aiProvider in the rest of your code
+console.log(`Using AI provider: ${inferredProvider}`);
 
 setupEventHandlers(client);
 
-const botToken = process.env.MY_BOT_TOKEN;
+const botToken = process.env.MY_BOT_TOKEN; // Still using process.env for Bun
 
 if (!botToken) {
   console.error(

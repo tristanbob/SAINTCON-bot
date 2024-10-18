@@ -4,7 +4,7 @@ const path = require("path");
 
 const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 1 day
 
-async function fetchAndCacheURL(url, cacheDir = "cache") {
+async function fetchAndCacheURL(url, cacheDir = "cache/raw-html") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
     const now = Date.now();
@@ -31,7 +31,7 @@ async function fetchAndCacheURL(url, cacheDir = "cache") {
 async function cacheCleanedContent(
   url,
   cleanedContent,
-  cacheDir = "cleaned_cache"
+  cacheDir = "cache/extracted-data"
 ) {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
@@ -42,7 +42,7 @@ async function cacheCleanedContent(
   }
 }
 
-async function getAllCleanedCache(cacheDir = "cleaned_cache") {
+async function getAllCleanedCache(cacheDir = "cache/extracted-data") {
   try {
     const files = await fs.readdir(cacheDir);
     const contents = await Promise.all(
@@ -55,7 +55,7 @@ async function getAllCleanedCache(cacheDir = "cleaned_cache") {
   }
 }
 
-async function getCleanedCache(url, cacheDir = "cleaned_cache") {
+async function getCleanedCache(url, cacheDir = "cache/extracted-data") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
     const now = Date.now();

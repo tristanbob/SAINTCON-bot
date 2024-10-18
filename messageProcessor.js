@@ -3,7 +3,7 @@ const {
   getAllCleanedCache,
   fetchAndCacheSessionizeData,
 } = require("./cacheManager");
-const { generateResponse, getAIPrompt } = require("./openaiUtils");
+const { generateResponse, getAIPrompt } = require("./aiUtils");
 const { logMessageData } = require("./logger");
 const config = require("./config");
 
@@ -66,12 +66,6 @@ function setupEventHandlers(client) {
       console.log(`Processed user message: "${userMessage}"`);
 
       const cleanedCache = await getAllCleanedCache();
-      if (!cleanedCache) {
-        await message.channel.send(
-          "Sorry, I could not retrieve the SAINTCON information at this time."
-        );
-        return;
-      }
 
       const sessionizeData = await fetchAndCacheSessionizeData(
         config.sessionizeApiUrl
@@ -82,48 +76,61 @@ function setupEventHandlers(client) {
       messages.push(...replyChainMessages);
 
       try {
-        console.log("Sending request to OpenAI API");
-        await message.channel.sendTyping(); // Show typing indicator
-        const response = await generateResponse(messages);
+        console.log("Sending typing indicator");
+        await message.channel.sendTyping();
 
-        const botResponse = response.choices[0].message.content.trim();
+        console.log("Generating AI response");
+        const aiResponse = await generateResponse(messages);
+        console.log("AI response received:", aiResponse);
 
-        const inputTokens = response.usage.prompt_tokens;
-        const outputTokens = response.usage.completion_tokens;
-        const totalTokens = response.usage.total_tokens;
+        const botResponse = aiResponse.content;
+        console.log("Bot response content:", botResponse);
 
-        const inputCost = (inputTokens / 1_000_000) * 0.15;
-        const outputCost = (outputTokens / 1_000_000) * 0.6;
-        const totalCost = inputCost + outputCost;
+        if (!botResponse || botResponse.trim() === "") {
+          console.error("Empty bot response received");
+          throw new Error("Empty bot response");
+        }
 
+        // Log token usage for OpenAI (console only)
+        if (config.aiProvider === "openai" && aiResponse.usage) {
+          const inputTokens = aiResponse.usage.prompt_tokens;
+          const outputTokens = aiResponse.usage.completion_tokens;
+          const totalTokens = aiResponse.usage.total_tokens;
+          console.log(`Input tokens: ${inputTokens}`);
+          console.log(`Output tokens: ${outputTokens}`);
+          console.log(`Total tokens: ${totalTokens}`);
+
+          // Calculate and log cost (if needed)
+          const costPerToken = 0.00002; // Adjust this based on your OpenAI plan
+          const totalCost = totalTokens * costPerToken;
+          console.log(`Estimated cost: $${totalCost.toFixed(6)}`);
+        }
+
+        console.log("Sending response to Discord");
+        await message.reply(botResponse);
+
+        console.log("Logging interaction");
         const logData = {
-          userId: message.author.id,
-          username: message.author.tag,
-          userMessage: userMessage,
-          botResponse: botResponse,
-          inputTokens: inputTokens,
-          outputTokens: outputTokens,
-          totalTokens: totalTokens,
-          totalCost: totalCost.toFixed(6),
+          user: message.author.tag,
+          message: userMessage,
+          response: botResponse,
+          timestamp: new Date().toISOString(),
         };
         logMessageData(logData);
-
-        console.log(`Bot response: "${botResponse}"`);
-        await message.reply(
-          `${botResponse}\n\n_Tokens used: ${totalTokens} (Input: ${inputTokens}, Output: ${outputTokens})_\n_Estimated cost: $${totalCost.toFixed(
-            6
-          )}_`
-        );
       } catch (error) {
-        console.error("Error interacting with OpenAI:", error);
-        if (error.response) {
-          console.error(error.response.status, error.response.data);
+        console.error("Error in handleMessage:", error);
+
+        // Instead of immediately replying with an error message,
+        // we'll check if the error is due to an empty response
+        if (error.message === "Empty bot response") {
+          await message.reply(
+            "I'm sorry, I couldn't retrieve the SAINTCON information at this time. Please try again later."
+          );
         } else {
-          console.error(error.message);
+          await message.reply(
+            "I'm sorry, I encountered an error while processing your request. Please try again later."
+          );
         }
-        await message.channel.send(
-          "Sorry, I encountered an error while processing your request. Please try again later."
-        );
       }
     } else {
       console.log(

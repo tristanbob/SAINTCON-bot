@@ -7,7 +7,7 @@ const {
   storeLastRunTime,
   fetchAndCacheSessionizeData,
 } = require("./cacheManager");
-const { extractRelevantInfo, extractFAQInfo } = require("./openaiUtils");
+const { extractRelevantInfo, extractFAQInfo } = require("./aiUtils");
 const { logExtractionMetadata } = require("./logger");
 
 const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/wr191qz5/view/All";

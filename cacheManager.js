@@ -2,11 +2,11 @@ const fs = require("fs").promises;
 const path = require("path");
 const axios = require("axios");
 
-const cacheDir = path.join(__dirname, "cache");
-const cleanedCacheDir = path.join(__dirname, "cleaned_cache");
+const cacheDir = path.join(__dirname, "cache", "raw-html");
+const cleanedCacheDir = path.join(__dirname, "cache", "extracted-data");
 const sessionizeCachePath = path.join(cacheDir, "sessionize_cache.json");
 
-const CACHE_EXPIRATION_HOURS = 0;
+const CACHE_EXPIRATION_HOURS = 24;
 
 const isCacheExpired = async (filePath) => {
   try {
