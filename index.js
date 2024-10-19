@@ -11,6 +11,8 @@ import {
   extractRelevantInfo,
   extractFAQInfo,
 } from "./aiUtils";
+import fs from "fs/promises";
+import path from "path";
 
 // Infer AI provider from model name
 const inferProvider = (model) => {
@@ -40,44 +42,75 @@ if (!validModels[inferredProvider].includes(config.aiModel)) {
 // Use inferredProvider instead of config.aiProvider in the rest of your code
 console.log(`Using AI provider: ${inferredProvider}`);
 
-setupEventHandlers(client);
+async function ensureCacheDirectories() {
+  const rawHtmlCacheDir = "/cache/raw-html";
+  const extractedDataCacheDir = "/cache/extracted-data";
 
-const botToken = process.env.MY_BOT_TOKEN; // Still using process.env for Bun
-
-if (!botToken) {
-  console.error(
-    "Discord bot token not found. Please set MY_BOT_TOKEN in the environment."
-  );
-  process.exit(1);
+  try {
+    await fs.mkdir(rawHtmlCacheDir, { recursive: true });
+    await fs.mkdir(extractedDataCacheDir, { recursive: true });
+    console.log("Cache directories created successfully");
+  } catch (error) {
+    console.error("Error creating cache directories:", error);
+  }
 }
 
-client.login(botToken).catch((error) => {
-  console.error("Failed to log in:", error);
-  if (error.code === "TokenInvalid") {
+// Call this function before starting your application
+ensureCacheDirectories().then(() => {
+  setupEventHandlers(client);
+
+  const botToken = process.env.MY_BOT_TOKEN; // Still using process.env for Bun
+
+  if (!botToken) {
     console.error(
-      "The provided token is invalid. Please check your environment variable and Discord Developer Portal."
+      "Discord bot token not found. Please set MY_BOT_TOKEN in the environment."
     );
+    process.exit(1);
   }
-});
 
-// Fetch channel IDs based on friendly names
-client.on("ready", async () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-
-  const allowedChannelIDs = [];
-
-  config.allowedChannels.forEach((channelName) => {
-    const channel = client.channels.cache.find((ch) => ch.name === channelName);
-    if (channel) {
-      allowedChannelIDs.push(channel.id);
-    } else {
-      console.warn(`Channel with name "${channelName}" not found`);
+  client.login(botToken).catch((error) => {
+    console.error("Failed to log in:", error);
+    if (error.code === "TokenInvalid") {
+      console.error(
+        "The provided token is invalid. Please check your environment variable and Discord Developer Portal."
+      );
     }
   });
 
-  // Store the allowed channel IDs for use in the message processor
-  client.allowedChannelIDs = allowedChannelIDs;
+  // Fetch channel IDs based on friendly names
+  client.on("ready", async () => {
+    console.log(`Logged in as ${client.user.tag}!`);
 
-  // Run the daily tasks initially on startup
-  runDailyTasks(config.urls, config.faqUrl);
+    const allowedChannelIDs = [];
+
+    config.allowedChannels.forEach((channelName) => {
+      const channel = client.channels.cache.find(
+        (ch) => ch.name === channelName
+      );
+      if (channel) {
+        allowedChannelIDs.push(channel.id);
+      } else {
+        console.warn(`Channel with name "${channelName}" not found`);
+      }
+    });
+
+    // Store the allowed channel IDs for use in the message processor
+    client.allowedChannelIDs = allowedChannelIDs;
+
+    // Run the daily tasks initially on startup
+    runDailyTasks(config.urls, config.faqUrl);
+  });
 });
+
+async function debugCacheSetup() {
+  console.log("Current working directory:", process.cwd());
+  try {
+    const cacheContents = await fs.readdir("/cache");
+    console.log("Contents of /cache:", cacheContents);
+  } catch (error) {
+    console.error("Error reading /cache directory:", error);
+  }
+}
+
+// Call this function after ensureCacheDirectories
+debugCacheSetup();

@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for saintcon-bot on 2024-10-16T22:11:45-06:00
+# fly.toml app configuration file generated for saintcon-bot on 2024-10-17T20:05:22-06:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -21,3 +21,6 @@ primary_region = 'den'
   cpu_kind = 'shared'
   cpus = 1
 
+[mounts]
+  source = "cache"
+  destination = "/cache"

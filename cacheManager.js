@@ -1,9 +1,9 @@
-const fs = require("fs").promises;
-const path = require("path");
-const axios = require("axios");
+import fs from "fs/promises";
+import path from "path";
+import axios from "axios";
 
-const cacheDir = path.join(__dirname, "cache", "raw-html");
-const cleanedCacheDir = path.join(__dirname, "cache", "extracted-data");
+const cacheDir = path.join("/cache", "raw-html");
+const cleanedCacheDir = path.join("/cache", "extracted-data");
 const sessionizeCachePath = path.join(cacheDir, "sessionize_cache.json");
 
 const CACHE_EXPIRATION_HOURS = 24;
@@ -127,7 +127,7 @@ async function fetchAndCacheSessionizeData(url) {
   }
 }
 
-module.exports = {
+export {
   fetchAndCacheURL,
   cacheCleanedContent,
   getCleanedCache,

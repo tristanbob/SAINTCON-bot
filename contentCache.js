@@ -1,10 +1,10 @@
-const axios = require("axios");
-const fs = require("fs").promises;
-const path = require("path");
+import axios from "axios";
+import fs from "fs/promises";
+import path from "path";
 
 const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 1 day
 
-async function fetchAndCacheURL(url, cacheDir = "cache/raw-html") {
+async function fetchAndCacheURL(url, cacheDir = "/cache/raw-html") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
     const now = Date.now();
@@ -31,7 +31,7 @@ async function fetchAndCacheURL(url, cacheDir = "cache/raw-html") {
 async function cacheCleanedContent(
   url,
   cleanedContent,
-  cacheDir = "cache/extracted-data"
+  cacheDir = "/cache/extracted-data"
 ) {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
@@ -42,7 +42,7 @@ async function cacheCleanedContent(
   }
 }
 
-async function getAllCleanedCache(cacheDir = "cache/extracted-data") {
+async function getAllCleanedCache(cacheDir = "/cache/extracted-data") {
   try {
     const files = await fs.readdir(cacheDir);
     const contents = await Promise.all(
@@ -55,7 +55,7 @@ async function getAllCleanedCache(cacheDir = "cache/extracted-data") {
   }
 }
 
-async function getCleanedCache(url, cacheDir = "cache/extracted-data") {
+async function getCleanedCache(url, cacheDir = "/cache/extracted-data") {
   const cacheFile = path.join(cacheDir, encodeURIComponent(url));
   try {
     const now = Date.now();
@@ -70,7 +70,7 @@ async function getCleanedCache(url, cacheDir = "cache/extracted-data") {
   return null;
 }
 
-module.exports = {
+export {
   fetchAndCacheURL,
   cacheCleanedContent,
   getAllCleanedCache,

@@ -1,8 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-const OpenAI = require("openai");
-const { GoogleGenerativeAI } = require("@google/generative-ai");
-const config = require("./config");
+import fs from "fs";
+import path from "path";
+import OpenAI from "openai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
+import config from "./config.js";
 
 // Initialize the OpenAI client
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -50,7 +50,7 @@ const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
     { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
     {
       role: "system",
-      content: `Sessionize Data:\n${JSON.stringify(sessionizeData)}`,
+      content: `Schedule and Speakers:\n${JSON.stringify(sessionizeData)}`,
     },
     { role: "user", content: userMessage },
   ];
@@ -60,9 +60,25 @@ const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
 
 const generateResponse = async (messages) => {
   const aiProvider = getAiProvider(config.aiModel);
-  // console.log( // Removed logging
-  //   `Generating response using ${aiProvider} with model ${config.aiModel}`
-  // );
+
+  // Extract the system message
+  const systemMessages = messages
+    .filter((msg) => msg.role === "system")
+    .map((msg) => msg.content);
+  const systemMessageLog = systemMessages.join("\n");
+
+  // Log only the first 1000 characters of the system message
+  console.log(
+    "AI System Message (first 1000 characters):\n",
+    systemMessageLog.substring(0, 1000)
+  );
+
+  // Calculate the total context size (number of tokens or words)
+  const totalContextSize = messages.reduce(
+    (total, msg) => total + msg.content.split(/\s+/).length,
+    0
+  );
+  console.log(`Total context size (tokens): ${totalContextSize}`);
 
   const apiCall = async () => {
     if (aiProvider === "gemini") {
@@ -166,9 +182,4 @@ const extractFAQInfo = async (content) => {
   return retryApiCall(apiCall);
 };
 
-module.exports = {
-  getAIPrompt,
-  generateResponse,
-  extractRelevantInfo,
-  extractFAQInfo,
-};
+export { getAIPrompt, generateResponse, extractRelevantInfo, extractFAQInfo };

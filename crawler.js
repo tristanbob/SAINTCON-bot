@@ -1,14 +1,14 @@
 // crawler.js
-const {
+import {
   fetchAndCacheURL,
   cacheCleanedContent,
   getCleanedCache,
   shouldRunCrawler,
   storeLastRunTime,
   fetchAndCacheSessionizeData,
-} = require("./cacheManager");
-const { extractRelevantInfo, extractFAQInfo } = require("./aiUtils");
-const { logExtractionMetadata } = require("./logger");
+} from "./cacheManager.js";
+import { extractRelevantInfo, extractFAQInfo } from "./aiUtils.js";
+import { logExtractionMetadata } from "./logger.js";
 
 const SESSIONIZE_API_URL = "https://sessionize.com/api/v2/wr191qz5/view/All";
 
@@ -97,4 +97,4 @@ async function runDailyTasks(urls, faqUrl) {
   }
 }
 
-module.exports = { crawlAndCacheURLs, processFAQ, runDailyTasks };
+export { crawlAndCacheURLs, processFAQ, runDailyTasks };

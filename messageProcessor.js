@@ -1,11 +1,11 @@
-const { Events } = require("discord.js");
-const {
+import { Events } from "discord.js";
+import {
   getAllCleanedCache,
   fetchAndCacheSessionizeData,
-} = require("./cacheManager");
-const { generateResponse, getAIPrompt } = require("./aiUtils");
-const { logMessageData } = require("./logger");
-const config = require("./config");
+} from "./cacheManager.js";
+import { generateResponse, getAIPrompt } from "./aiUtils.js";
+import { logMessageData } from "./logger.js";
+import config from "./config.js";
 
 async function getReplyChainMessages(message) {
   const messages = [];
@@ -107,7 +107,7 @@ function setupEventHandlers(client) {
         }
 
         console.log("Sending response to Discord");
-        await message.reply(botResponse);
+        await sendMessageInChunks(message.channel, botResponse);
 
         console.log("Logging interaction");
         const logData = {
@@ -140,4 +140,12 @@ function setupEventHandlers(client) {
   });
 }
 
-module.exports = { setupEventHandlers };
+export { setupEventHandlers };
+
+async function sendMessageInChunks(channel, content) {
+  const chunkSize = 2000; // Discord's max message length
+  for (let i = 0; i < content.length; i += chunkSize) {
+    const chunk = content.slice(i, i + chunkSize);
+    await channel.send(chunk);
+  }
+}
