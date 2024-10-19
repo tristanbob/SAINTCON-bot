@@ -31,9 +31,9 @@ function setupEventHandlers(client) {
 
     // Check if the message is in an allowed channel
     if (!client.allowedChannelIDs.includes(message.channel.id)) {
-      console.log(
-        `Message received in disallowed channel: "${message.content}" from ${message.author.tag} in channel ${message.channel.name}`
-      );
+      // console.log(
+      //   `Message received in disallowed channel: "${message.content}" from ${message.author.tag} in channel ${message.channel.name}`
+      // );
       return;
     }
 
@@ -76,10 +76,10 @@ function setupEventHandlers(client) {
       messages.push(...replyChainMessages);
 
       try {
-        console.log("Sending typing indicator");
+        // console.log("Sending typing indicator");
         await message.channel.sendTyping();
 
-        console.log("Generating AI response");
+        // console.log("Generating AI response");
         const aiResponse = await generateResponse(messages);
         console.log("AI response received:", aiResponse);
 
@@ -106,10 +106,10 @@ function setupEventHandlers(client) {
           console.log(`Estimated cost: $${totalCost.toFixed(6)}`);
         }
 
-        console.log("Sending response to Discord");
+        // console.log("Sending response to Discord");
         await sendMessageInChunks(message.channel, botResponse);
 
-        console.log("Logging interaction");
+        // console.log("Logging interaction");
         const logData = {
           user: message.author.tag,
           message: userMessage,
