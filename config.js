@@ -1,6 +1,6 @@
 const config = {
   // List of friendly channel names where the bot is allowed to respond
-  allowedChannels: ["ai-bot", "ai-com-chatbot"],
+  allowedChannels: ["ai-bot", "ai-com-chatbot", "ai-discussions"],
 
   // URLs to be crawled daily for the latest SAINTCON information
   urls: [
