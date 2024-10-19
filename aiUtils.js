@@ -68,10 +68,10 @@ const generateResponse = async (messages) => {
   const systemMessageLog = systemMessages.join("\n");
 
   // Log only the first 1000 characters of the system message
-  // console.log(
-  //   "AI System Message (first 1000 characters):\n",
-  //   systemMessageLog.substring(0, 1000)
-  // );
+  console.log(
+    "AI System Message (first 1000 characters):\n",
+    systemMessageLog.substring(0, 1000)
+  );
 
   // Calculate the total context size (number of tokens or words)
   const totalContextSize = messages.reduce(
