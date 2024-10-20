@@ -3,6 +3,7 @@ import path from "path";
 import OpenAI from "openai";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import config from "./config.js";
+import { fetchAndCacheGoogleSheet } from "./cacheManager.js";
 
 // Initialize the OpenAI client
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -34,7 +35,7 @@ const retryApiCall = async (apiCall, retries = 3, delay = 1000) => {
 };
 
 // Read the AI prompt from the text file and generate messages
-const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
+const getAIPrompt = async (cleanedCache, sessionizeData, userMessage) => {
   const promptPath = path.join(__dirname, "ai_prompt.txt");
   let systemMessage = "";
 
@@ -45,6 +46,9 @@ const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
     systemMessage = `You are a helpful chatbot that provides information about the SAINTCON conference and activities related to the SAINTCON conference. Do not answer questions about any topic not related to the conference experience. Be sure to always consider the SAINTCON information when responding. If the question is about food options or eating, provide a recommendation for some local restaurants near the convention center, mention that there is an option to purchase lunch meals during SAINTCON registration, and make a funny comment about how much Nate Henne loves Los Hermanos. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`;
   }
 
+  // Fetch Google Sheet content
+  const googleSheetContent = await fetchAndCacheGoogleSheet();
+
   const messages = [
     { role: "system", content: systemMessage },
     { role: "system", content: `SAINTCON Info:\n${cleanedCache}` },
@@ -52,6 +56,7 @@ const getAIPrompt = (cleanedCache, sessionizeData, userMessage) => {
       role: "system",
       content: `Schedule and Speakers:\n${JSON.stringify(sessionizeData)}`,
     },
+    { role: "system", content: `Additional Info:\n${googleSheetContent}` },
     { role: "user", content: userMessage },
   ];
 

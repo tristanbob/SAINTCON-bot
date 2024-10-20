@@ -13,6 +13,12 @@ import {
 } from "./aiUtils";
 import fs from "fs/promises";
 import path from "path";
+import {
+  fetchAndCacheURL,
+  cacheCleanedContent,
+  getAllCleanedCache,
+  getCleanedCache,
+} from "./cacheManager";
 
 // Infer AI provider from model name
 const inferProvider = (model) => {
@@ -43,8 +49,9 @@ if (!validModels[inferredProvider].includes(config.aiModel)) {
 console.log(`Using AI provider: ${inferredProvider}`);
 
 async function ensureCacheDirectories() {
-  const rawHtmlCacheDir = "/cache/raw-html";
-  const extractedDataCacheDir = "/cache/extracted-data";
+  const cacheDir = path.join(process.cwd(), "cache"); // Use current working directory
+  const rawHtmlCacheDir = path.join(cacheDir, "raw-html");
+  const extractedDataCacheDir = path.join(cacheDir, "extracted-data");
 
   try {
     await fs.mkdir(rawHtmlCacheDir, { recursive: true });
@@ -104,13 +111,13 @@ ensureCacheDirectories().then(() => {
 
 async function debugCacheSetup() {
   console.log("Current working directory:", process.cwd());
+  const cacheDir = path.join(process.cwd(), "cache"); // Define cacheDir
   try {
-    const cacheContents = await fs.readdir("/cache");
-    console.log("Contents of /cache:", cacheContents);
+    const cacheContents = await fs.readdir(cacheDir); // Use cacheDir instead of "/cache"
+    console.log("Contents of cache directory:", cacheContents);
   } catch (error) {
-    console.error("Error reading /cache directory:", error);
+    console.error("Error reading cache directory:", error);
   }
 }
-
 // Call this function after ensureCacheDirectories
 debugCacheSetup();

@@ -72,7 +72,11 @@ function setupEventHandlers(client) {
       );
 
       const replyChainMessages = await getReplyChainMessages(message);
-      const messages = getAIPrompt(cleanedCache, sessionizeData, userMessage);
+      const messages = await getAIPrompt(
+        cleanedCache,
+        sessionizeData,
+        userMessage
+      );
       messages.push(...replyChainMessages);
 
       try {

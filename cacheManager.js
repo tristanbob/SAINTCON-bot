@@ -2,9 +2,13 @@ import fs from "fs/promises";
 import path from "path";
 import axios from "axios";
 
-const cacheDir = path.join("/cache", "raw-html");
-const cleanedCacheDir = path.join("/cache", "extracted-data");
+const cacheDir = path.join(process.cwd(), "cache"); // Updated to use current working directory
+const rawHtmlCacheDir = path.join(cacheDir, "raw-html");
+const cleanedCacheDir = path.join(cacheDir, "extracted-data");
 const sessionizeCachePath = path.join(cacheDir, "sessionize_cache.json");
+const GOOGLE_SHEET_CSV_URL =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSCD0k93w4XrWgBqzNdqy8gwIv7rCdpEJjum3Y_LOw32JdYiFISZx86aGN05jT_p0cap9uU4DVfskPr/pub?output=csv";
+const GOOGLE_SHEET_CACHE_PATH = path.join(cacheDir, "google_sheet_cache.csv");
 
 const CACHE_EXPIRATION_HOURS = 24;
 
@@ -20,7 +24,7 @@ const isCacheExpired = async (filePath) => {
 };
 
 async function fetchAndCacheURL(url) {
-  const cacheFilePath = path.join(cacheDir, encodeURIComponent(url));
+  const cacheFilePath = path.join(rawHtmlCacheDir, encodeURIComponent(url));
 
   if (!(await isCacheExpired(cacheFilePath))) {
     try {
@@ -120,10 +124,67 @@ async function fetchAndCacheSessionizeData(url) {
       JSON.stringify(sessionizeData),
       "utf-8"
     );
+    console.log(
+      `Fetched and cached Sessionize data successfully at ${sessionizeCachePath}`
+    ); // Added logging
     return sessionizeData;
   } catch (error) {
     console.error(`Error fetching Sessionize data:`, error);
     throw error;
+  }
+}
+
+// Add constants for Google Doc caching
+const GOOGLE_DOC_URL =
+  "https://docs.google.com/document/d/e/2PACX-1vRvI27DZES9tZWgNdcF0YHrfsgXxAuzuvMIz01GZzUzI1NdyXA4gLco52w5yd9PaRcxwqXNmq9DdICZ/pub";
+const GOOGLE_DOC_CACHE_DURATION_MS = 5 * 60 * 1000; // 5 minutes
+
+// Add a function to fetch and cache the Google document
+async function fetchAndCacheGoogleDoc() {
+  try {
+    const now = Date.now();
+    const cacheStat = await fs.stat(GOOGLE_DOC_CACHE_PATH);
+    if (now - cacheStat.mtimeMs < GOOGLE_DOC_CACHE_DURATION_MS) {
+      console.log("Using cached Google Doc content");
+      return await fs.readFile(GOOGLE_DOC_CACHE_PATH, "utf-8");
+    }
+  } catch (err) {
+    console.log("Google Doc cache miss or error:", err.message); // Added error message logging
+  }
+
+  try {
+    const response = await axios.get(GOOGLE_DOC_URL);
+    const content = response.data;
+    await fs.writeFile(GOOGLE_DOC_CACHE_PATH, content, "utf-8");
+    console.log("Fetched and cached Google Doc content successfully");
+    return content;
+  } catch (error) {
+    console.error("Error fetching Google Doc:", error.message); // Added error message logging
+    return "";
+  }
+}
+
+async function fetchAndCacheGoogleSheet() {
+  try {
+    const now = Date.now();
+    const cacheStat = await fs.stat(GOOGLE_SHEET_CACHE_PATH);
+    if (now - cacheStat.mtimeMs < CACHE_EXPIRATION_HOURS * 60 * 60 * 1000) {
+      console.log("Using cached Google Sheet content");
+      return await fs.readFile(GOOGLE_SHEET_CACHE_PATH, "utf-8");
+    }
+  } catch (err) {
+    console.log("Google Sheet cache miss or error:", err.message);
+  }
+
+  try {
+    const response = await axios.get(GOOGLE_SHEET_CSV_URL);
+    const content = response.data;
+    await fs.writeFile(GOOGLE_SHEET_CACHE_PATH, content, "utf-8");
+    console.log("Fetched and cached Google Sheet content successfully");
+    return content;
+  } catch (error) {
+    console.error("Error fetching Google Sheet:", error.message);
+    return "";
   }
 }
 
@@ -135,4 +196,5 @@ export {
   shouldRunCrawler,
   storeLastRunTime,
   fetchAndCacheSessionizeData,
+  fetchAndCacheGoogleSheet,
 };
