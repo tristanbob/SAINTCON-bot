@@ -10,7 +10,8 @@ const GOOGLE_SHEET_CSV_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSCD0k93w4XrWgBqzNdqy8gwIv7rCdpEJjum3Y_LOw32JdYiFISZx86aGN05jT_p0cap9uU4DVfskPr/pub?output=csv";
 const GOOGLE_SHEET_CACHE_PATH = path.join(cacheDir, "google_sheet_cache.csv");
 
-const CACHE_EXPIRATION_HOURS = 24;
+const CACHE_EXPIRATION_HOURS = 24; // For all other content
+const GOOGLE_SHEET_CACHE_DURATION_MS = 5 * 60 * 1000; // 5 minutes in milliseconds
 
 const isCacheExpired = async (filePath) => {
   try {
@@ -168,7 +169,7 @@ async function fetchAndCacheGoogleSheet() {
   try {
     const now = Date.now();
     const cacheStat = await fs.stat(GOOGLE_SHEET_CACHE_PATH);
-    if (now - cacheStat.mtimeMs < CACHE_EXPIRATION_HOURS * 60 * 60 * 1000) {
+    if (now - cacheStat.mtimeMs < GOOGLE_SHEET_CACHE_DURATION_MS) {
       console.log("Using cached Google Sheet content");
       return await fs.readFile(GOOGLE_SHEET_CACHE_PATH, "utf-8");
     }
@@ -176,6 +177,7 @@ async function fetchAndCacheGoogleSheet() {
     console.log("Google Sheet cache miss or error:", err.message);
   }
 
+  // Fetch new data if cache is expired or does not exist
   try {
     const response = await axios.get(GOOGLE_SHEET_CSV_URL);
     const content = response.data;

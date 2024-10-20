@@ -2,6 +2,7 @@ import { Events } from "discord.js";
 import {
   getAllCleanedCache,
   fetchAndCacheSessionizeData,
+  fetchAndCacheGoogleSheet,
 } from "./cacheManager.js";
 import { generateResponse, getAIPrompt } from "./aiUtils.js";
 import { logMessageData } from "./logger.js";
@@ -66,16 +67,19 @@ function setupEventHandlers(client) {
       console.log(`Processed user message: "${userMessage}"`);
 
       const cleanedCache = await getAllCleanedCache();
-
       const sessionizeData = await fetchAndCacheSessionizeData(
         config.sessionizeApiUrl
       );
+
+      // Fetch Google Sheet data with every message
+      const googleSheetContent = await fetchAndCacheGoogleSheet();
 
       const replyChainMessages = await getReplyChainMessages(message);
       const messages = await getAIPrompt(
         cleanedCache,
         sessionizeData,
-        userMessage
+        userMessage,
+        googleSheetContent
       );
       messages.push(...replyChainMessages);
 

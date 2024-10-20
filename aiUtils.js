@@ -35,7 +35,12 @@ const retryApiCall = async (apiCall, retries = 3, delay = 1000) => {
 };
 
 // Read the AI prompt from the text file and generate messages
-const getAIPrompt = async (cleanedCache, sessionizeData, userMessage) => {
+const getAIPrompt = async (
+  cleanedCache,
+  sessionizeData,
+  userMessage,
+  googleSheetContent
+) => {
   const promptPath = path.join(__dirname, "ai_prompt.txt");
   let systemMessage = "";
 
@@ -45,9 +50,6 @@ const getAIPrompt = async (cleanedCache, sessionizeData, userMessage) => {
     console.error("Error reading AI prompt file:", error);
     systemMessage = `You are a helpful chatbot that provides information about the SAINTCON conference and activities related to the SAINTCON conference. Do not answer questions about any topic not related to the conference experience. Be sure to always consider the SAINTCON information when responding. If the question is about food options or eating, provide a recommendation for some local restaurants near the convention center, mention that there is an option to purchase lunch meals during SAINTCON registration, and make a funny comment about how much Nate Henne loves Los Hermanos. Please keep your responses between 1 and 3 paragraphs, provide concise answers, use bullet points when it makes sense, and include the most relevant link.`;
   }
-
-  // Fetch Google Sheet content
-  const googleSheetContent = await fetchAndCacheGoogleSheet();
 
   const messages = [
     { role: "system", content: systemMessage },
