@@ -1,0 +1,48 @@
+**Title:** COM - The Keep Community - SAINTCON
+
+**Description:**
+The Keep is a fun and educational environment designed for honing hacking skills. Participants can learn the fundamentals of hacking and test their abilities in a realistic setting, suitable for both beginners and expert hackers.
+
+**Key Sections:**
+
+1. **Community Overview:**
+   - The Keep includes two parts: 
+     - **The Exploit Armory:** A place to equip oneself with tools and knowledge needed for hacking.
+     - **The Dungeon:** A space to apply what you've learned by exploiting vulnerabilities and participating in challenges against other players.
+
+2. **What to Bring:**
+   - Participants are advised to bring a laptop for the best experience.
+
+3. **Hours of Operation:**
+   - **Monday:** Closed
+   - **Tuesday:** 10:30 AM - 5:00 PM
+   - **Wednesday:** 10:30 AM - 5:00 PM
+   - **Thursday:** 9:00 AM - 5:00 PM
+   - **Friday:** 9:00 AM - 11:00 AM
+
+4. **Learning Outcomes:**
+   - Network & host enumeration with tools like NMAP.
+   - Utilizing exploits to compromise hosts, including searching CVEs and using searchsploit.
+   - Privilege escalation techniques on Windows and Linux.
+   - Techniques for post-compromise actions and pivoting from one host to internal hosts.
+
+5. **MiniBadge Details:**
+   - A MiniBadge will be available at the community, with further information to be provided at the booth.
+
+6. **Desktop Wallpaper:**
+   - The community offers a downloadable wallpaper.
+
+**Links for More Information:**
+- [Keynotes](https://saintcon.org/keynotes/)
+- [Schedule](https://saintcon.org/schedule/)
+- [Presentations](https://saintcon.org/presentations/)
+- [Speaker Wall](https://saintcon.org/speakerwall/)
+- [Training](https://saintcon.org/training/)
+- [Con registration and support](https://saintcon.org/register/)
+
+**Social Media and Additional Resources:**
+- Join the [Discord](https://discord.gg/saintcon)
+- [GitHub - MiniBadge Specs and Standards](https://github.com/lukejenkins/minibadge)
+- [How to Build a MiniBadge (YouTube)](https://www.youtube.com/watch?v=kkLfmo14oiQ) 
+
+This information encapsulates the essence of The Keep Community at SAINTCON and provides necessary details for participants looking to enhance their hacking skills in a lively environment.

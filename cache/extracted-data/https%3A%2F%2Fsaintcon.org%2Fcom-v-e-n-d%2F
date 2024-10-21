@@ -1,0 +1,44 @@
+### Relevant Information Extracted:
+
+**Title**: COM - V.E.N.D. - SAINTCON
+
+**Overview**: 
+Introducing the V.E.N.D. Machine at SAINTCON in October 2024. The event attracts cybersecurity enthusiasts and experts, providing a platform for learning and exploration.
+
+**Description of V.E.N.D. Machine**:
+- The V.E.N.D. (Virtual Environment Network Dispenser) Machine is a physical vending machine at the SAINTCON conference that dispenses customizable virtual environments. 
+- Attendees can deploy and access a variety of virtual machines including Windows 11, Kali Linux, Ubuntu, Debian, BlackArch, Arch, and Parrot Linux.
+
+**How It Works**:
+- **Location & Availability**: The machine is located in the contest and community space throughout the conference.
+- **Deployment**: Users can select their desired VM operating system via the machine interface.
+- **Access**: A printed receipt containing login credentials is issued after selection for remote access to the VM.
+- **Customization**: Users can modify the VM to install necessary tools and applications.
+
+**Features & Benefits**:
+- Variety of environments for different skill levels.
+- Hands-on learning experiences to practice skills from workshops.
+
+**FAQs**:
+- Can VMs be shared? Yes, collaboration is possible using TailScale.
+- Can work be saved? No, VMs are decommissioned post-conference.
+- Are there installation restrictions? Yes, certain restrictions apply to maintain network integrity.
+- What to do if technical issues arise? A support team is available.
+- Cost: Free access to the V.E.N.D. Machine.
+- Can users self-host? Yes, guides will be available closer to the event.
+
+**Hours of Operation**:
+- **Monday**: Expo Closed
+- **Tuesday**: Noon – 5:00 PM
+- **Wednesday**: 9:00 AM – 5:00 PM
+- **Thursday**: 9:00 AM – 5:00 PM
+- **Friday**: 9:00 AM – 11:00 AM
+
+**Additional Note**: MiniBadge details will be available at the booth during the conference.
+
+### Links:
+- [SAINTCON Main Website](https://saintcon.org)
+- [SAINTCON Code of Conduct](https://saintcon.org/coc)
+- [Frequently Asked Questions](https://saintcon.org/faq)
+
+This information provides an encompassing view of the V.E.N.D. Machine, its functionalities, user guidance, and essential details related to the SAINTCON conference.

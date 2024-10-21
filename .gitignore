@@ -128,14 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-# Cache directories
-/cache/raw-html/
-/cache/extracted-data/
-
-# Ignore specific cache files if necessary
-cache/raw-html/*.json
-cache/extracted-data/*.json
-
-# Ignore last run time file
-last_run_time.json

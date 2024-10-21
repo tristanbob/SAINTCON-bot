@@ -1,0 +1,44 @@
+### AppSec Community - SAINTCON Overview
+
+**Title:** COM - AppSec Community
+
+**Description:**  
+The AppSec Community focuses on teaching how to find and fix vulnerabilities in applications and source code. It invites individuals, from beginners to experienced professionals, to learn practical skills related to code security.
+
+**Key Features:**
+- **Learning Opportunities:**
+  - Attendees will identify vulnerabilities through walkthroughs of known exploits.
+  - Discover common security flaws in code.
+  - Hands-on experience with application security tools.
+  - Participants can engage in fixing nuanced security edge cases.
+
+- **Tools and Techniques:**
+  - **Static Application Security Testing (SAST):** Using tools like FluidAttacks and Snyk to identify code vulnerabilities.
+  - **Dynamic Application Security Testing (DAST):** Utilizing OWASP ZAP to analyze running applications for configuration issues.
+  - **Software Composition Analysis (SCA):** Employing tools like Google’s osv.dev to find vulnerable third-party components.
+  
+- **Requirements for Participants:**
+  - No personal equipment is necessary, but the following items are recommended for the best experience:
+    - Laptop
+    - Installed Git
+    - Installed Python
+    - A Linux virtual machine
+
+**Hours of Operation:**
+- **Monday:** Expo Closed
+- **Tuesday:** 10:30 AM – 5:00 PM
+- **Wednesday:** 10:30 AM – 5:00 PM
+- **Thursday:** 9:00 AM – 5:00 PM
+- **Friday:** 9:00 AM – 11:00 AM
+
+**Additional Information:**
+- The community offers a MiniBadge for participation, with details available at their booth.
+- Desktop wallpaper download is available on their site.
+
+**Images:**
+- AppSec Community Logo 
+- Promotional Images
+
+**Event URL:** [SAINTCON AppSec Community](https://saintcon.org/com-appsec-community/) 
+
+This summary provides an overview of the AppSec Community at SAINTCON, highlighting its mission, learning opportunities, and other essential details for participants.

@@ -1,0 +1,38 @@
+**Event Title:** CON - AppSec Challenge
+
+**Organizer:** @Sketrik & @l4wke
+
+**Event Description:** 
+- The challenge involves finding and fixing vulnerabilities in source code. 
+- Participants compete against each other to be the first to fix all vulnerabilities in a web application, clone the repo, fix vulnerabilities, and submit their code for scoring.
+- This year's application consists of several microservices each written in different programming languages.
+
+**How to Participate:**
+- Clone the repository, find and fix vulnerabilities, ensure unit tests pass locally, and submit results to the scoring engine.
+- The application has been developed in multiple programming languages, allowing participants to start with something familiar and gradually challenge themselves with new languages.
+
+**Key Competition Details:**
+- **Contest Hours:**
+  - Start: Tuesday, 12 PM
+  - End: Friday, 9 AM
+- **Booth Hours:**
+  - Tuesday: 10:30 AM – 5:00 PM
+  - Wednesday: 10:30 AM – 5:00 PM
+  - Thursday: 9:00 AM – 5:00 PM
+  - Friday: 9:00 AM – 10:00 AM
+
+**Rules:**
+- Hacking the site or submission mechanism is forbidden; participants can only test on their own hosts.
+- Limit changes to files specified in the provided packaging script.
+- File uploads are restricted to less than 4 MB.
+- Submissions can only be made once per user every 5 minutes; duplicate submissions will not be scored.
+- Prizes awarded at the awards ceremony for the top scorers.
+- For support, participants can interact with the AppSec Community or reach out directly to @sketrik.
+
+**Resources:**
+- Additional assistance can be found in the AppSec community’s Discord for those needing help starting. 
+
+**Contact Information:**
+- For inquiries regarding the event or support, participants are encouraged to visit the AppSec community’s platform. 
+
+**Event Website:** [SAINTCON Event Page](https://saintcon.org/con-appsec-challenge/)

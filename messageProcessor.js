@@ -58,6 +58,9 @@ function setupEventHandlers(client) {
     if (isMentioned || isReplyToBot) {
       console.log("Bot was mentioned or this is a reply to the bot");
       let userMessage = message.content;
+      const userNickname = message.member
+        ? message.member.nickname || message.author.username
+        : message.author.username; // Get user's nickname
 
       // Remove the bot's mention from the message if present
       if (isMentioned) {
@@ -78,7 +81,7 @@ function setupEventHandlers(client) {
       const messages = await getAIPrompt(
         cleanedCache,
         sessionizeData,
-        userMessage,
+        `${userNickname}: ${userMessage}`, // Include user's nickname
         googleSheetContent
       );
       messages.push(...replyChainMessages);

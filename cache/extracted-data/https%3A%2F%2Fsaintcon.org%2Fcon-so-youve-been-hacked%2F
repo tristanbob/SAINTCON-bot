@@ -1,0 +1,53 @@
+### Event Details: "So, You've Been Hacked?"
+
+**Overview:**
+- This is a blue team contest at SAINTCON where participants act as a corporate security team facing a critical incident: a developer's laptop has been compromised. The aim is to respond to the incident, investigate, and ensure the integrity of the build environment.
+
+**Objectives:**
+- Identify and neutralize the threat.
+- Recover stolen keys.
+- Secure the development environment from ransomware threats.
+
+**What to Bring:**
+- **Your Toolkit**: Forensic and incident response tools.
+- **A Sharp Mind**: Critical thinking under pressure is essential.
+
+**Skills Needed:**
+- **Incident Response**: Experience in managing cybersecurity incidents.
+- **Forensic Analysis**: Analyzing attacker footprints.
+- **Network Security**: Knowledge of securing network communications.
+- **System Administration**: Familiarity with Windows environments, CI/CD pipelines, and basic scripting.
+
+**Extra Information:**
+- The contest will coordinate with **The Keep** and **Hacker’s Challenge** to provide a comprehensive learning experience.
+- Participants should be prepared by brushing up on common Windows vulnerabilities, Jenkins, cloud environments, and incident response protocols.
+- This event will also serve as a networking opportunity with fellow cybersecurity professionals.
+
+**Frequently Asked Questions (FAQs):**
+1. **Expertise Requirement**: While helpful, the contest welcomes participants of various skill levels who are eager to learn.
+2. **Team Participation**: Teams of at least three members are required.
+3. **Vulnerability Identification**: Participants can identify non-scenario related vulnerabilities for extra points.
+4. **Judging Criteria**: Effectiveness in incident response and the quality of the final report will be assessed.
+
+**Contest Rules:**
+1. **Eligibility**: Open to all SAINTCON attendees; teams must have a minimum of three members.
+2. **Registration**: Teams must register by the end of Tuesday. A maximum of 20 teams will be allowed.
+3. **Schedule**:
+   - Laptop Pickup: Wednesday at 9 AM.
+   - Contest Duration: Until Thursday at 5 PM.
+   - Final Report Submission: By 7 AM on Friday.
+4. **Tools and Conduct**: Use only legal, ethical, and non-destructive tools. Damage to equipment or network is strictly prohibited.
+5. **Internet Connection**: Laptops must have an active internet connection.
+6. **Reporting**: Teams must submit periodic reports to the executive team.
+7. **Documentation**: Final incident report to cover identification, analysis, containment, eradication, and recovery processes.
+8. **Ethics and Confidentiality**: Participants must adhere to high ethical standards and confidentiality.
+9. **Laptop Return**: All laptops must be returned by 5 PM on Thursday. 
+
+**Operating Hours for the Event:**
+- **Monday**: Closed
+- **Tuesday**: Noon - 5:00 PM
+- **Wednesday**: 9:00 AM - 5:00 PM
+- **Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 11:00 AM
+
+This event promises to be both challenging and enriching for those participating in the cybersecurity domain!
