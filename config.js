@@ -68,6 +68,9 @@ const config = {
   // Settings for logging
   logFilePath: "saintcon-bot.log",
   extractionLogFilePath: "extraction.log",
+
+  // Temperature setting for AI responses
+  temperature: 0.5, // Set default temperature to 0.5
 };
 
 export default config;

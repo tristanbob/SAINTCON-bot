@@ -91,7 +91,7 @@ const generateResponse = async (messages) => {
     if (aiProvider === "gemini") {
       const model = gemini.getGenerativeModel({ model: config.aiModel });
       const prompt = messages.map((msg) => msg.content).join("\n");
-      const result = await model.generateContent(prompt);
+      const result = await model.generateContent(prompt, { temperature: config.temperature }); // Use temperature from config
       const content = result.response.text().trim();
 
       if (!content) {
@@ -110,6 +110,7 @@ const generateResponse = async (messages) => {
         model: config.aiModel,
         messages: messages,
         max_tokens: config.maxTokens,
+        temperature: config.temperature, // Use temperature from config
       });
       return {
         content: response.choices[0].message.content,
